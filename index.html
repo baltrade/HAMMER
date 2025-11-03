@@ -202,10 +202,17 @@ header {
   margin: 4px 0;
   border-radius: 1.5px;
   transition: all 0.3s ease;
+  transform-origin: center;
 }
-.hamburger.active span:nth-child(1) { transform: rotate(45deg) translate(8px, 8px); }
-.hamburger.active span:nth-child(2) { opacity: 0; }
-.hamburger.active span:nth-child(3) { transform: rotate(-45deg) translate(8px, -8px); }
+.hamburger.active span:nth-child(1) { 
+  transform: rotate(45deg); 
+}
+.hamburger.active span:nth-child(2) { 
+  opacity: 0; 
+}
+.hamburger.active span:nth-child(3) { 
+  transform: rotate(-45deg); 
+}
 
 .dropdown-menu {
   display: none;
@@ -550,7 +557,7 @@ header {
   color: var(--beige-white);
 }
 .modal .description {
-  font-size: 14px;
+  font-sz: 14px;
   margin-bottom: 16px;
   color: var(--text-light);
   text-align: center;
@@ -687,6 +694,7 @@ footer {
   display: none;
 }
 
+/* === МОБИЛЬНЫЕ ИСПРАВЛЕНИЯ === */
 @media (max-width: 1100px) { 
   .products-list { 
     grid-template-columns: repeat(2, 1fr);
@@ -713,13 +721,54 @@ footer {
   .cart-icon { width: 36px; height: 36px; }
   .cart-icon svg { width: 24px; height: 24px; }
   .cart-icon .cart-count { width: 16px; height: 16px; font-size: 10px; top: -8px; right: -8px; }
-  .cart-modal .modal-content { width: 95%; max-height: 80vh; overflow-y: auto; }
+  .cart-modal .modal-content { 
+    width: 95%; 
+    max-height: 85vh; 
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    padding: 16px !important;
+  }
   .size-selector { gap: 6px; }
   .size-btn { padding: 6px 10px; font-size: 12px; }
   #paypal-button-container { max-width: 250px; }
   .simpleCart_items th,
   .simpleCart_items td { font-size: 13px; padding: 8px 6px; }
   .quantity-controls input { width: 40px; }
+
+  /* Фиксированная кнопка внизу корзины */
+  .cart-modal .modal-content > div:not(.order-form):not(#paypal-button-container) {
+    flex: 1;
+    overflow-y: auto;
+    padding-right: 8px;
+    margin-bottom: 16px;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .order-form {
+    margin: 0 -16px -16px;
+    padding: 16px 16px 20px;
+    border-top: 1px solid var(--beige-white);
+    background: var(--card-dark);
+    position: sticky;
+    bottom: 0;
+    z-index: 10;
+  }
+
+  #paypal-button-container {
+    margin: 0 -16px -16px;
+    padding: 12px 16px;
+    background: var(--card-dark);
+    border-top: 1px solid var(--beige-white);
+    position: sticky;
+    bottom: 0;
+    z-index: 10;
+  }
+
+  .order-form button,
+  #paypal-button-container > div {
+    width: 100% !important;
+  }
 }
 </style>
 </head>
@@ -984,7 +1033,7 @@ footer {
           {name: "Sweatshirt", price: "35.00", img: "PHOTO/hd1-front.jpg", img2: "PHOTO/hd1-back.jpg", desc: "Material composition: 100% cotton"},
           {name: "Sweatshirt", price: "25.00", img: "PHOTO/hd2-front.jpg", img2: "PHOTO/hd2-back.jpg", desc: "Material composition: 100% cotton"},
           {name: "Sweatshirt", price: "37.00", img: "PHOTO/hd3-front.jpg", img2: "PHOTO/hd3-back.jpg", desc: "Material composition: 100% cotton"}
-            ]
+        ]
       }
     };
 
@@ -1267,6 +1316,3 @@ footer {
   </script>
 </body>
 </html>
-
-
-
