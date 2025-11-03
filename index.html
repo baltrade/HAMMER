@@ -1,0 +1,1293 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>RED — Shop / Cart</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;600;700&family=Playfair+Display:wght@400;600;700;800&family=Vladimir+Script&display=swap" rel="stylesheet">
+  <script src="https://www.paypal.com/sdk/js?client-id=AZ6a4Z6z2mH6zV0z0k3z3Q1zX1zY1zZ1zZ1zZ1zZ1zZ1zZ1zZ1zZ1zZ1zZ1&currency=EUR"></script>
+  <style>
+:root {
+  --bg-dark: #1A1A1A;
+  --card-dark: #2A2A2A;
+  --card-light: #3C3C3C;
+  --muted: #6B6B6B;
+  --accent-gold: #e67e22; /* Новый оранжевый */
+  --accent-gold-dark: #d35400; /* Тёмный для hover */
+  --text-light: #E8E8E8;
+  --text-dark: #0F0F0F;
+  --beige-white: #e67e22; /* Замена всех beige-white */
+  --beige-dark: #d35400; /* Замена всех beige-dark */
+  --radius: 8px;
+  --container-width: 1280px;
+}
+
+html, body { 
+  height: 100%; 
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+  background: var(--bg-dark);
+  color: var(--text-light);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.wrap { 
+  width: 100%; 
+  max-width: var(--container-width); 
+  margin: 0 auto;
+  flex: 1;
+}
+
+.top-bar {
+  background: var(--bg-dark);
+  color: var(--text-light);
+  font-family: 'Playfair Display', serif;
+  font-size: 1rem;
+  font-weight: 400;
+  padding: 6px 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  max-width: var(--container-width);
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.top-bar span {
+  color: var(--text-light);
+  font-size: 1.2rem;
+}
+.top-bar a {
+  color: var(--text-light);
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 32px;
+  margin-bottom: 24px;
+  flex-wrap: wrap;
+  position: relative;
+  padding-bottom: 16px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  position: relative;
+}
+.header-center {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.header-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: var(--beige-white);
+  margin: 0;
+  text-align: center;
+  letter-spacing: 1px;
+}
+.lang-selector {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
+.lang-selector .lang-btn {
+  padding: 8px 16px;
+  border-radius: var(--radius);
+  border: 1px solid var(--beige-white);
+  background: transparent;
+  color: var(--text-light);
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s ease, border-color 0.3s ease, color 0.3s ease;
+  white-space: nowrap;
+}
+.lang-selector .lang-btn:hover {
+  background: var(--beige-white);
+  color: var(--text-dark);
+}
+.lang-dropdown {
+  display: none;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background: var(--card-dark);
+  border-radius: var(--radius);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  min-width: 120px;
+  z-index: 100;
+  padding: 8px 0;
+}
+.lang-selector:hover .lang-dropdown {
+  display: block;
+}
+.lang-dropdown button {
+  display: block;
+  width: 100%;
+  padding: 8px 20px;
+  background: var(--card-dark);
+  border: none;
+  color: var(--text-light);
+  font-size: 14px;
+  text-align: left;
+  cursor: pointer;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+.lang-dropdown button:hover {
+  background: var(--card-light);
+  color: var(--beige-white);
+}
+
+.hamburger {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  cursor: pointer;
+  padding: 6px;
+}
+.hamburger span {
+  background: #FFFFFF;
+  height: 4px;
+  width: 100%;
+  margin: 4px 0;
+  border-radius: 1.5px;
+  transition: all 0.3s ease;
+  transform-origin: center;
+}
+.hamburger.active span:nth-child(1) {
+  transform: rotate(45deg) translate(8px, 8px);
+}
+.hamburger.active span:nth-child(2) {
+  opacity: 0;
+}
+.hamburger.active span:nth-child(3) {
+  transform: rotate(-45deg) translate(8px, -8px);
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: var(--card-dark);
+  border-radius: var(--radius);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  min-width: 240px;
+  z-index: 100;
+  padding: 8px 0;
+}
+.dropdown-menu.active {
+  display: block;
+}
+.dropdown-menu button {
+  display: block;
+  width: 100%;
+  padding: 12px 20px;
+  background: none;
+  border: none;
+  color: var(--text-light);
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: left;
+  cursor: pointer;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+.dropdown-menu button:hover {
+  background: var(--card-light);
+  color: var(--beige-white);
+}
+.dropdown-content {
+  display: none;
+  padding: 20px;
+  border-top: 1px solid var(--beige-white);
+}
+.dropdown-content.active {
+  display: block;
+}
+.dropdown-content p {
+  margin: 0 0 10px;
+  font-size: 14px;
+  color: var(--text-light);
+}
+
+.banner {
+  max-width: var(--container-width);
+  margin: 0 auto 32px;
+  border-radius: 0;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+.banner img {
+  width: 100%;
+  height: 100%;
+  object-position: center;
+  object-fit: cover;
+  display: block;
+  filter: brightness(0.9);
+}
+
+.products-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+.product-card {
+  background: var(--card-dark);
+  color: var(--text-light);
+  border-radius: var(--radius);
+  padding: 16px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
+  min-height: 380px;
+  cursor: pointer;
+  position: relative;
+}
+.product-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+  background: var(--card-light);
+}
+.product-card img {
+  width: 100%;
+  aspect-ratio: 2 / 3;
+  object-fit: cover;
+  border-radius: var(--radius);
+  margin: 0;
+  padding: 0;
+  background: var(--card-dark);
+}
+.product-card h3 {
+  margin: 8px 0;
+  font-family: 'Playfair Display', serif;
+  font-size: 1.1rem;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: 0.3px;
+  color: var(--beige-white);
+}
+.product-card .price {
+  font-family: 'Lato', sans-serif;
+  font-weight: 600;
+  color: var(--text-light);
+  font-size: 1rem;
+  margin-bottom: 16px;
+  text-align: center;
+}
+.product-card .add-btn {
+  display: block;
+  width: 100%;
+  padding: 12px 0;
+  background: transparent;
+  border: 1px solid var(--beige-white);
+  color: var(--beige-white);
+  border-radius: var(--radius);
+  font-family: 'Lato', sans-serif;
+  font-weight: 600;
+  font-size: 0.95rem;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+.product-card .add-btn:hover {
+  background: var(--beige-white);
+  color: var(--text-dark);
+}
+
+.panel {
+  background: var(--card-dark);
+  border-radius: var(--radius);
+  padding: 24px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  color: var(--text-light);
+}
+.section-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: var(--beige-white);
+  margin: 0 0 16px 0;
+}
+
+/* Таблица корзины: улучшенный вид */
+.simpleCart_items {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 16px;
+}
+.simpleCart_items th,
+.simpleCart_items td {
+  padding: 12px;
+  border-bottom: 1px solid var(--beige-white);
+  text-align: left;
+  font-size: 14px;
+  color: var(--text-light);
+  vertical-align: middle;
+}
+.simpleCart_items th { 
+  font-weight: 700; 
+  color: var(--beige-white); 
+  background: rgba(230, 126, 34, 0.1); /* Лёгкий оранжевый фон заголовка */
+}
+.simpleCart_items tr:hover {
+  background: rgba(230, 126, 34, 0.05);
+}
+.simpleCart_items .item-name {
+  font-weight: 600;
+}
+.simpleCart_items .item-size {
+  font-style: italic;
+  color: var(--muted);
+}
+
+.quantity-controls {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8px;
+}
+.quantity-controls button {
+  width: 32px;
+  height: 32px;
+  border-radius: var(--radius);
+  border: 1px solid var(--beige-white);
+  background: transparent;
+  color: var(--beige-white);
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+.quantity-controls button:hover {
+  background: var(--beige-white);
+  color: var(--text-dark);
+}
+.quantity-controls input {
+  width: 50px;
+  text-align: center;
+  border: 1px solid var(--beige-white);
+  background: var(--card-dark);
+  color: var(--text-light);
+  border-radius: var(--radius);
+  font-size: 14px;
+  padding: 4px 0;
+}
+
+.empty-cart-btn,
+.simpleCart_items .simpleCart_remove {
+  display: inline-block;
+  color: var(--beige-white);
+  background: transparent;
+  border: 1px solid var(--beige-white);
+  padding: 8px 12px;
+  border-radius: var(--radius);
+  font-weight: 600;
+  font-size: 14px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+.empty-cart-btn:hover,
+.simpleCart_items .simpleCart_remove:hover {
+  background: var(--beige-white);
+  color: var(--text-dark);
+}
+
+.cart-total {
+  margin-top: 12px;
+  font-weight: 600;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  font-size: 1rem;
+}
+.cart-total .label { 
+  color: var(--text-light);
+  font-weight: 600; 
+}
+.cart-total .value { 
+  color: var(--text-light); 
+  font-size: 1rem; 
+}
+
+#locker-field { 
+  margin-top: 10px;
+}
+#locker-field select {
+  width: 100%;
+  padding: 10px;
+  border-radius: var(--radius);
+  border: 1px solid var(--beige-white);
+  background: var(--card-dark);
+  color: var(--text-light);
+  font-size: 14px;
+}
+
+.order-form label { 
+  display: block; 
+  color: var(--text-light);
+  font-weight: 600; 
+  margin-bottom: 6px;
+}
+.order-form input[type="text"],
+.order-form input[type="email"],
+.order-form input[type="tel"],
+.order-form textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: var(--radius);
+  border: 1px solid var(--beige-white);
+  background: var(--card-dark);
+  color: var(--text-light);
+  font-size: 14px;
+  box-sizing: border-box;
+}
+.order-form textarea { 
+  min-height: 60px;
+  resize: vertical; 
+}
+.order-form button {
+  display: block;
+  width: 100%;
+  padding: 10px 20px;
+  background: var(--beige-white);
+  border: 1px solid var(--beige-white);
+  color: var(--text-dark);
+  border-radius: var(--radius);
+  font-family: 'Lato', sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+.order-form button:hover {
+  background: var(--beige-dark);
+  border-color: var(--beige-dark);
+  color: var(--text-dark);
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 10;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding-top: 60px;
+}
+.modal-content {
+  background: var(--card-dark);
+  margin: 5% auto;
+  padding: 24px;
+  border-radius: var(--radius);
+  width: 80%;
+  max-width: 600px;
+  color: var(--text-light);
+  position: relative;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+}
+.close {
+  position: absolute;
+  right: 20px;
+  top: 12px;
+  color: var(--text-light);
+  font-size: 24px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.close:hover {
+  color: var(--beige-white);
+}
+.modal img {
+  width: 70%;
+  aspect-ratio: 2 / 3;
+  object-fit: cover;
+  border-radius: var(--radius);
+  margin: 0 auto 16px;
+  display: block;
+}
+.modal h3 {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.2rem;
+  margin: 0 0 12px 0;
+  text-align: center;
+  color: var(--beige-white);
+}
+.modal .description {
+  font-size: 14px;
+  margin-bottom: 16px;
+  color: var(--text-light);
+  text-align: center;
+}
+.modal .price {
+  font-family: 'Lato', sans-serif;
+  font-weight: 600;
+  color: var(--text-light);
+  font-size: 1rem;
+  margin-bottom: 16px;
+  text-align: center;
+}
+.modal .add-btn {
+  display: block;
+  width: 100%;
+  padding: 12px 0;
+  background: var(--beige-white);
+  border: 1px solid var(--beige-white);
+  color: var(--text-dark);
+  border-radius: var(--radius);
+  font-family: 'Lato', sans-serif;
+  font-weight: 600;
+  font-size: 0.95rem;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  transition: background 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+.modal .add-btn:hover {
+  background: var(--beige-dark);
+  color: var(--text-dark);
+}
+
+.size-selector {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin: 16px 0;
+  flex-wrap: wrap;
+}
+.size-btn {
+  padding: 8px 12px;
+  border: 1px solid var(--beige-white);
+  background: transparent;
+  color: var(--text-light);
+  border-radius: var(--radius);
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+.size-btn:hover {
+  background: var(--beige-white);
+  color: var(--text-dark);
+}
+.size-btn.selected {
+  background: var(--beige-white);
+  color: var(--text-dark);
+}
+
+.cart-icon {
+  position: relative;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+}
+.cart-icon svg {
+  width: 32px;
+  height: 32px;
+  fill: #FFFFFF;
+  transition: fill 0.3s ease;
+}
+.cart-icon:hover svg {
+  fill: #FFFFFF;
+}
+.cart-icon .cart-count {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  background: var(--beige-white);
+  color: var(--text-dark);
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.cart-modal .modal-content {
+  max-width: 900px;
+  padding: 16px;
+  width: 90%;
+  position: relative;
+}
+
+#order-confirmation-modal .modal-content p {
+  font-size: 14px;
+  margin: 12px 0;
+  color: var(--text-light);
+}
+#order-confirmation-modal .modal-content strong {
+  color: var(--beige-white);
+}
+.contact-soon {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+  display: block;
+  margin-top: 12px;
+  color: var(--beige-white);
+}
+
+footer {
+  margin-top: 48px;
+  padding: 24px 20px;
+  background: var(--card-dark);
+  border-top: 1px solid var(--beige-white);
+}
+.social-media {
+  max-width: var(--container-width);
+  margin: 0 auto;
+  padding: 12px;
+  border-radius: var(--radius);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+.social-media h3 {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--text-light);
+  margin: 0;
+}
+
+#paypal-button-container {
+  margin-top: 16px;
+  width: 100%;
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  display: none;
+}
+
+@media (max-width: 1100px) { 
+  .products-list { 
+    grid-template-columns: repeat(2, 1fr);
+  } 
+}
+@media (max-width: 700px) { 
+  .products-list { 
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+  }
+  .product-card { 
+    min-height: 300px;
+    padding: 12px;
+  }
+  .product-card img {
+    max-height: 150px;
+  }
+  .header-title {
+    font-size: 1.2rem;
+  }
+  .hamburger {
+    width: 28px;
+    height: 28px;
+    padding: 4px;
+  }
+  .hamburger span {
+    height: 2px;
+    margin: 2px 0;
+  }
+  .dropdown-menu { 
+    left: 12px; 
+    width: 90%;
+    max-width: 280px;
+  }
+  .modal img {
+    aspect-ratio: 3 / 4;
+  }
+  .cart-icon {
+    width: 36px;
+    height: 36px;
+  }
+  .cart-icon svg {
+    width: 24px;
+    height: 24px;
+  }
+  .cart-icon .cart-count {
+    width: 16px;
+    height: 16px;
+    font-size: 10px;
+    top: -8px;
+    right: -8px;
+  }
+  .cart-modal .modal-content {
+    width: 95%;
+    max-height: 80vh;
+    overflow-y: auto;
+  }
+  .size-selector {
+    gap: 6px;
+  }
+  .size-btn {
+    padding: 6px 10px;
+    font-size: 12px;
+  }
+  #paypal-button-container {
+    max-width: 250px;
+  }
+  /* Мобильная таблица корзины */
+  .simpleCart_items th,
+  .simpleCart_items td {
+    font-size: 13px;
+    padding: 8px 6px;
+  }
+  .quantity-controls input {
+    width: 40px;
+  }
+}
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="top-bar"></div>
+    <header>
+      <div class="header-left">
+        <div class="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="dropdown-menu">
+          <button class="dropdown-btn" data-target="contacts">Contacts</button>
+          <button class="dropdown-btn" data-target="details">Delivery</button>
+          <button class="dropdown-btn" data-target="payment">Payment</button>
+          <div class="dropdown-content" id="contacts"></div>
+          <div class="dropdown-content" id="details"></div>
+          <div class="dropdown-content" id="payment">
+            <p>Bank transfer (we will prepare an invoice and send it to your specified email)</p>
+            <p>PayPal</p>
+          </div>
+        </div>
+      </div>
+      <div class="header-center"></div>
+      <div class="header-right">
+        <div class="lang-selector">
+          <button class="lang-btn" id="current-lang">LV</button>
+          <div class="lang-dropdown">
+            <button class="lang-btn" data-lang="lv">LV</button>
+            <button class="lang-btn" data-lang="en">EN</button>
+          </div>
+        </div>
+        <div class="cart-icon" id="cart-icon">
+          <svg viewBox="0 0 24 24">
+            <path d="M7 18c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zM1 2v2h2l3.6 7.59-1.35 2.45c-.16.28-.25.61-.25.96 0 1.1.9 2 2 2h12v-2H7.42c-.14 0-.25-.11-.25-.25l.03-.12.9-1.63h7.45c.75 0 1.41-.41 1.75-1.03l3.58-6.49A1 1 0 0 0 21 4H5.21l-.94-2H1zm16 16c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2z"/>
+          </svg>
+          <span class="cart-count" id="cart-count">0</span>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="banner">
+        <img src="photo/baner.jpg" alt="Promotional Banner">
+      </div>
+      <div class="products-list" id="products-list"></div>
+    </main>
+
+    <div id="product-modal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <img src="" alt="">
+        <h3></h3>
+        <p class="description"></p>
+        <div class="size-selector">
+          <button class="size-btn" data-size="XS">XS</button>
+          <button class="size-btn" data-size="S">S</button>
+          <button class="size-btn" data-size="M">M</button>
+          <button class="size-btn" data-size="L">L</button>
+          <button class="size-btn" data-size="XL">XL</button>
+          <button class="size-btn" data-size="XXL">XXL</button>
+          <button class="size-btn" data-size="XXXL">XXXL</button>
+        </div>
+        <div class="price"></div>
+        <a href="javascript:;" class="add-btn">Add to Cart</a>
+      </div>
+    </div>
+
+    <div id="cart-modal" class="modal cart-modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h3 class="section-title" id="cart-title">Cart</h3>
+        <div class="cart-items" style="margin-top:8px;">
+          <table class="simpleCart_items"></table>
+        </div>
+        <div class="cart-total" style="margin-top:8px;">
+          <div class="label" id="cart-total-label">Total:</div>
+          <div class="value"><span class="simpleCart_total">0.00</span> EUR</div>
+        </div>
+        <div style="margin-top:8px;">
+          <a href="javascript:;" class="empty-cart-btn simpleCart_empty" id="empty-cart">Clear Cart</a>
+        </div>
+        <div style="margin-top:16px;">
+          <h3 class="section-title" id="delivery-title">Delivery</h3>
+          <div style="margin-top:8px;">
+            <label style="display:block; color:var(--text-light); font-weight:600; margin-bottom:6px;">
+              <input type="radio" name="delivery" value="Venipak pakomāts" required>
+              <span id="venipak-label" style="margin-left:8px; color:var(--text-light); font-weight:600;">Venipak parcel locker (1–3 business days, 4.00 EUR)</span>
+            </label>
+            <div id="locker-field" class="hidden">
+              <label id="choose-locker-label" style="display:block; color:var(--text-light); margin-bottom:6px;">Select parcel locker:</label>
+              <select id="locker-select" name="locker" required><option value="">Loading lockers...</option></select>
+            </div>
+          </div>
+        </div>
+        <div style="margin-top:16px;">
+          <h3 class="section-title" id="payment-title">Payment Method</h3>
+          <div style="margin-top:8px;">
+            <label style="display:block; color:var(--text-light); font-weight:600; margin-bottom:6px;">
+              <input type="radio" name="payment" value="Bankas pārskaitījums" required>
+              <span id="bank-label" style="margin-left:8px; color:var(--text-light); font-weight:600;">Bank Transfer</span>
+            </label>
+            <label style="display:block; color:var(--text-light); font-weight:600; margin-bottom:6px; margin-top:8px;">
+              <input type="radio" name="payment" value="PayPal">
+              <span id="paypal-label" style="margin-left:8px; color:var(--text-light); font-weight:600;">PayPal</span>
+            </label>
+          </div>
+        </div>
+        <div style="margin-top:16px;">
+          <h3 class="section-title" id="order-title">Place Order</h3>
+          <form class="order-form" id="orderForm" action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="c49dd88b-948d-4903-9295-d9ab1c7b8afc">
+            <input type="hidden" name="email_to" value="galasmail@inbox.lv">
+            <input type="hidden" name="cart_contents" id="cart_contents" value="">
+            <input type="hidden" name="order_id" id="order_id" value="">
+            <input type="hidden" name="paypal_transaction_id" id="paypal_transaction_id" value="">
+            <input type="hidden" name="payment_method" id="payment_method" value="">
+            <label id="name-label">Your Name:<input type="text" name="customer_name" required></label>
+            <label id="email-label">Email:<input type="email" name="email" required></label>
+            <label id="phone-label">Phone:<input type="tel" name="phone" required></label>
+            <label id="comments-label">Comments:<textarea name="message" rows="4"></textarea></label>
+            <button type="submit" id="order-button">Order</button>
+          </form>
+          <div id="paypal-button-container"></div>
+        </div>
+      </div>
+    </div>
+
+    <div id="order-confirmation-modal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h3 id="order-confirmation-title">Order Received</h3>
+        <p><strong id="order-id-label">Order ID:</strong> <span id="confirmation-order-id"></span></p>
+        <p><strong id="order-details-label">Order Details:</strong></p>
+        <p id="confirmation-cart-details"></p>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="social-media">
+      <h3 id="social-media-title">Follow Us</h3>
+    </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/simplecartjs/3.0.5/simplecart.min.js"></script>
+  <script>
+    function generateOrderId() {
+      return Math.floor(100000 + Math.random() * 900000).toString();
+    }
+
+    const translations = {
+      lv: { 
+        addToCart: "Pievienot grozam",
+        sizeLabel: "Izvēlieties izmēru:",
+        errorSize: "Lūdzu, izvēlieties izmēru",
+        cartTitle: "Grozs", 
+        cartTotal: "Kopā:", 
+        emptyCart: "Iztīrīt grozu", 
+        deliveryTitle: "Piegāde",
+        venipak: "Venipak pakomāts (1–3 darba dienas, 4.00 EUR)", 
+        chooseLocker: "Izvēlieties pakomātu:", 
+        orderTitle: "Noformēt pasūtījumu", 
+        paymentTitle: "Apmaksas veids",
+        bank: "Bankas pārskaitījums",
+        paypal: "PayPal",
+        name: "Jūsu vārds:", 
+        email: "E-pasts:",
+        phone: "Telefons:", 
+        comments: "Komentāri:", 
+        orderButton: "Pasūtīt",
+        contacts: "Kontakti",
+        details: "Piegāde",
+        payment: "Apmaksa",
+        orderConfirmationTitle: "Pasūtījums saņemts",
+        orderIdLabel: "Pasūtījuma ID:",
+        orderDetailsLabel: "Pasūtījuma detaļas:",
+        totalLabel: "Kopā:",
+        deliveryLabel: "Piegāde:",
+        paymentLabel: "Apmaksas veids:",
+        lockerLabel: "Pakomāts:",
+        contactSoon: "Drīzumā mēs ar jums sazināsimies, lai precizētu detaļas",
+        errorEmptyCart: "Grozs ir tukšs",
+        errorDelivery: "Lūdzu, izvēlieties piegādes metodi",
+        errorPayment: "Lūdzu, izvēlieties apmaksas veidu",
+        errorLocker: "Lūdzu, izvēlieties pakomātu",
+        errorSubmission: "Pasūtījuma nosūtīšana neizdevās. Lūdzu, mēģiniet vēlreiz.",
+        errorPayPal: "Maksājums ar PayPal tika atcelts vai neizdevās.",
+        socialMedia: "Seko mums līdzi",
+        contactsContent: ["honey@gmail.com", "+37120392288"],
+        detailsContent: ["Pakomāti Venipak pakomāts (1–3 darba dienas, 4.00 EUR)"],
+        paymentContent: ["Bankas pārskaitījums (mēs sagatavosim rēķinu un nosūtīsim uz Jūsu noradīto e-pastu)", "PayPal"],
+        products: [
+          {name: "Svece", price: "30.00", img: "photo/hd-front.jpg", desc: "Svece burciņā no bišu vaska ar medus un mājīguma aromātu. Augstums – 3,5 cm. Diametrs – 5 cm. Svars – 50 g."},
+          {name: "Roku krēms", price: "35.00", img: "photo/hd1-front.jpg", desc: "Roku krēms ar medus ekstraktu. 98% dabīgs sastāvs. Tilpums – 50 ml."},
+          {name: "Vaska salvetes pārtikas uzglabāšanai", price: "25.00", img: "photo/hd2-front.jpg", desc: "Alternatīva pārtikas plēvei un konteineriem. Salvetes no 100% kokvilnas, piesūcinātas ar bišu vasku. No roku siltuma iegūst jebkuru formu."},
+          {name: "Nazālais inhalators", price: "37.00", img: "photo/hd3-front.jpg", desc: "Nazālais inhalators ar propolisu un piparmētru, eikalipta un citrona ēteriskajām eļļām. Palīdz pie aizlikta deguna, atvieglo elpošanu."},
+          {name: "Universāla ziede no bišu vaska ar propolisu", price: "9.00", img: "photo/zz.jpg", desc: "Sastāvs – vasks, augsts propolisa saturs un augu eļļas. Reģenerē ādu, veicina brūču un apdegumu dzīšanu, dezinficē, mīkstina ādu. Mazina iekaisumus un lobīšanos."},
+          {name: "Balzams", price: "6.00", img: "photo/cc.jpg", desc: "Sastāvā bišu vasks, propoliss, piparmētru, eikalipta un kanēļa ēteriskās eļļas. Iedarbība gan atvēsinoša, gan sildoša."},
+          {name: "Lūpu vasks", price: "5.00", img: "photo/bb.jpg", desc: "Sastāv no bišu vaska, vīnogu kauliņu eļļas, kokosriekstu eļļas, propolisa un vaniļas ēteriskās eļļas. Kopj lūpas."}
+        ]
+      },
+      en: { 
+        addToCart: "Add to Cart",
+        sizeLabel: "Select size:",
+        errorSize: "Please select a size",
+        cartTitle: "Cart", 
+        cartTotal: "Total:", 
+        emptyCart: "Clear Cart", 
+        deliveryTitle: "Delivery",
+        venipak: "Venipak parcel locker (1–3 business days, 4.00 EUR)", 
+        chooseLocker: "Select parcel locker:", 
+        orderTitle: "Place Order", 
+        paymentTitle: "Payment Method",
+        bank: "Bank Transfer",
+        paypal: "PayPal",
+        name: "Your Name:", 
+        email: "Email:",
+        phone: "Phone:", 
+        comments: "Comments:", 
+        orderButton: "Order",
+        contacts: "Contacts",
+        details: "Delivery",
+        payment: "Payment",
+        orderConfirmationTitle: "Order Received",
+        orderIdLabel: "Order ID:",
+        orderDetailsLabel: "Order Details:",
+        totalLabel: "Total:",
+        deliveryLabel: "Delivery:",
+        paymentLabel: "Payment Method:",
+        lockerLabel: "Parcel Locker:",
+        contactSoon: "We will contact you soon to clarify the details",
+        errorEmptyCart: "Cart is empty",
+        errorDelivery: "Please select a delivery method",
+        errorPayment: "Please select a payment method",
+        errorLocker: "Please select a parcel locker",
+        errorSubmission: "Order submission failed. Please try again.",
+        errorPayPal: "PayPal payment was canceled or failed.",
+        socialMedia: "Follow Us",
+        contactsContent: ["honey@gmail.com", "+37120392288"],
+        detailsContent: ["Venipak parcel lockers (1–3 business days, 4.00 EUR)"],
+        paymentContent: ["Bank transfer (we will prepare an invoice and send it to your specified email)", "PayPal"],
+        products: [
+          {name: "Candle", price: "4.00", img: "photo/svece.jpg", desc: "Beeswax candle in a jar with honey and cozy aroma. Height – 3.5 cm. Diameter – 5 cm. Weight – 50 g."},
+          {name: "Hand Cream", price: "8.00", img: "photo/krems.jpg", desc: "Hand cream with honey extract. 98% natural composition. Volume – 50 ml."},
+          {name: "Beeswax Food Wraps", price: "10.00", img: "photo/salfete.jpg", desc: "Alternative to food film and containers. Wraps made of 100% cotton, impregnated with beeswax. Takes any shape from hand warmth."},
+          {name: "Nasal Inhaler", price: "7.00", img: "photo/inhalators.jpg", desc: "Nasal inhaler with propolis and peppermint, eucalyptus, and lemon essential oils. Helps with stuffy nose, eases breathing."},
+          {name: "Universal Beeswax Ointment with Propolis", price: "9.00", img: "photo/ziede.jpg", desc: "Composition – wax, high propolis content, and vegetable oils. Regenerates skin, promotes healing of wounds and burns, disinfects, softens skin. Reduces inflammation and flaking."},
+          {name: "Balm", price: "6.00", img: "photo/balzams.jpg", desc: "Contains beeswax, propolis, peppermint, eucalyptus, and cinnamon essential oils. Both cooling and warming effect."},
+          {name: "Lip Balm", price: "5.00", img: "photo/vaska.jpg", desc: "Consists of beeswax, grape seed oil, coconut oil, propolis, and vanilla essential oil. Cares for lips."}
+        ]
+      }
+    };
+
+    function loadLockers(lang) {
+      const select = $('#locker-select');
+      select.empty().append('<option value="">' + translations[lang].chooseLocker + '</option>');
+      $.getJSON('venipak-points.json', data => {
+        data.forEach(point => {
+          select.append(`<option value="${point.id}">${point.city}, ${point.address} (${point.pickup_point})</option>`);
+        });
+      }).fail(() => {
+        select.empty().append('<option value="">' + translations[lang].errorLocker + '</option>');
+      });
+    }
+
+    function setLanguage(lang) {
+      const t = translations[lang];
+      document.documentElement.lang = lang;
+      $('#current-lang').text(lang.toUpperCase());
+      $('#cart-title').text(t.cartTitle);
+      $('#delivery-title').text(t.deliveryTitle);
+      $('#payment-title').text(t.paymentTitle);
+      $('#order-title').text(t.orderTitle);
+      $('#cart-total-label').text(t.cartTotal);
+      $('#empty-cart').text(t.emptyCart);
+      $('#venipak-label').text(t.venipak);
+      $('#choose-locker-label').text(t.chooseLocker);
+      $('#bank-label').text(t.bank);
+      $('#paypal-label').text(t.paypal);
+      $('#name-label').contents().first().text(t.name);
+      $('#email-label').contents().first().text(t.email);
+      $('#phone-label').contents().first().text(t.phone);
+      $('#comments-label').contents().first().text(t.comments);
+      $('#order-button').text(t.orderButton);
+      $('.dropdown-btn[data-target="contacts"]').text(t.contacts);
+      $('.dropdown-btn[data-target="details"]').text(t.details);
+      $('.dropdown-btn[data-target="payment"]').text(t.payment);
+      $('#order-confirmation-title').text(t.orderConfirmationTitle);
+      $('#order-id-label').text(t.orderIdLabel);
+      $('#order-details-label').text(t.orderDetailsLabel);
+      $('#social-media-title').text(t.socialMedia);
+      $('#product-modal .add-btn').text(t.addToCart);
+
+      ['contacts', 'details', 'payment'].forEach(id => {
+        const $el = $(`#${id}`);
+        $el.empty();
+        t[id + 'Content'].forEach(text => $el.append(`<p>${text}</p>`));
+      });
+
+      const list = $('#products-list');
+      list.empty();
+      t.products.forEach(p => {
+        list.append(`
+          <div class="product-card simpleCart_shelfItem" data-desc="${p.desc}">
+            <img src="${p.img}" alt="${p.name}">
+            <div>
+              <h3 class="item_name">${p.name}</h3>
+              <div class="price"><span class="item_price">${p.price}</span> EUR</div>
+            </div>
+            <div style="margin-top:12px;">
+              <a href="javascript:;" class="add-btn item_add">${t.addToCart}</a>
+            </div>
+          </div>
+        `);
+      });
+
+      loadLockers(lang);
+    }
+
+    $(() => {
+      setLanguage('lv');
+
+      $('.lang-selector').hover(
+        () => $('.lang-dropdown').show(),
+        () => $('.lang-dropdown').hide()
+      );
+
+      $('.lang-dropdown').on('click', '.lang-btn', e => {
+        const lang = $(e.target).data('lang');
+        if (lang) setLanguage(lang);
+        $('.lang-dropdown').hide();
+      });
+
+      $('.hamburger').on('click', () => {
+        $('.hamburger').toggleClass('active');
+        $('.dropdown-menu').toggleClass('active');
+        $('.dropdown-content').removeClass('active');
+      });
+
+      $('.dropdown-btn').on('click', e => {
+        const target = $(e.target).data('target');
+        $('.dropdown-content').removeClass('active');
+        $(`#${target}`).toggleClass('active');
+      });
+
+      $(document).on('click', e => {
+        if (!$(e.target).closest('.hamburger, .dropdown-menu, .lang-selector').length) {
+          $('.hamburger, .dropdown-menu').removeClass('active');
+          $('.dropdown-content').removeClass('active');
+          $('.lang-dropdown').hide();
+        }
+      });
+
+      simpleCart({
+        currency: "EUR",
+        cartColumns: [
+          { view: (item) => `<span class="item-name">${item.get('name')}</span><br><span class="item-size">Size: ${item.get('size') || '-'}</span>`, label: "Item", attr: "name" },
+          { view: "quantityControls", label: "Quantity" },
+          { view: (item) => `${parseFloat(item.get('price')).toFixed(2)} EUR`, label: "Price" },
+          { view: "remove", text: "Remove", label: "" }
+        ]
+      });
+
+      simpleCart.bind('update', () => {
+        const count = simpleCart.items().reduce((sum, i) => sum + i.quantity(), 0);
+        $('#cart-count').text(count);
+
+        let total = simpleCart.total();
+        const delivery = $('input[name="delivery"]:checked').val() === "Venipak pakomāts" ? 4 : 0;
+        total += delivery;
+        $('.simpleCart_total').text(total.toFixed(2));
+
+        $('.delivery-row').remove();
+        if (delivery > 0) {
+          const lang = $('#current-lang').text().toLowerCase();
+          $('.simpleCart_items tbody').append(`<tr class="delivery-row"><td colspan="3"><strong>${translations[lang].deliveryLabel}</strong></td><td>${delivery.toFixed(2)} EUR</td><td></td></tr>`);
+        }
+      });
+
+      $('input[name="delivery"]').on('change', () => {
+        const isVenipak = $('input[name="delivery"]:checked').val() === "Venipak pakomāts";
+        $('#locker-field').toggleClass('hidden', !isVenipak);
+        $('#locker-select').prop('required', isVenipak);
+        if (isVenipak) loadLockers($('#current-lang').text().toLowerCase());
+        simpleCart.update();
+      });
+
+      $('input[name="payment"]').on('change', () => {
+        const isPayPal = $('input[name="payment"]:checked').val() === "PayPal";
+        $('#paypal-button-container').toggle(isPayPal);
+        $('#order-button').toggle(!isPayPal);
+      });
+
+      let modalName = '', modalPrice = '', modalDesc = '', modalImg = '', selectedSize = '';
+
+      $(document).on('click', '.product-card', function() {
+        const $card = $(this);
+        modalName = $card.find('.item_name').text();
+        modalPrice = $card.find('.item_price').text();
+        modalDesc = $card.data('desc');
+        modalImg = $card.find('img').attr('src');
+        $('#product-modal img').attr({src: modalImg, alt: modalName});
+        $('#product-modal h3').text(modalName);
+        $('#product-modal .description').text(modalDesc);
+        $('#product-modal .price').text(modalPrice + ' EUR');
+        $('.size-btn').removeClass('selected');
+        selectedSize = '';
+        $('#product-modal').show();
+      });
+
+      $(document).on('click', '.size-btn', function() {
+        $('.size-btn').removeClass('selected');
+        $(this).addClass('selected');
+        selectedSize = $(this).data('size');
+      });
+
+      $('#product-modal .add-btn').on('click', () => {
+        const lang = $('#current-lang').text().toLowerCase();
+        if (!selectedSize) {
+          alert(translations[lang].errorSize);
+          return;
+        }
+        simpleCart.add({
+          name: `${modalName}`,
+          price: modalPrice,
+          quantity: 1,
+          size: selectedSize
+        });
+        $('#product-modal').hide();
+      });
+
+      $('.close, .modal').on('click', e => {
+        if ($(e.target).is('.close') || $(e.target).is('.modal')) {
+          $('.modal').hide();
+        }
+      });
+
+      $('#cart-icon').on('click', () => $('#cart-modal').show());
+
+      function validateForm() {
+        const lang = $('#current-lang').text().toLowerCase();
+        const t = translations[lang];
+        if (!simpleCart.items().length) return alert(t.errorEmptyCart), false;
+        if (!$('input[name="delivery"]:checked').val()) return alert(t.errorDelivery), false;
+        if ($('input[name="delivery"]:checked').val() === "Venipak pakomāts" && !$('#locker-select').val()) return alert(t.errorLocker), false;
+        if (!$('input[name="payment"]:checked').val()) return alert(t.errorPayment), false;
+        const email = $('input[name="email"]').val();
+        if (!email || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) return alert(t.email + " is invalid"), false;
+        return true;
+      }
+
+      function submitOrder(transactionId = '') {
+        if (!validateForm()) return;
+        const lang = $('#current-lang').text().toLowerCase();
+        const t = translations[lang];
+        const items = simpleCart.items();
+        const delivery = $('input[name="delivery"]:checked').val();
+        const payment = $('input[name="payment"]:checked').val();
+        const total = (simpleCart.total() + (delivery === "Venipak pakomāts" ? 4 : 0)).toFixed(2);
+        const locker = delivery === "Venipak pakomāts" ? $('#locker-select option:selected').text() : '';
+        const orderId = generateOrderId();
+        const itemText = items.map(i => `${i.quantity()} × ${i.get('name')} (Size: ${i.get('size') || '-'} ) (${parseFloat(i.get('price')).toFixed(2)} EUR)`).join('\n');
+        const details = `Order ID: ${orderId}\n\n${itemText}\n${t.totalLabel} ${total} EUR\n${t.deliveryLabel} ${delivery}${locker ? `\n${t.lockerLabel} ${locker}` : ''}\n${t.paymentLabel} ${payment}${transactionId ? `\nPayPal Transaction ID: ${transactionId}` : ''}\n\n<span class="contact-soon">${t.contactSoon}</span>`;
+        const emailText = details.replace('<span class="contact-soon">', '**').replace('</span>', '**');
+
+        $('#cart_contents').val(emailText);
+        $('#order_id').val(orderId);
+        $('#paypal_transaction_id').val(transactionId);
+        $('#payment_method').val(payment);
+        $('#confirmation-order-id').text(orderId);
+        $('#confirmation-cart-details').html(details.replace(/\n/g, '<br>'));
+        $('#cart-modal').hide();
+        $('#order-confirmation-modal').show();
+
+        $.ajax({
+          url: 'https://api.web3forms.com/submit',
+          method: 'POST',
+          data: $('#orderForm').serialize(),
+          complete: () => {
+            simpleCart.empty();
+          }
+        });
+      }
+
+      $('#orderForm').on('submit', e => {
+        e.preventDefault();
+        if ($('input[name="payment"]:checked').val() !== "PayPal") submitOrder();
+      });
+
+      paypal.Buttons({
+        createOrder: (data, actions) => {
+          if (!validateForm()) return;
+          const items = simpleCart.items();
+          const delivery = $('input[name="delivery"]:checked').val() === "Venipak pakomāts" ? 4 : 0;
+          const total = (simpleCart.total() + delivery).toFixed(2);
+          return actions.order.create({
+            purchase_units: [{
+              amount: { value: total, currency_code: "EUR" },
+              items: items.map(i => ({
+                name: i.get('name') + (i.get('size') ? ` (Size: ${i.get('size')})` : ''),
+                unit_amount: { value: i.get('price'), currency_code: "EUR" },
+                quantity: i.quantity()
+              }))
+            }]
+          });
+        },
+        onApprove: (data, actions) => actions.order.capture().then(details => submitOrder(details.id)),
+        onCancel: () => alert(translations[$('#current-lang').text().toLowerCase()].errorPayPal),
+        onError: () => alert(translations[$('#current-lang').text().toLowerCase()].errorPayPal)
+      }).render('#paypal-button-container');
+    });
+  </script>
+</body>
+</html>
