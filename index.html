@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
@@ -12,12 +12,12 @@
   --card-dark: #2A2A2A;
   --card-light: #3C3C3C;
   --muted: #6B6B6B;
-  --accent-gold: #e67e22; /* Новый оранжевый */
-  --accent-gold-dark: #d35400; /* Тёмный для hover */
+  --accent-gold: #e67e22;
+  --accent-gold-dark: #d35400;
   --text-light: #E8E8E8;
   --text-dark: #0F0F0F;
-  --beige-white: #e67e22; /* Замена всех beige-white */
-  --beige-dark: #d35400; /* Замена всех beige-dark */
+  --beige-white: #e67e22;
+  --beige-dark: #d35400;
   --radius: 8px;
   --container-width: 1280px;
 }
@@ -337,7 +337,6 @@ header {
   margin: 0 0 16px 0;
 }
 
-/* Таблица корзины: улучшенный вид */
 .simpleCart_items {
   width: 100%;
   border-collapse: collapse;
@@ -355,7 +354,7 @@ header {
 .simpleCart_items th { 
   font-weight: 700; 
   color: var(--beige-white); 
-  background: rgba(230, 126, 34, 0.1); /* Лёгкий оранжевый фон заголовка */
+  background: rgba(230, 126, 34, 0.1);
 }
 .simpleCart_items tr:hover {
   background: rgba(230, 126, 34, 0.05);
@@ -529,14 +528,54 @@ header {
 .close:hover {
   color: var(--beige-white);
 }
-.modal img {
+
+/* Карусель в модальном окне */
+.modal-image-container {
+  position: relative;
   width: 70%;
+  margin: 0 auto 16px;
+  overflow: hidden;
+  border-radius: var(--radius);
+}
+.modal-image-wrapper {
+  display: flex;
+  transition: transform 0.4s ease;
+}
+.modal-image-wrapper img {
+  width: 100%;
   aspect-ratio: 2 / 3;
   object-fit: cover;
-  border-radius: var(--radius);
-  margin: 0 auto 16px;
-  display: block;
+  flex-shrink: 0;
 }
+.carousel-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0,0,0,0.5);
+  color: white;
+  border: none;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  font-size: 18px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+  transition: background 0.3s ease;
+}
+.carousel-arrow:hover {
+  background: var(--beige-white);
+  color: var(--text-dark);
+}
+.carousel-arrow.left {
+  left: 10px;
+}
+.carousel-arrow.right {
+  right: 10px;
+}
+
 .modal h3 {
   font-family: 'Playfair Display', serif;
   font-size: 1.2rem;
@@ -732,8 +771,13 @@ footer {
     width: 90%;
     max-width: 280px;
   }
-  .modal img {
-    aspect-ratio: 3 / 4;
+  .modal-image-container {
+    width: 90%;
+  }
+  .carousel-arrow {
+    width: 30px;
+    height: 30px;
+    font-size: 16px;
   }
   .cart-icon {
     width: 36px;
@@ -765,7 +809,6 @@ footer {
   #paypal-button-container {
     max-width: 250px;
   }
-  /* Мобильная таблица корзины */
   .simpleCart_items th,
   .simpleCart_items td {
     font-size: 13px;
@@ -823,10 +866,18 @@ footer {
       <div class="products-list" id="products-list"></div>
     </main>
 
+    <!-- Модальное окно с каруселью -->
     <div id="product-modal" class="modal">
       <div class="modal-content">
         <span class="close">&times;</span>
-        <img src="" alt="">
+        <div class="modal-image-container">
+          <div class="modal-image-wrapper">
+            <img src="" alt="" class="modal-img">
+            <img src="" alt="" class="modal-img">
+          </div>
+          <button class="carousel-arrow left">←</button>
+          <button class="carousel-arrow right">→</button>
+        </div>
         <h3></h3>
         <p class="description"></p>
         <div class="size-selector">
@@ -969,12 +1020,12 @@ footer {
         detailsContent: ["Pakomāti Venipak pakomāts (1–3 darba dienas, 4.00 EUR)"],
         paymentContent: ["Bankas pārskaitījums (mēs sagatavosim rēķinu un nosūtīsim uz Jūsu noradīto e-pastu)", "PayPal"],
         products: [
-          {name: "Sweatshirt", price: "30.00", img: "PHOTO/hd-front.jpg", desc: "Material composition: 100% cotton"},
-          {name: "Sweatshirt", price: "35.00", img: "PHOTO/hd1-front.jpg", desc: "Material composition: 100% cotton"},
-          {name: "Sweatshirt", price: "25.00", img: "PHOTO/hd2-front.jpg", desc: "Material composition: 100% cotton"},
-          {name: "Sweatshirt", price: "37.00", img: "PHOTO/hd3-front.jpg", desc: "Material composition: 100% cotton"},
-          {name: "Sweatshirt", price: "9.00", img: "PHOTO/zz.jpg", desc: "Material composition: 100% cotton"},
-          {name: "Sweatshirt", price: "6.00", img: "PHOTO/cc.jpg", desc: "Material composition: 100% cotton"}
+          {name: "Sweatshirt", price: "30.00", img: "PHOTO/hd-front.jpg", img2: "PHOTO/hd-back.jpg", desc: "Material composition: 100% cotton"},
+          {name: "Sweatshirt", price: "35.00", img: "PHOTO/hd1-front.jpg", img2: "PHOTO/hd1-back.jpg", desc: "Material composition: 100% cotton"},
+          {name: "Sweatshirt", price: "25.00", img: "PHOTO/hd2-front.jpg", img2: "PHOTO/hd2-back.jpg", desc: "Material composition: 100% cotton"},
+          {name: "Sweatshirt", price: "37.00", img: "PHOTO/hd3-front.jpg", img2: "PHOTO/hd3-back.jpg", desc: "Material composition: 100% cotton"},
+          {name: "Sweatshirt", price: "9.00", img: "PHOTO/zz.jpg", img2: "PHOTO/zz-back.jpg", desc: "Material composition: 100% cotton"},
+          {name: "Sweatshirt", price: "6.00", img: "PHOTO/cc.jpg", img2: "PHOTO/cc-back.jpg", desc: "Material composition: 100% cotton"}
         ]
       },
       en: { 
@@ -1018,12 +1069,12 @@ footer {
         detailsContent: ["Venipak parcel lockers (1–3 business days, 4.00 EUR)"],
         paymentContent: ["Bank transfer (we will prepare an invoice and send it to your specified email)", "PayPal"],
         products: [
-           {name: "Sweatshirt", price: "30.00", img: "PHOTO/hd-front.jpg", desc: "Material composition: 100% cotton"},
-          {name: "Sweatshirt", price: "35.00", img: "PHOTO/hd1-front.jpg", desc: "Material composition: 100% cotton"},
-          {name: "Sweatshirt", price: "25.00", img: "PHOTO/hd2-front.jpg", desc: "Material composition: 100% cotton"},
-          {name: "Sweatshirt", price: "37.00", img: "PHOTO/hd3-front.jpg", desc: "Material composition: 100% cotton"},
-          {name: "Sweatshirt", price: "9.00", img: "PHOTO/zz.jpg", desc: "Material composition: 100% cotton"},
-          {name: "Sweatshirt", price: "6.00", img: "PHOTO/cc.jpg", desc: "Material composition: 100% cotton"}
+          {name: "Sweatshirt", price: "30.00", img: "PHOTO/hd-front.jpg", img2: "PHOTO/hd-back.jpg", desc: "Material composition: 100% cotton"},
+          {name: "Sweatshirt", price: "35.00", img: "PHOTO/hd1-front.jpg", img2: "PHOTO/hd1-back.jpg", desc: "Material composition: 100% cotton"},
+          {name: "Sweatshirt", price: "25.00", img: "PHOTO/hd2-front.jpg", img2: "PHOTO/hd2-back.jpg", desc: "Material composition: 100% cotton"},
+          {name: "Sweatshirt", price: "37.00", img: "PHOTO/hd3-front.jpg", img2: "PHOTO/hd3-back.jpg", desc: "Material composition: 100% cotton"},
+          {name: "Sweatshirt", price: "9.00", img: "PHOTO/zz.jpg", img2: "PHOTO/zz-back.jpg", desc: "Material composition: 100% cotton"},
+          {name: "Sweatshirt", price: "6.00", img: "PHOTO/cc.jpg", img2: "PHOTO/cc-back.jpg", desc: "Material composition: 100% cotton"}
         ]
       }
     };
@@ -1078,7 +1129,7 @@ footer {
       list.empty();
       t.products.forEach(p => {
         list.append(`
-          <div class="product-card simpleCart_shelfItem" data-desc="${p.desc}">
+          <div class="product-card simpleCart_shelfItem" data-desc="${p.desc}" data-img2="${p.img2}">
             <img src="${p.img}" alt="${p.name}">
             <div>
               <h3 class="item_name">${p.name}</h3>
@@ -1168,7 +1219,7 @@ footer {
         $('#order-button').toggle(!isPayPal);
       });
 
-      let modalName = '', modalPrice = '', modalDesc = '', modalImg = '', selectedSize = '';
+      let modalName = '', modalPrice = '', modalDesc = '', modalImg = '', modalImg2 = '', selectedSize = '', currentSlide = 0;
 
       $(document).on('click', '.product-card', function() {
         const $card = $(this);
@@ -1176,13 +1227,32 @@ footer {
         modalPrice = $card.find('.item_price').text();
         modalDesc = $card.data('desc');
         modalImg = $card.find('img').attr('src');
-        $('#product-modal img').attr({src: modalImg, alt: modalName});
+        modalImg2 = $card.data('img2');
+        $('#product-modal .modal-img').eq(0).attr('src', modalImg);
+        $('#product-modal .modal-img').eq(1).attr('src', modalImg2);
         $('#product-modal h3').text(modalName);
         $('#product-modal .description').text(modalDesc);
         $('#product-modal .price').text(modalPrice + ' EUR');
         $('.size-btn').removeClass('selected');
         selectedSize = '';
+        currentSlide = 0;
+        updateCarousel();
         $('#product-modal').show();
+      });
+
+      function updateCarousel() {
+        const wrapper = $('.modal-image-wrapper');
+        wrapper.css('transform', `translateX(-${currentSlide * 100}%)`);
+      }
+
+      $('.carousel-arrow.left').on('click', () => {
+        currentSlide = currentSlide > 0 ? currentSlide - 1 : 1;
+        updateCarousel();
+      });
+
+      $('.carousel-arrow.right').on('click', () => {
+        currentSlide = currentSlide < 1 ? currentSlide + 1 : 0;
+        updateCarousel();
       });
 
       $(document).on('click', '.size-btn', function() {
@@ -1288,9 +1358,4 @@ footer {
     });
   </script>
 </body>
-
 </html>
-
-
-
-
