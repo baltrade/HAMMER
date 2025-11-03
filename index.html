@@ -4,7 +4,10 @@
   <meta charset="UTF-8" />
   <title>Hammer — Shop / Cart</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;600;700&family=Playfair+Display:wght@400;600;700;800&family=Vladimir+Script&display=swap" rel="stylesheet">
+  
+  <!-- ШРИФТЫ: Bebas Neue (заголовки) + Montserrat (текст) -->
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
   <script src="https://www.paypal.com/sdk/js?client-id=AZ6a4Z6z2mH6zV0z0k3z3Q1zX1zY1zZ1zZ1zZ1zZ1zZ1zZ1zZ1zZ1zZ1zZ1&currency=EUR"></script>
   <style>
 :root {
@@ -20,16 +23,64 @@
   --beige-dark: #d35400;
   --radius: 8px;
   --container-width: 1280px;
+
+  /* ШРИФТЫ */
+  --font-heading: 'Bebas Neue', sans-serif;
+  --font-body: 'Montserrat', sans-serif;
+}
+
+/* ГЛОБАЛЬНЫЕ ШРИФТЫ */
+*, *::before, *::after {
+  font-family: var(--font-body) !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ЗАГОЛОВКИ — БРУТАЛЬНЫЙ СТИЛЬ */
+.header-title,
+.section-title,
+.product-card h3,
+.modal h3,
+#order-confirmation-title,
+.contact-soon,
+.simpleCart_items th,
+.cart-total .label,
+.cart-total .value,
+.price,
+.add-btn,
+.order-form button,
+.empty-cart-btn,
+.simpleCart_items .simpleCart_remove,
+.size-btn,
+.lang-btn,
+.dropdown-btn,
+#current-lang {
+  font-family: var(--font-heading) !important;
+  text-transform: uppercase !important;
+  letter-spacing: 1.5px !important;
+  font-weight: 400 !important;
+}
+
+/* ЖИРНЫЕ ЦЕНЫ И КНОПКИ */
+.price,
+.add-btn,
+.order-form button,
+.cart-total .value {
+  font-weight: 700 !important;
+  letter-spacing: 0.8px !important;
+}
+
+/* ОСНОВНОЙ ТЕКСТ */
+body, input, button, textarea, select, label, p, a, span {
+  font-family: var(--font-body) !important;
+  font-weight: 500 !important;
 }
 
 html, body { 
   height: 100%; 
   margin: 0;
-  font-family: 'Lato', sans-serif;
   background: var(--bg-dark);
   color: var(--text-light);
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
@@ -44,9 +95,7 @@ html, body {
 .top-bar {
   background: var(--bg-dark);
   color: var(--text-light);
-  font-family: 'Playfair Display', serif;
   font-size: 1rem;
-  font-weight: 400;
   padding: 6px 20px;
   margin-top: 20px;
   margin-bottom: 20px;
@@ -58,11 +107,7 @@ html, body {
   justify-content: space-between;
   align-items: center;
 }
-.top-bar span {
-  color: var(--text-light);
-  font-size: 1.2rem;
-}
-.top-bar a {
+.top-bar span, .top-bar a {
   color: var(--text-light);
   font-size: 1.2rem;
   text-decoration: none;
@@ -80,51 +125,36 @@ header {
   padding-left: 20px;
   padding-right: 20px;
 }
-.header-left {
-  display: flex;
-  align-items: center;
-  gap: 24px;
-  position: relative;
-}
-.header-center {
-  flex: 1;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.header-right {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-}
+.header-left { display: flex; align-items: center; gap: 24px; position: relative; }
+.header-center { flex: 1; display: flex; align-items: center; justify-content: center; }
+.header-right { display: flex; align-items: center; gap: 12px; }
+
 .header-title {
-  font-family: 'Playfair Display', serif;
   font-size: 2.8rem;
-  font-weight: 700;
   color: var(--beige-white);
   margin: 0;
   text-align: center;
   letter-spacing: 1px;
 }
+
 .lang-selector {
   position: relative;
   display: inline-flex;
   align-items: center;
   gap: 10px;
 }
-.lang-selector .lang-btn {
+.lang-btn {
   padding: 8px 16px;
   border-radius: var(--radius);
   border: 1px solid var(--beige-white);
   background: transparent;
   color: var(--text-light);
   font-size: 14px;
-  font-weight: 600;
   cursor: pointer;
-  transition: background 0.3s ease, border-color 0.3s ease, color 0.3s ease;
+  transition: all 0.3s ease;
   white-space: nowrap;
 }
-.lang-selector .lang-btn:hover {
+.lang-btn:hover {
   background: var(--beige-white);
   color: var(--text-dark);
 }
@@ -135,16 +165,13 @@ header {
   right: 0;
   background: var(--card-dark);
   border-radius: var(--radius);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
   min-width: 120px;
   z-index: 100;
   padding: 8px 0;
 }
-.lang-selector:hover .lang-dropdown {
-  display: block;
-}
+.lang-selector:hover .lang-dropdown { display: block; }
 .lang-dropdown button {
-  display: block;
   width: 100%;
   padding: 8px 20px;
   background: var(--card-dark);
@@ -153,7 +180,6 @@ header {
   font-size: 14px;
   text-align: left;
   cursor: pointer;
-  transition: background 0.3s ease, color 0.3s ease;
 }
 .lang-dropdown button:hover {
   background: var(--card-light);
@@ -176,17 +202,10 @@ header {
   margin: 4px 0;
   border-radius: 1.5px;
   transition: all 0.3s ease;
-  transform-origin: center;
 }
-.hamburger.active span:nth-child(1) {
-  transform: rotate(45deg) translate(8px, 8px);
-}
-.hamburger.active span:nth-child(2) {
-  opacity: 0;
-}
-.hamburger.active span:nth-child(3) {
-  transform: rotate(-45deg) translate(8px, -8px);
-}
+.hamburger.active span:nth-child(1) { transform: rotate(45deg) translate(8px, 8px); }
+.hamburger.active span:nth-child(2) { opacity: 0; }
+.hamburger.active span:nth-child(3) { transform: rotate(-45deg) translate(8px, -8px); }
 
 .dropdown-menu {
   display: none;
@@ -195,27 +214,21 @@ header {
   left: 0;
   background: var(--card-dark);
   border-radius: var(--radius);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
   min-width: 240px;
   z-index: 100;
   padding: 8px 0;
 }
-.dropdown-menu.active {
-  display: block;
-}
+.dropdown-menu.active { display: block; }
 .dropdown-menu button {
-  display: block;
   width: 100%;
   padding: 12px 20px;
   background: none;
   border: none;
   color: var(--text-light);
-  font-family: 'Lato', sans-serif;
   font-size: 16px;
-  font-weight: 700;
   text-align: left;
   cursor: pointer;
-  transition: background 0.3s ease, color 0.3s ease;
 }
 .dropdown-menu button:hover {
   background: var(--card-light);
@@ -226,9 +239,7 @@ header {
   padding: 20px;
   border-top: 1px solid var(--beige-white);
 }
-.dropdown-content.active {
-  display: block;
-}
+.dropdown-content.active { display: block; }
 .dropdown-content p {
   margin: 0 0 10px;
   font-size: 14px;
@@ -261,18 +272,18 @@ header {
   color: var(--text-light);
   border-radius: var(--radius);
   padding: 16px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.3);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
+  transition: all 0.3s ease;
   min-height: 380px;
   cursor: pointer;
   position: relative;
 }
 .product-card:hover {
   transform: translateY(-4px);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.5);
   background: var(--card-light);
 }
 .product-card img {
@@ -280,23 +291,14 @@ header {
   aspect-ratio: 2 / 3;
   object-fit: cover;
   border-radius: var(--radius);
-  margin: 0;
-  padding: 0;
-  background: var(--card-dark);
 }
 .product-card h3 {
   margin: 8px 0;
-  font-family: 'Playfair Display', serif;
   font-size: 1.1rem;
-  font-weight: 700;
   text-align: center;
-  letter-spacing: 0.3px;
   color: var(--beige-white);
 }
 .product-card .price {
-  font-family: 'Lato', sans-serif;
-  font-weight: 600;
-  color: var(--text-light);
   font-size: 1rem;
   margin-bottom: 16px;
   text-align: center;
@@ -309,13 +311,11 @@ header {
   border: 1px solid var(--beige-white);
   color: var(--beige-white);
   border-radius: var(--radius);
-  font-family: 'Lato', sans-serif;
-  font-weight: 600;
   font-size: 0.95rem;
   cursor: pointer;
   text-align: center;
-  text-decoration: none;
-  transition: background 0.3s ease, color 0.3s ease;
+  text-decoration: none !important;
+  transition: all 0.3s ease;
 }
 .product-card .add-btn:hover {
   background: var(--beige-white);
@@ -326,13 +326,11 @@ header {
   background: var(--card-dark);
   border-radius: var(--radius);
   padding: 24px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.3);
   color: var(--text-light);
 }
 .section-title {
-  font-family: 'Playfair Display', serif;
   font-size: 1.4rem;
-  font-weight: 700;
   color: var(--beige-white);
   margin: 0 0 16px 0;
 }
@@ -352,8 +350,6 @@ header {
   vertical-align: middle;
 }
 .simpleCart_items th { 
-  font-weight: 700; 
-  color: var(--beige-white); 
   background: rgba(230, 126, 34, 0.1);
 }
 .simpleCart_items tr:hover {
@@ -382,7 +378,6 @@ header {
   color: var(--beige-white);
   font-size: 16px;
   cursor: pointer;
-  transition: background 0.3s ease, color 0.3s ease;
 }
 .quantity-controls button:hover {
   background: var(--beige-white);
@@ -401,17 +396,14 @@ header {
 
 .empty-cart-btn,
 .simpleCart_items .simpleCart_remove {
-  display: inline-block;
   color: var(--beige-white);
   background: transparent;
   border: 1px solid var(--beige-white);
   padding: 8px 12px;
   border-radius: var(--radius);
-  font-weight: 600;
   font-size: 14px;
   text-decoration: none;
   cursor: pointer;
-  transition: background 0.3s ease, color 0.3s ease;
 }
 .empty-cart-btn:hover,
 .simpleCart_items .simpleCart_remove:hover {
@@ -421,25 +413,13 @@ header {
 
 .cart-total {
   margin-top: 12px;
-  font-weight: 600;
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 12px;
   font-size: 1rem;
 }
-.cart-total .label { 
-  color: var(--text-light);
-  font-weight: 600; 
-}
-.cart-total .value { 
-  color: var(--text-light); 
-  font-size: 1rem; 
-}
 
-#locker-field { 
-  margin-top: 10px;
-}
 #locker-field select {
   width: 100%;
   padding: 10px;
@@ -474,23 +454,18 @@ header {
   resize: vertical; 
 }
 .order-form button {
-  display: block;
   width: 100%;
   padding: 10px 20px;
   background: var(--beige-white);
   border: 1px solid var(--beige-white);
   color: var(--text-dark);
   border-radius: var(--radius);
-  font-family: 'Lato', sans-serif;
-  font-weight: 600;
   font-size: 14px;
   cursor: pointer;
-  transition: background 0.3s ease, color 0.3s ease, border-color 0.3s ease;
 }
 .order-form button:hover {
   background: var(--beige-dark);
   border-color: var(--beige-dark);
-  color: var(--text-dark);
 }
 
 .modal {
@@ -502,7 +477,7 @@ header {
   width: 100%;
   height: 100%;
   overflow: auto;
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0,0,0,0.7);
   padding-top: 60px;
 }
 .modal-content {
@@ -514,7 +489,7 @@ header {
   max-width: 600px;
   color: var(--text-light);
   position: relative;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.5);
 }
 .close {
   position: absolute;
@@ -525,11 +500,8 @@ header {
   font-weight: bold;
   cursor: pointer;
 }
-.close:hover {
-  color: var(--beige-white);
-}
+.close:hover { color: var(--beige-white); }
 
-/* Карусель в модальном окне */
 .modal-image-container {
   position: relative;
   width: 70%;
@@ -563,21 +535,15 @@ header {
   align-items: center;
   justify-content: center;
   z-index: 2;
-  transition: background 0.3s ease;
 }
 .carousel-arrow:hover {
   background: var(--beige-white);
   color: var(--text-dark);
 }
-.carousel-arrow.left {
-  left: 10px;
-}
-.carousel-arrow.right {
-  right: 10px;
-}
+.carousel-arrow.left { left: 10px; }
+.carousel-arrow.right { right: 10px; }
 
 .modal h3 {
-  font-family: 'Playfair Display', serif;
   font-size: 1.2rem;
   margin: 0 0 12px 0;
   text-align: center;
@@ -590,9 +556,6 @@ header {
   text-align: center;
 }
 .modal .price {
-  font-family: 'Lato', sans-serif;
-  font-weight: 600;
-  color: var(--text-light);
   font-size: 1rem;
   margin-bottom: 16px;
   text-align: center;
@@ -605,17 +568,14 @@ header {
   border: 1px solid var(--beige-white);
   color: var(--text-dark);
   border-radius: var(--radius);
-  font-family: 'Lato', sans-serif;
-  font-weight: 600;
   font-size: 0.95rem;
   cursor: pointer;
   text-align: center;
-  text-decoration: none;
-  transition: background 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+  text-decoration: none !important;
+  transition: all 0.3s ease;
 }
 .modal .add-btn:hover {
   background: var(--beige-dark);
-  color: var(--text-dark);
 }
 
 .size-selector {
@@ -632,9 +592,7 @@ header {
   color: var(--text-light);
   border-radius: var(--radius);
   font-size: 14px;
-  font-weight: 600;
   cursor: pointer;
-  transition: background 0.3s ease, color 0.3s ease;
 }
 .size-btn:hover {
   background: var(--beige-white);
@@ -658,10 +616,6 @@ header {
   width: 32px;
   height: 32px;
   fill: #FFFFFF;
-  transition: fill 0.3s ease;
-}
-.cart-icon:hover svg {
-  fill: #FFFFFF;
 }
 .cart-icon .cart-count {
   position: absolute;
@@ -672,11 +626,11 @@ header {
   border-radius: 50%;
   width: 20px;
   height: 20px;
+  font-size: 12px;
+  font-weight: 600;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 12px;
-  font-weight: 600;
 }
 
 .cart-modal .modal-content {
@@ -695,9 +649,7 @@ header {
   color: var(--beige-white);
 }
 .contact-soon {
-  font-family: 'Playfair Display', serif;
   font-size: 1.2rem;
-  font-weight: 700;
   display: block;
   margin-top: 12px;
   color: var(--beige-white);
@@ -714,16 +666,14 @@ footer {
   margin: 0 auto;
   padding: 12px;
   border-radius: var(--radius);
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.3);
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 16px;
 }
 .social-media h3 {
-  font-family: 'Playfair Display', serif;
   font-size: 1.2rem;
-  font-weight: 700;
   color: var(--text-light);
   margin: 0;
 }
@@ -754,69 +704,22 @@ footer {
   .product-card img {
     max-height: 150px;
   }
-  .header-title {
-    font-size: 1.2rem;
-  }
-  .hamburger {
-    width: 28px;
-    height: 28px;
-    padding: 4px;
-  }
-  .hamburger span {
-    height: 2px;
-    margin: 2px 0;
-  }
-  .dropdown-menu { 
-    left: 12px; 
-    width: 90%;
-    max-width: 280px;
-  }
-  .modal-image-container {
-    width: 90%;
-  }
-  .carousel-arrow {
-    width: 30px;
-    height: 30px;
-    font-size: 16px;
-  }
-  .cart-icon {
-    width: 36px;
-    height: 36px;
-  }
-  .cart-icon svg {
-    width: 24px;
-    height: 24px;
-  }
-  .cart-icon .cart-count {
-    width: 16px;
-    height: 16px;
-    font-size: 10px;
-    top: -8px;
-    right: -8px;
-  }
-  .cart-modal .modal-content {
-    width: 95%;
-    max-height: 80vh;
-    overflow-y: auto;
-  }
-  .size-selector {
-    gap: 6px;
-  }
-  .size-btn {
-    padding: 6px 10px;
-    font-size: 12px;
-  }
-  #paypal-button-container {
-    max-width: 250px;
-  }
+  .header-title { font-size: 1.2rem; }
+  .hamburger { width: 28px; height: 28px; padding: 4px; }
+  .hamburger span { height: 2px; margin: 2px 0; }
+  .dropdown-menu { left: 12px; width: 90%; max-width: 280px; }
+  .modal-image-container { width: 90%; }
+  .carousel-arrow { width: 30px; height: 30px; font-size: 16px; }
+  .cart-icon { width: 36px; height: 36px; }
+  .cart-icon svg { width: 24px; height: 24px; }
+  .cart-icon .cart-count { width: 16px; height: 16px; font-size: 10px; top: -8px; right: -8px; }
+  .cart-modal .modal-content { width: 95%; max-height: 80vh; overflow-y: auto; }
+  .size-selector { gap: 6px; }
+  .size-btn { padding: 6px 10px; font-size: 12px; }
+  #paypal-button-container { max-width: 250px; }
   .simpleCart_items th,
-  .simpleCart_items td {
-    font-size: 13px;
-    padding: 8px 6px;
-  }
-  .quantity-controls input {
-    width: 40px;
-  }
+  .simpleCart_items td { font-size: 13px; padding: 8px 6px; }
+  .quantity-controls input { width: 40px; }
 }
 </style>
 </head>
@@ -869,14 +772,14 @@ footer {
     <!-- Модальное окно с каруселью -->
     <div id="product-modal" class="modal">
       <div class="modal-content">
-        <span class="close">&times;</span>
+        <span class="close">×</span>
         <div class="modal-image-container">
           <div class="modal-image-wrapper">
             <img src="" alt="" class="modal-img">
             <img src="" alt="" class="modal-img">
           </div>
-          <button class="carousel-arrow left">←</button>
-          <button class="carousel-arrow right">→</button>
+          <button class="carousel-arrow left">Left</button>
+          <button class="carousel-arrow right">Right</button>
         </div>
         <h3></h3>
         <p class="description"></p>
@@ -890,13 +793,13 @@ footer {
           <button class="size-btn" data-size="XXXL">XXXL</button>
         </div>
         <div class="price"></div>
-        <a href="javascript:;" class="add-btn">Add to Cart</a>
+        <a href="javascript:;" class="add-btn">Pievienot grozam</a>
       </div>
     </div>
 
     <div id="cart-modal" class="modal cart-modal">
       <div class="modal-content">
-        <span class="close">&times;</span>
+        <span class="close">×</span>
         <h3 class="section-title" id="cart-title">Cart</h3>
         <div class="cart-items" style="margin-top:8px;">
           <table class="simpleCart_items"></table>
@@ -956,7 +859,7 @@ footer {
 
     <div id="order-confirmation-modal" class="modal">
       <div class="modal-content">
-        <span class="close">&times;</span>
+        <span class="close">×</span>
         <h3 id="order-confirmation-title">Order Received</h3>
         <p><strong id="order-id-label">Order ID:</strong> <span id="confirmation-order-id"></span></p>
         <p><strong id="order-details-label">Order Details:</strong></p>
@@ -965,44 +868,21 @@ footer {
     </div>
   </div>
 
- <footer style="padding: 16px 20px; background: var(--card-dark); border-top: 1px solid var(--beige-white);">
-  <div style="max-width: var(--container-width); margin: 0 auto; text-align: center;">
-    <p style="
-      font-family: 'Playfair Display', serif;
-      font-size: 1.3rem;
-      font-weight: 700;
-      color: var(--text-light);
-      margin: 0 0 12px 0;
-      letter-spacing: 0.8px;
-    ">Express the Real You</p>
-    
-    <div style="display: flex; justify-content: center; align-items: center; gap: 24px; flex-wrap: wrap; font-size: 14px;">
-      <a href="tel:+37125538622" style="
-        display: flex; align-items: center; gap: 8px; 
-        color: var(--text-light); text-decoration: none; 
-        font-weight: 600; 
-        transition: opacity 0.3s ease;
-      " onmouseover="this.style.opacity='0.8'" onmouseout="this.style.opacity='1'">
-        <svg width="16" height="16" viewBox="0 0 24 24" fill="var(--beige-white)" xmlns="http://www.w3.org/2000/svg">
-          <path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.24 1.02l-2.2 2.2z"/>
-        </svg>
-        <span style="color: var(--text-light);">+371 255 386 22</span>
-      </a>
-      
-      <a href="mailto:area51@inbox.lv" style="
-        display: flex; align-items: center; gap: 8px; 
-        color: var(--text-light); text-decoration: none; 
-        font-weight: 600; 
-        transition: opacity 0.3s ease;
-      " onmouseover="this.style.opacity='0.8'" onmouseout="this.style.opacity='1'">
-        <svg width="16" height="16" viewBox="0 0 24 24" fill="var(--beige-white)" xmlns="http://www.w3.org/2000/svg">
-          <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
-        </svg>
-        <span style="color: var(--text-light);">area51@inbox.lv</span>
-      </a>
+  <footer style="padding: 16px 20px; background: var(--card-dark); border-top: 1px solid var(--beige-white);">
+    <div style="max-width: var(--container-width); margin: 0 auto; text-align: center;">
+      <p style="font-size: 1.3rem; color: var(--text-light); margin: 0 0 12px 0; letter-spacing: 0.8px;">Express the Real You</p>
+      <div style="display: flex; justify-content: center; align-items: center; gap: 24px; flex-wrap: wrap; font-size: 14px;">
+        <a href="tel:+37125538622" style="display: flex; align-items: center; gap: 8px; color: var(--text-light); text-decoration: none; font-weight: 600;">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="var(--beige-white)"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.24 1.02l-2.2 2.2z"/></svg>
+          <span>+371 255 386 22</span>
+        </a>
+        <a href="mailto:area51@inbox.lv" style="display: flex; align-items: center; gap: 8px; color: var(--text-light); text-decoration: none; font-weight: 600;">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="var(--beige-white)"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+          <span>area51@inbox.lv</span>
+        </a>
+      </div>
     </div>
-  </div>
-</footer>
+  </footer>
 
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/simplecartjs/3.0.5/simplecart.min.js"></script>
@@ -1149,7 +1029,6 @@ footer {
       $('#order-confirmation-title').text(t.orderConfirmationTitle);
       $('#order-id-label').text(t.orderIdLabel);
       $('#order-details-label').text(t.orderDetailsLabel);
-      $('#social-media-title').text(t.socialMedia);
       $('#product-modal .add-btn').text(t.addToCart);
 
       ['contacts', 'details', 'payment'].forEach(id => {
@@ -1392,7 +1271,3 @@ footer {
   </script>
 </body>
 </html>
-
-
-
-
