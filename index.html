@@ -680,8 +680,6 @@ footer {
   .header-title { font-size: 1.2rem; }
   .hamburger { width: 28px; height: 28px; padding: 4px; }
   .hamburger span { height: 2px; margin: 2px 0; }
-  .hamburger.active span:nth-child(1) { transform: rotate(45deg) translate(6px, 6px); }
-  .hamburger.active span:nth-child(3) { transform: rotate(-45deg) translate(6px, -6px); }
   .dropdown-menu { left: 12px; width: 90%; max-width: 280px; }
   .modal-image-container { width: 90%; }
   .carousel-arrow { width: 30px; height: 30px; font-size: 16px; }
@@ -695,14 +693,6 @@ footer {
   .simpleCart_items th,
   .simpleCart_items td { font-size: 13px; padding: 8px 6px; }
   .quantity-controls input { width: 36px; }
-  .modal { padding-top: 20px; }
-  .order-form button {
-    position: sticky;
-    bottom: 0;
-    z-index: 10;
-    background: var(--beige-white);
-    margin-top: 12px;
-  }
 }
 </style>
 </head>
@@ -1017,7 +1007,7 @@ footer {
               <div class="price"><span class="item_price">${p.price}</span> EUR</div>
             </div>
             <div style="margin-top:12px;">
-              <a href="javascript:;" class="add-btn item_add">${t.addToCart}</a>
+              <button class="add-btn">${t.addToCart}</button>
             </div>
           </div>
         `);
@@ -1262,4 +1252,3 @@ footer {
   </script>
 </body>
 </html>
-
