@@ -4,7 +4,6 @@
   <meta charset="UTF-8" />
   <title>Hammer — Shop / Cart</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <!-- ШРИФТЫ: Bebas Neue (заголовки) + Montserrat (текст) -->
   <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
   <script src="https://www.paypal.com/sdk/js?client-id=AZ6a4Z6z2mH6zV0z0k3z3Q1zX1zY1zZ1zZ1zZ1zZ1zZ1zZ1zZ1zZ1zZ1zZ1&currency=EUR"></script>
   <style>
@@ -21,17 +20,14 @@
   --beige-dark: #d35400;
   --radius: 8px;
   --container-width: 1280px;
-  /* ШРИФТЫ */
   --font-heading: 'Bebas Neue', sans-serif;
   --font-body: 'Montserrat', sans-serif;
 }
-/* ГЛОБАЛЬНЫЕ ШРИФТЫ */
 *, *::before, *::after {
   font-family: var(--font-body) !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-/* ЗАГОЛОВКИ — БРУТАЛЬНЫЙ СТИЛЬ */
 .header-title,
 .section-title,
 .product-card h3,
@@ -55,7 +51,6 @@
   letter-spacing: 1.5px !important;
   font-weight: 400 !important;
 }
-/* ЖИРНЫЕ ЦЕНЫ И КНОПКИ */
 .price,
 .add-btn,
 .order-form button,
@@ -63,7 +58,6 @@
   font-weight: 700 !important;
   letter-spacing: 0.8px !important;
 }
-/* ОСНОВНОЙ ТЕКСТ */
 body, input, button, textarea, select, label, p, a, span {
   font-family: var(--font-body) !important;
   font-weight: 500 !important;
@@ -317,7 +311,6 @@ header {
   color: var(--beige-white);
   margin: 0 0 16px 0;
 }
-/* ТАБЛИЦА КОРЗИНЫ — КАК В ПЕРВОМ ПРИМЕРЕ */
 .simpleCart_items table {
   width: 100%;
   border-collapse: collapse;
@@ -741,7 +734,6 @@ footer {
       </div>
       <div class="products-list" id="products-list"></div>
     </main>
-    <!-- Модальное окно с каруселью -->
     <div id="product-modal" class="modal">
       <div class="modal-content">
         <span class="close">×</span>
@@ -1007,7 +999,7 @@ footer {
               <div class="price"><span class="item_price">${p.price}</span> EUR</div>
             </div>
             <div style="margin-top:12px;">
-              <button class="add-btn">${t.addToCart}</button>
+              <a href="javascript:;" class="add-btn">${t.addToCart}</a>
             </div>
           </div>
         `);
@@ -1042,7 +1034,6 @@ footer {
           $('.lang-dropdown').hide();
         }
       });
-      // ТАБЛИЧНАЯ КОРЗИНА — КАК В ПЕРВОМ ПРИМЕРЕ
       simpleCart({
         cartStyle: "table",
         currency: "EUR",
