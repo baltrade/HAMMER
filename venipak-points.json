@@ -1,0 +1,2815 @@
+[
+    {
+        "id": "1",
+        "country": "LV",
+        "city": "Ādaži",
+        "address": "Rīgas gatve 51",
+        "pickup_point": "Venipak locker, ELVI Venipak pakomāts",
+        "postal_code": "2164"
+    },
+    {
+        "id": "2",
+        "country": "LV",
+        "city": "Ādaži",
+        "address": "Rīgas gatve 5",
+        "pickup_point": "Venipak locker, TC Apelsīns Venipak pakomāts",
+        "postal_code": "2164"
+    },
+    {
+        "id": "3",
+        "country": "LV",
+        "city": "Ādaži",
+        "address": "Gaujas iela 20",
+        "pickup_point": "Venipak locker, TOP Venipak pakomāts",
+        "postal_code": "2164"
+    },
+    {
+        "id": "4",
+        "country": "LV",
+        "city": "Ādaži",
+        "address": "Rīgas gatve 5",
+        "pickup_point": "Venipak Pickup, TC Apelsīns DROGAS",
+        "postal_code": "2164"
+    },
+    {
+        "id": "5",
+        "country": "LV",
+        "city": "Aglona",
+        "address": "Somersētas iela 11a",
+        "pickup_point": "Venipak Pickup, Virši DUS Aglona",
+        "postal_code": "5304"
+    },
+    {
+        "id": "6",
+        "country": "LV",
+        "city": "Aizkraukle",
+        "address": "Gaismas iela 35",
+        "pickup_point": "Venipak locker, TOP Venipak pakomāts",
+        "postal_code": "5101"
+    },
+    {
+        "id": "7",
+        "country": "LV",
+        "city": "Aizkraukle",
+        "address": "Lāčplēša iela 7",
+        "pickup_point": "Venipak locker, TOP Venipak pakomāts",
+        "postal_code": "5101"
+    },
+    {
+        "id": "8",
+        "country": "LV",
+        "city": "Aizkraukle",
+        "address": "Gaismas iela 35",
+        "pickup_point": "Venipak Pickup, TC IGA centrs DROGAS",
+        "postal_code": "5101"
+    },
+    {
+        "id": "9",
+        "country": "LV",
+        "city": "Aizpute",
+        "address": "Kalvenes iela 11",
+        "pickup_point": "Venipak locker, MAXIMA Venipak pakomāts",
+        "postal_code": "3456"
+    },
+    {
+        "id": "10",
+        "country": "LV",
+        "city": "Aknīste",
+        "address": "Augšzemes iela 17",
+        "pickup_point": "Venipak locker, TOP Venipak pakomāts",
+        "postal_code": "5208"
+    },
+    {
+        "id": "11",
+        "country": "LV",
+        "city": "Alūksne",
+        "address": "Pils iela 38A",
+        "pickup_point": "Venipak locker, Alūksnes TOP Venipak pakomāts",
+        "postal_code": "4301"
+    },
+    {
+        "id": "12",
+        "country": "LV",
+        "city": "Alūksne",
+        "address": "Latgales iela 3b",
+        "pickup_point": "Venipak locker, Mājai un Dārzam Venipak pakomāts",
+        "postal_code": "4301"
+    },
+    {
+        "id": "13",
+        "country": "LV",
+        "city": "Alūksne",
+        "address": "Pils iela 9b",
+        "pickup_point": "Venipak Pickup, DROGAS",
+        "postal_code": "4301"
+    },
+    {
+        "id": "14",
+        "country": "LV",
+        "city": "Amatnieki",
+        "address": "Prauliņi, Amatnieki, Garkalnes pag., Ropažu nov",
+        "pickup_point": "Venipak Pickup, Virši DUS Jugla",
+        "postal_code": "2137"
+    },
+    {
+        "id": "15",
+        "country": "LV",
+        "city": "Auce",
+        "address": "Baznīcas iela 1",
+        "pickup_point": "Venipak locker, TOP Venipak pakomāts",
+        "postal_code": "3708"
+    },
+    {
+        "id": "16",
+        "country": "LV",
+        "city": "Babīte",
+        "address": "Liepu aleja 15A",
+        "pickup_point": "Venipak locker, ELVI Venipak pakomāts",
+        "postal_code": "2101"
+    },
+    {
+        "id": "17",
+        "country": "LV",
+        "city": "Baldone",
+        "address": "Rīgas iela 79 k-1",
+        "pickup_point": "Venipak locker, MEGO Venipak pakomāts",
+        "postal_code": "2125"
+    },
+    {
+        "id": "18",
+        "country": "LV",
+        "city": "Baloži",
+        "address": "Rīgas iela 14",
+        "pickup_point": "Venipak locker, MEGO Venipak pakomāts",
+        "postal_code": "2112"
+    },
+    {
+        "id": "19",
+        "country": "LV",
+        "city": "Baloži",
+        "address": "Cerības, Krustkalni, Ķekavas pag., Ķekavas nov.",
+        "pickup_point": "Venipak Pickup, Virši DUS Baloži",
+        "postal_code": "2111"
+    },
+    {
+        "id": "20",
+        "country": "LV",
+        "city": "Balvi",
+        "address": "Partizānu iela 6",
+        "pickup_point": "Venipak locker, TOP Venipak pakomāts",
+        "postal_code": "4501"
+    },
+    {
+        "id": "21",
+        "country": "LV",
+        "city": "Balvi",
+        "address": "Krasta iela 3, Balvi",
+        "pickup_point": "Venipak Pickup, Virši DUS Balvi",
+        "postal_code": "4501"
+    },
+    {
+        "id": "22",
+        "country": "LV",
+        "city": "Bauska",
+        "address": "Zaļā iela 3",
+        "pickup_point": "Venipak locker, RIMI Venipak pakomāts",
+        "postal_code": "3901"
+    },
+    {
+        "id": "23",
+        "country": "LV",
+        "city": "Bauska",
+        "address": "Pionieru iela 2",
+        "pickup_point": "Venipak locker, RIMI Venipak pakomāts",
+        "postal_code": "3901"
+    },
+    {
+        "id": "24",
+        "country": "LV",
+        "city": "Bauska",
+        "address": "Pionieru iela 2",
+        "pickup_point": "Venipak Pickup, DROGAS",
+        "postal_code": "3901"
+    },
+    {
+        "id": "25",
+        "country": "LV",
+        "city": "Brocēni",
+        "address": "Lielcieceres iela 2a",
+        "pickup_point": "Venipak locker, Citro Venipak pakomāts",
+        "postal_code": "3851"
+    },
+    {
+        "id": "26",
+        "country": "LV",
+        "city": "Brocēni",
+        "address": "Liepnieku iela 1",
+        "pickup_point": "Venipak Pickup, Virši DUS Brocēni",
+        "postal_code": "3851"
+    },
+    {
+        "id": "27",
+        "country": "LV",
+        "city": "Cēsis",
+        "address": "Gaujas iela 29",
+        "pickup_point": "Venipak locker, TOP Venipak pakomāts",
+        "postal_code": "4101"
+    },
+    {
+        "id": "28",
+        "country": "LV",
+        "city": "Cēsis",
+        "address": "Leona Paegles iela 5",
+        "pickup_point": "Venipak locker, TOP Venipak pakomāts",
+        "postal_code": "4101"
+    },
+    {
+        "id": "29",
+        "country": "LV",
+        "city": "Cēsis",
+        "address": "Valmieras iela 27",
+        "pickup_point": "Venipak locker, TOP Venipak pakomāts",
+        "postal_code": "4101"
+    },
+    {
+        "id": "30",
+        "country": "LV",
+        "city": "Cēsis",
+        "address": "Uzvaras bulvāris 3",
+        "pickup_point": "Venipak Pickup, DROGAS",
+        "postal_code": "4101"
+    },
+    {
+        "id": "31",
+        "country": "LV",
+        "city": "Cēsis",
+        "address": "Raiņa iela 26/28",
+        "pickup_point": "Venipak Pickup, TC Globuss DROGAS",
+        "postal_code": "4101"
+    },
+    {
+        "id": "32",
+        "country": "LV",
+        "city": "Cēsis",
+        "address": "Piebalgas 99A, Vaives pag., Cēsu nov.",
+        "pickup_point": "Venipak Pickup, Virši DUS Cēsis Saulrīti",
+        "postal_code": "4136"
+    },
+    {
+        "id": "33",
+        "country": "LV",
+        "city": "Cēsis",
+        "address": "Katrīnkalns 1 Drabešu pag, Cēsu nov",
+        "pickup_point": "Venipak Pickup, Virši DUS Žagarkalns",
+        "postal_code": "4101"
+    },
+    {
+        "id": "34",
+        "country": "LV",
+        "city": "Cesvaine",
+        "address": "Augusta Saulieša iela 2",
+        "pickup_point": "Venipak locker, TOP Venipak pakomāts",
+        "postal_code": "4871"
+    },
+    {
+        "id": "35",
+        "country": "LV",
+        "city": "Dagda",
+        "address": "Daugavpils iela 6",
+        "pickup_point": "Venipak locker, TOP Venipak pakomāts",
+        "postal_code": "5674"
+    },
+    {
+        "id": "36",
+        "country": "LV",
+        "city": "Daugavpils",
+        "address": "Lielā iela 44",
+        "pickup_point": "Venipak locker, Labais Venipak pakomāts",
+        "postal_code": "5418"
+    },
+    {
+        "id": "37",
+        "country": "LV",
+        "city": "Daugavpils",
+        "address": "Arhitektu iela 3",
+        "pickup_point": "Venipak locker, MAXIMA Venipak pakomāts",
+        "postal_code": "5410"
+    },
+    {
+        "id": "38",
+        "country": "LV",
+        "city": "Daugavpils",
+        "address": "Viestura iela 60",
+        "pickup_point": "Venipak locker, MEGO Venipak pakomāts",
+        "postal_code": "5401"
+    },
+    {
+        "id": "39",
+        "country": "LV",
+        "city": "Daugavpils",
+        "address": "Raipoles iela 11a",
+        "pickup_point": "Venipak locker, TC Aveņu Centrs Venipak pakomāts",
+        "postal_code": "5422"
+    },
+    {
+        "id": "40",
+        "country": "LV",
+        "city": "Daugavpils",
+        "address": "Malu iela 5",
+        "pickup_point": "Venipak locker, TOP Venipak pakomāts",
+        "postal_code": "5401"
+    },
+    {
+        "id": "41",
+        "country": "LV",
+        "city": "Daugavpils",
+        "address": "18. novembra iela 372",
+        "pickup_point": "Venipak locker, TOP Venipak pakomāts",
+        "postal_code": "5413"
+    },
+    {
+        "id": "42",
+        "country": "LV",
+        "city": "Daugavpils",
+        "address": "Nometņu iela 9/11",
+        "pickup_point": "Venipak locker, TOP Venipak pakomāts",
+        "postal_code": "5401"
+    },
+    {
+        "id": "43",
+        "country": "LV",
+        "city": "Daugavpils",
+        "address": "Arodu iela 21",
+        "pickup_point": "Venipak locker, TOP Venipak pakomāts",
+        "postal_code": "5404"
+    },
+    {
+        "id": "44",
+        "country": "LV",
+        "city": "Daugavpils",
+        "address": "Smilšu iela 92B",
+        "pickup_point": "Venipak Pickup, DROGAS",
+        "postal_code": "5410"
+    },
+    {
+        "id": "45",
+        "country": "LV",
+        "city": "Daugavpils",
+        "address": "Raipoles iela 11",
+        "pickup_point": "Venipak Pickup, TC Aveņu centrs DROGAS",
+        "postal_code": "5422"
+    },
+    {
+        "id": "46",
+        "country": "LV",
+        "city": "Daugavpils",
+        "address": "Rīgas iela 9",
+        "pickup_point": "Venipak Pickup, TC Solo DROGAS",
+        "postal_code": "5401"
+    },
+    {
+        "id": "47",
+        "country": "LV",
+        "city": "Daugavpils",
+        "address": "Stiklu iela 16",
+        "pickup_point": "Venipak Pickup, Venipak Daugavpils term.",
+        "postal_code": "5404"
+    },
+    {
+        "id": "48",
+        "country": "LV",
+        "city": "Dobele",
+        "address": "Brīvības iela 30",
+        "pickup_point": "Venipak locker, RIMI Venipak pakomāts",
+        "postal_code": "3701"
+    },
+    {
+        "id": "49",
+        "country": "LV",
+        "city": "Dobele",
+        "address": "Muldavas iela 3A",
+        "pickup_point": "Venipak locker, TOP Venipak pakomāts",
+        "postal_code": "3701"
+    },
+    {
+        "id": "50",
+        "country": "LV",
+        "city": "Dobele",
+        "address": "Krasta iela 7",
+        "pickup_point": "Venipak locker, TOP Venipak pakomāts",
+        "postal_code": "3701"
+    },
+    {
+        "id": "51",
+        "country": "LV",
+        "city": "Dobele",
+        "address": "Baznīcas iela 14",
+        "pickup_point": "Venipak Pickup, DROGAS",
+        "postal_code": "3701"
+    },
+    {
+        "id": "52",
+        "country": "LV",
+        "city": "Dreiliņi",
+        "address": "Biķeru iela 4",
+        "pickup_point": "Venipak Pickup, TC Sāga DROGAS",
+        "postal_code": "2130"
+    },
+    {
+        "id": "53",
+        "country": "LV",
+        "city": "Dundaga",
+        "address": "Talsu iela 1",
+        "pickup_point": "Venipak locker, Citro Venipak pakomāts",
+        "postal_code": "3270"
+    },
+    {
+        "id": "54",
+        "country": "LV",
+        "city": "Dzelmes",
+        "address": "Dzelmeskrasti, Dzelmes, Jumpravas pag., Ogres no",
+        "pickup_point": "Venipak Pickup, Virši DUS Dzelmes",
+        "postal_code": "5022"
+    },
+    {
+        "id": "55",
+        "country": "LV",
+        "city": "Ēdole",
+        "address": "Dārza iela 7",
+        "pickup_point": "Venipak PickupVirši DUS Ēdole",
+        "postal_code": "3310"
+    },
+    {
+        "id": "56",
+        "country": "LV",
+        "city": "Eleja",
+        "address": "Lietuvas iela 44",
+        "pickup_point": "Venipak locker, TOP Venipak pakomāts",
+        "postal_code": "3023"
+    },
+    {
+        "id": "57",
+        "country": "LV",
+        "city": "Engure",
+        "address": "Jūras iela 81",
+        "pickup_point": "Venipak locker, Citro Venipak pakomāts",
+        "postal_code": "3113"
+    },
+    {
+        "id": "58",
+        "country": "LV",
+        "city": "Ērgļi",
+        "address": "Rīgas iela 26",
+        "pickup_point": "Venipak locker, Ziedu veikala Venipak pakomāts",
+        "postal_code": "4840"
+    },
+    {
+        "id": "59",
+        "country": "LV",
+        "city": "Garkalne",
+        "address": "Vidzemes šoseja 1B",
+        "pickup_point": "Venipak locker, AIBE Venipak pakomāts",
+        "postal_code": "2137"
+    },
+    {
+        "id": "60",
+        "country": "LV",
+        "city": "Gauja",
+        "address": "Inčukalna pag., Siguldas nov.",
+        "pickup_point": "Venipak Pickup, Virši DUS Asni",
+        "postal_code": "2140"
+    },
+    {
+        "id": "61",
+        "country": "LV",
+        "city": "Grenctāle",
+        "address": "DUS Grenctāle, Brunavas pag., Bauskas nov",
+        "pickup_point": "Venipak Pickup, Virši DUS Grenctāle",
+        "postal_code": "3907"
+    },
+    {
+        "id": "62",
+        "country": "LV",
+        "city": "Grobiņa",
+        "address": "Lielā iela 74",
+        "pickup_point": "Venipak locker, TOP Venipak pakomāts",
+        "postal_code": "3430"
+    },
+    {
+        "id": "63",
+        "country": "LV",
+        "city": "Gulbene",
+        "address": "Skolas iela 7",
+        "pickup_point": "Venipak locker, MAXIMA Venipak pakomāts",
+        "postal_code": "4401"
+    },
+    {
+        "id": "64",
+        "country": "LV",
+        "city": "Gulbenē",
+        "address": "Blaumaņa iela 24",
+        "pickup_point": "Venipak locker, RIMI Venipak pakomāts",
+        "postal_code": "4401"
+    },
+    {
+        "id": "65",
+        "country": "LV",
+        "city": "Gulbene",
+        "address": "Rīgas iela 46a",
+        "pickup_point": "Venipak Pickup, DROGAS",
+        "postal_code": "4401"
+    },
+    {
+        "id": "66",
+        "country": "LV",
+        "city": "Iecava",
+        "address": "Rīgas iela 27",
+        "pickup_point": "Venipak locker, MAXIMA Venipak pakomāts",
+        "postal_code": "3913"
+    },
+    {
+        "id": "67",
+        "country": "LV",
+        "city": "Iecava",
+        "address": "Edvarta Virzas iela 2",
+        "pickup_point": "Venipak locker, TOP Venipak pakomāts",
+        "postal_code": "3913"
+    },
+    {
+        "id": "68",
+        "country": "LV",
+        "city": "Ikšķile",
+        "address": "Skolas iela 4A",
+        "pickup_point": "Venipak locker, MAXIMA Venipak pakomāts",
+        "postal_code": "5052"
+    },
+    {
+        "id": "69",
+        "country": "LV",
+        "city": "Ilūkste",
+        "address": "Stadiona iela 9",
+        "pickup_point": "Venipak locker, TOP Venipak pakomāts",
+        "postal_code": "5447"
+    },
+    {
+        "id": "70",
+        "country": "LV",
+        "city": "Inčukalns",
+        "address": "Atmodas iela 6",
+        "pickup_point": "Venipak locker, AIBE Venipak pakomāts",
+        "postal_code": "2141"
+    },
+    {
+        "id": "71",
+        "country": "LV",
+        "city": "Jaunjelgava",
+        "address": "Jelgavas iela 44",
+        "pickup_point": "Venipak locker, TOP Venipak pakomāts",
+        "postal_code": "5134"
+    },
+    {
+        "id": "72",
+        "country": "LV",
+        "city": "Jaunmārupe",
+        "address": "Mazcenu aleja 33/1",
+        "pickup_point": "Venipak locker, Mazcenu alejas Venipak pakomāts",
+        "postal_code": "2166"
+    },
+    {
+        "id": "73",
+        "country": "LV",
+        "city": "Jaunolaine",
+        "address": "Baznīcas iela 10",
+        "pickup_point": "Venipak locker, TOP Venipak pakomāts",
+        "postal_code": "2127"
+    },
+    {
+        "id": "74",
+        "country": "LV",
+        "city": "Jēkabpils",
+        "address": "Celtnieku iela 1",
+        "pickup_point": "Venipak locker, LaTS Venipak pakomāts",
+        "postal_code": "5201"
+    },
+    {
+        "id": "75",
+        "country": "LV",
+        "city": "Jēkabpils",
+        "address": "Nākotnes iela 2",
+        "pickup_point": "Venipak locker, TC AURA Venipak pakomāts",
+        "postal_code": "5201"
+    },
+    {
+        "id": "76",
+        "country": "LV",
+        "city": "Jēkabpils",
+        "address": "Pils Rajons 58",
+        "pickup_point": "Venipak locker, TOP Venipak pakomāts",
+        "postal_code": "5202"
+    },
+    {
+        "id": "77",
+        "country": "LV",
+        "city": "Jēkabpils",
+        "address": "Draudzības aleja 19",
+        "pickup_point": "Venipak locker, TOP Venipak pakomāts",
+        "postal_code": "5201"
+    },
+    {
+        "id": "78",
+        "country": "LV",
+        "city": "Jēkabpils",
+        "address": "Pasta iela 10",
+        "pickup_point": "Venipak Pickup, DROGAS",
+        "postal_code": "5201"
+    },
+    {
+        "id": "79",
+        "country": "LV",
+        "city": "Jēkabpils",
+        "address": "Vienības iela 7",
+        "pickup_point": "Venipak Pickup, TC Sēlija DROGAS",
+        "postal_code": "5201"
+    },
+    {
+        "id": "80",
+        "country": "LV",
+        "city": "Jēkabpils",
+        "address": "Jāņa Akurātera iela 13",
+        "pickup_point": "Venipak Pickup, Virši DUS Jēkabpils",
+        "postal_code": "5201"
+    },
+    {
+        "id": "81",
+        "country": "LV",
+        "city": "Jēkabpils",
+        "address": "Varoņu iela 10",
+        "pickup_point": "Venipak Pickup, Virši DUS Krustpils",
+        "postal_code": "5202"
+    },
+    {
+        "id": "82",
+        "country": "LV",
+        "city": "Jelgava",
+        "address": "Rūpniecības iela 77a",
+        "pickup_point": "Venipak locker, ELVI Venipak pakomāts",
+        "postal_code": "3008"
+    },
+    {
+        "id": "83",
+        "country": "LV",
+        "city": "Jelgava",
+        "address": "Meiju ceļš 10",
+        "pickup_point": "Venipak locker, MAXIMA Venipak pakomāts",
+        "postal_code": "3001"
+    },
+    {
+        "id": "84",
+        "country": "LV",
+        "city": "Jelgava",
+        "address": "Satiksmes iela 35",
+        "pickup_point": "Venipak locker, RIMI Venipak pakomāts",
+        "postal_code": "3007"
+    },
+    {
+        "id": "85",
+        "country": "LV",
+        "city": "Jelgava",
+        "address": "Rīgas iela 48",
+        "pickup_point": "Venipak locker, TC RAF Centrs Venipak pakomāts",
+        "postal_code": "3004"
+    },
+    {
+        "id": "86",
+        "country": "LV",
+        "city": "Jelgava",
+        "address": "Rīgas iela 11A",
+        "pickup_point": "Venipak locker, TC Valdeka Venipak pakomāts",
+        "postal_code": "3002"
+    },
+    {
+        "id": "87",
+        "country": "LV",
+        "city": "Jelgava",
+        "address": "Katoļu iela 18",
+        "pickup_point": "Venipak locker, TC Vivo centrs Venipak pakomāts",
+        "postal_code": "3001"
+    },
+    {
+        "id": "88",
+        "country": "LV",
+        "city": "Jelgava",
+        "address": "Rīgas iela 11a",
+        "pickup_point": "Venipak Pickup, DROGAS",
+        "postal_code": "3002"
+    },
+    {
+        "id": "89",
+        "country": "LV",
+        "city": "Jelgava",
+        "address": "Pasta iela 51/8",
+        "pickup_point": "Venipak Pickup, DROGAS",
+        "postal_code": "3001"
+    },
+    {
+        "id": "90",
+        "country": "LV",
+        "city": "Jelgava",
+        "address": "Lietuvas šoseja 70",
+        "pickup_point": "Venipak Pickup, Virši DUS Jelgava",
+        "postal_code": "3008"
+    },
+    {
+        "id": "91",
+        "country": "LV",
+        "city": "Jūrkalne",
+        "address": "Krastnieki, Jūrkalne, Jūrkalnes pag., Ventspils",
+        "pickup_point": "Venipak Pickup, Virši DUS Jūrkalne",
+        "postal_code": "3626"
+    },
+    {
+        "id": "92",
+        "country": "LV",
+        "city": "Jūrmala",
+        "address": "Talsu šoseja 29",
+        "pickup_point": "Venipak locker, Kauguru RIMI Venipak pakomāts",
+        "postal_code": "2016"
+    },
+    {
+        "id": "93",
+        "country": "LV",
+        "city": "Jūrmala",
+        "address": "Viestura iela 22",
+        "pickup_point": "Venipak locker, Lielupes RIMI Venipak pakomāts",
+        "postal_code": "2010"
+    },
+    {
+        "id": "94",
+        "country": "LV",
+        "city": "Jūrmala",
+        "address": "Ventspils šoseja 32",
+        "pickup_point": "Venipak locker, TC Liedags Venipak pakomāts",
+        "postal_code": "2011"
+    },
+    {
+        "id": "95",
+        "country": "LV",
+        "city": "Jūrmala",
+        "address": "Jomas iela 36",
+        "pickup_point": "Venipak Pickup, DROGAS",
+        "postal_code": "2015"
+    },
+    {
+        "id": "96",
+        "country": "LV",
+        "city": "Kalnciems",
+        "address": "Lielā iela 11",
+        "pickup_point": "Venipak locker, Aibe Venipak pakomāts",
+        "postal_code": "3016"
+    },
+    {
+        "id": "97",
+        "country": "LV",
+        "city": "Kandava",
+        "address": "Abavas iela 4b",
+        "pickup_point": "Venipak locker, MAXIMA Venipak pakomāts",
+        "postal_code": "3120"
+    },
+    {
+        "id": "98",
+        "country": "LV",
+        "city": "Kandava",
+        "address": "Abavas iela 4",
+        "pickup_point": "Venipak Pickup, Virši DUS Kandava",
+        "postal_code": "3120"
+    },
+    {
+        "id": "99",
+        "country": "LV",
+        "city": "Kārsava",
+        "address": "Malnavas iela 2",
+        "pickup_point": "Venipak locker, MEGO Venipak pakomāts",
+        "postal_code": "5717"
+    },
+    {
+        "id": "100",
+        "country": "LV",
+        "city": "Kārsava",
+        "address": "Passim, Malnavas pag., Ludzas nov.",
+        "pickup_point": "Venipak Pickup, Virši DUS Kārsava",
+        "postal_code": "5750"
+    },
+    {
+        "id": "101",
+        "country": "LV",
+        "city": "Kauguri",
+        "address": "Talsu šoseja 29",
+        "pickup_point": "Venipak Pickup, DROGAS",
+        "postal_code": "2016"
+    },
+    {
+        "id": "102",
+        "country": "LV",
+        "city": "Ķegums",
+        "address": "Ķeguma prospekts 5C",
+        "pickup_point": "Venipak locker, ELVI Venipak pakomāts",
+        "postal_code": "5020"
+    },
+    {
+        "id": "103",
+        "country": "LV",
+        "city": "Ķekava",
+        "address": "Rīgas iela 22A",
+        "pickup_point": "Venipak locker, TC Liiba Venipak pakomāts",
+        "postal_code": "2123"
+    },
+    {
+        "id": "104",
+        "country": "LV",
+        "city": "Ķekava",
+        "address": "Rīgas iela 22a",
+        "pickup_point": "Venipak Pickup, TC Liiba DROGAS",
+        "postal_code": "2123"
+    },
+    {
+        "id": "105",
+        "country": "LV",
+        "city": "Koknese",
+        "address": "1905. gada iela 8A",
+        "pickup_point": "Venipak locker, MAXIMA Venipak pakomāts",
+        "postal_code": "5113"
+    },
+    {
+        "id": "106",
+        "country": "LV",
+        "city": "Krāslava",
+        "address": "Rēzeknes iela 7",
+        "pickup_point": "Venipak locker, TOP Venipak pakomāts",
+        "postal_code": "5601"
+    },
+    {
+        "id": "107",
+        "country": "LV",
+        "city": "Krāslava",
+        "address": "Rīgas iela 34",
+        "pickup_point": "Venipak Pickup, DROGAS",
+        "postal_code": "5601"
+    },
+    {
+        "id": "108",
+        "country": "LV",
+        "city": "Krustkalni",
+        "address": "Džutas",
+        "pickup_point": "Venipak locker, TC A7 Venipak pakomāts",
+        "postal_code": "2111"
+    },
+    {
+        "id": "109",
+        "country": "LV",
+        "city": "Krustkalni",
+        "address": "Džutas",
+        "pickup_point": "Venipak Pickup, TC A7 DROGAS",
+        "postal_code": "2111"
+    },
+    {
+        "id": "110",
+        "country": "LV",
+        "city": "Kuldīga",
+        "address": "Stendes iela 23A",
+        "pickup_point": "Venipak locker, Citro Venipak pakomāts",
+        "postal_code": "3301"
+    },
+    {
+        "id": "111",
+        "country": "LV",
+        "city": "Kuldīga",
+        "address": "Sūru iela 2",
+        "pickup_point": "Venipak locker, RIMI Venipak pakomāts",
+        "postal_code": "3301"
+    },
+    {
+        "id": "112",
+        "country": "LV",
+        "city": "Kuldīga",
+        "address": "Liepājas iela 44",
+        "pickup_point": "Venipak Pickup, DROGAS",
+        "postal_code": "3301"
+    },
+    {
+        "id": "113",
+        "country": "LV",
+        "city": "Lapmežciems",
+        "address": "Talsu šosejas 8 km",
+        "pickup_point": "Venipak locker, Citro Venipak pakomāts",
+        "postal_code": "3118"
+    },
+    {
+        "id": "114",
+        "country": "LV",
+        "city": "Lielvārde",
+        "address": "Lāčplēša iela 14",
+        "pickup_point": "Venipak locker, MAXIMA Venipak pakomāts",
+        "postal_code": "5070"
+    },
+    {
+        "id": "115",
+        "country": "LV",
+        "city": "Liepāja",
+        "address": "Lielā iela 13",
+        "pickup_point": "Venipak locker, TC Kurzeme Venipak pakomāts",
+        "postal_code": "3401"
+    },
+    {
+        "id": "116",
+        "country": "LV",
+        "city": "Liepāja",
+        "address": "Ganību iela 167",
+        "pickup_point": "Venipak locker, MAXIMA Venipak pakomāts",
+        "postal_code": "3407"
+    },
+    {
+        "id": "117",
+        "country": "LV",
+        "city": "Liepāja",
+        "address": "Ziemeļu iela 13",
+        "pickup_point": "Venipak locker, RIMI Venipak pakomāts",
+        "postal_code": "3405"
+    },
+    {
+        "id": "118",
+        "country": "LV",
+        "city": "Liepāja",
+        "address": "Klaipēdas 104C",
+        "pickup_point": "Venipak locker, TC Baata Venipak pakomāts",
+        "postal_code": "3416"
+    },
+    {
+        "id": "119",
+        "country": "LV",
+        "city": "Liepāja",
+        "address": "Jaunā ostmala 3/5",
+        "pickup_point": "Venipak locker, TC Rietumu centrs Venipak pakomāts",
+        "postal_code": "3401"
+    },
+    {
+        "id": "120",
+        "country": "LV",
+        "city": "Liepāja",
+        "address": "Pulkveža Brieža iela 14",
+        "pickup_point": "Venipak locker, TOP Venipak pakomāts",
+        "postal_code": "3414"
+    },
+    {
+        "id": "121",
+        "country": "LV",
+        "city": "Liepāja",
+        "address": "O. Kalpaka iela 74",
+        "pickup_point": "Venipak Pickup, DROGAS",
+        "postal_code": "3405"
+    },
+    {
+        "id": "122",
+        "country": "LV",
+        "city": "Liepāja",
+        "address": "Lielā iela 12",
+        "pickup_point": "Venipak Pickup, DROGAS",
+        "postal_code": "3401"
+    },
+    {
+        "id": "123",
+        "country": "LV",
+        "city": "Liepāja",
+        "address": "Jaunā Ostmala 3/5",
+        "pickup_point": "Venipak Pickup, TC Rietumu centrs DROGAS",
+        "postal_code": "3416"
+    },
+    {
+        "id": "124",
+        "country": "LV",
+        "city": "Liepāja",
+        "address": "Klaipēdas iela 62",
+        "pickup_point": "Venipak Pickup, TC Sala XL DROGAS",
+        "postal_code": "3416"
+    },
+    {
+        "id": "125",
+        "country": "LV",
+        "city": "Liepāja",
+        "address": "Cukuru iela 1",
+        "pickup_point": "Venipak Pickup, Venipak Liepāja terminal",
+        "postal_code": "3401"
+    },
+    {
+        "id": "126",
+        "country": "LV",
+        "city": "Liepāja",
+        "address": "Cukura iela 29",
+        "pickup_point": "Venipak Pickup, Virši DUS Cukurs",
+        "postal_code": "3414"
+    },
+    {
+        "id": "127",
+        "country": "LV",
+        "city": "Liezēre",
+        "address": "Ceļmalas, Liezēres pag., Madonas nov.",
+        "pickup_point": "Venipak Pickup, Virši DUS Liezēre",
+        "postal_code": "4884"
+    },
+    {
+        "id": "128",
+        "country": "LV",
+        "city": "Limbaži",
+        "address": "Rīgas iela 23A",
+        "pickup_point": "Venipak locker, TOP Venipak pakomāts",
+        "postal_code": "4001"
+    },
+    {
+        "id": "129",
+        "country": "LV",
+        "city": "Limbaži",
+        "address": "Rīgas iela 7",
+        "pickup_point": "Venipak Pickup, DROGAS",
+        "postal_code": "4001"
+    },
+    {
+        "id": "130",
+        "country": "LV",
+        "city": "Līvāni",
+        "address": "Rīgas iela 89",
+        "pickup_point": "Venipak locker, RIMI Venipak pakomāts",
+        "postal_code": "5316"
+    },
+    {
+        "id": "131",
+        "country": "LV",
+        "city": "Līvāni",
+        "address": "Domes iela 4",
+        "pickup_point": "Venipak Pickup, DROGAS",
+        "postal_code": "5316"
+    },
+    {
+        "id": "132",
+        "country": "LV",
+        "city": "Ludza",
+        "address": "Raiņa iela 40a",
+        "pickup_point": "Venipak locker, MEGO Venipak pakomāts",
+        "postal_code": "5701"
+    },
+    {
+        "id": "133",
+        "country": "LV",
+        "city": "Ludza",
+        "address": "Bērziņi-S, Cirmas pag., Ludzas nov.",
+        "pickup_point": "Venipak Pickup, Virši DUS Ludza",
+        "postal_code": "5735"
+    },
+    {
+        "id": "134",
+        "country": "LV",
+        "city": "Madona",
+        "address": "Saules iela 55A",
+        "pickup_point": "Venipak locker, Labais Venipak pakomāts",
+        "postal_code": "4801"
+    },
+    {
+        "id": "135",
+        "country": "LV",
+        "city": "Madona",
+        "address": "Saules iela 4",
+        "pickup_point": "Venipak Pickup, DROGAS",
+        "postal_code": "4801"
+    },
+    {
+        "id": "136",
+        "country": "LV",
+        "city": "Mālpils",
+        "address": "Pirts iela 5",
+        "pickup_point": "Venipak locker, TOP Venipak pakomāts",
+        "postal_code": "2152"
+    },
+    {
+        "id": "137",
+        "country": "LV",
+        "city": "Mālpils",
+        "address": "Skulmes iela 5",
+        "pickup_point": "Venipak Pickup, Virši DUS Mālpils",
+        "postal_code": "2152"
+    },
+    {
+        "id": "138",
+        "country": "LV",
+        "city": "Malta",
+        "address": "1.maija iela 79a",
+        "pickup_point": "Venipak locker, TOP Venipak pakomāts",
+        "postal_code": "4630"
+    },
+    {
+        "id": "139",
+        "country": "LV",
+        "city": "Mārupe",
+        "address": "Daugavas iela 27",
+        "pickup_point": "Venipak locker, TOP Venipak pakomāts",
+        "postal_code": "2167"
+    },
+    {
+        "id": "140",
+        "country": "LV",
+        "city": "Mārupe",
+        "address": "Kalniņi B",
+        "pickup_point": "Venipak Pickup, Venipak Riga termināls",
+        "postal_code": "2167"
+    },
+    {
+        "id": "141",
+        "country": "LV",
+        "city": "Nākotne",
+        "address": "DUS pie a/c Jelgava-Dobele 24,5. km, Glūdas pag.",
+        "pickup_point": "Venipak Pickup, Virši DUS Nākotne",
+        "postal_code": "3040"
+    },
+    {
+        "id": "142",
+        "country": "LV",
+        "city": "Nereta",
+        "address": "Raiņa iela 6",
+        "pickup_point": "Venipak locker, TOP Venipak pakomāts",
+        "postal_code": "5118"
+    },
+    {
+        "id": "143",
+        "country": "LV",
+        "city": "Ogre",
+        "address": "Skolas iela 4",
+        "pickup_point": "Venipak locker, MEGO Venipak pakomāts",
+        "postal_code": "5001"
+    },
+    {
+        "id": "144",
+        "country": "LV",
+        "city": "Ogre",
+        "address": "Rīgas iela 23",
+        "pickup_point": "Venipak locker, TC Dauga Venipak pakomāts",
+        "postal_code": "5001"
+    },
+    {
+        "id": "145",
+        "country": "LV",
+        "city": "Ogre",
+        "address": "Mednieku iela 21/23",
+        "pickup_point": "Venipak locker, TC Ogres Prestižs Venipak pakomāts",
+        "postal_code": "5001"
+    },
+    {
+        "id": "146",
+        "country": "LV",
+        "city": "Ogre",
+        "address": "Mālkalnes prospekts 2b",
+        "pickup_point": "Venipak Pickup, DROGAS",
+        "postal_code": "5001"
+    },
+    {
+        "id": "147",
+        "country": "LV",
+        "city": "Ogre",
+        "address": "Rīgas iela 23",
+        "pickup_point": "Venipak Pickup, TC Dauga DROGAS",
+        "postal_code": "5001"
+    },
+    {
+        "id": "148",
+        "country": "LV",
+        "city": "Olaine",
+        "address": "Zeiferta 6",
+        "pickup_point": "Venipak locker, TC Olānija Venipak pakomāts",
+        "postal_code": "2114"
+    },
+    {
+        "id": "149",
+        "country": "LV",
+        "city": "Olaine",
+        "address": "Stacijas iela 16",
+        "pickup_point": "Venipak locker, TOP Venipak pakomāts",
+        "postal_code": "2114"
+    },
+    {
+        "id": "150",
+        "country": "LV",
+        "city": "Olaine",
+        "address": "Zemgales iela 27a",
+        "pickup_point": "Venipak Pickup, DROGAS",
+        "postal_code": "2114"
+    },
+    {
+        "id": "151",
+        "country": "LV",
+        "city": "Ozolnieki",
+        "address": "Rīgas iela 42",
+        "pickup_point": "Venipak locker, ELVI Venipak pakomāts",
+        "postal_code": "3018"
+    },
+    {
+        "id": "152",
+        "country": "LV",
+        "city": "Piņķi",
+        "address": "Rigas iela 8",
+        "pickup_point": "Venipak locker, ELVI Venipak pakomāts",
+        "postal_code": "2107"
+    },
+    {
+        "id": "153",
+        "country": "LV",
+        "city": "Pļaviņas",
+        "address": "Rīgas iela 13A",
+        "pickup_point": "Venipak locker, TOP Venipak pakomāts",
+        "postal_code": "5120"
+    },
+    {
+        "id": "154",
+        "country": "LV",
+        "city": "Pļaviņas",
+        "address": "Rīgas iela 31",
+        "pickup_point": "Venipak Pickup, Virši DUS Pļaviņas",
+        "postal_code": "5120"
+    },
+    {
+        "id": "155",
+        "country": "LV",
+        "city": "Preiļi",
+        "address": "Brīvības iela 4",
+        "pickup_point": "Venipak locker, TOP Venipak pakomāts",
+        "postal_code": "5301"
+    },
+    {
+        "id": "156",
+        "country": "LV",
+        "city": "Priekule",
+        "address": "Galvenā iela 1",
+        "pickup_point": "Venipak locker, TOP Venipak pakomāts",
+        "postal_code": "3434"
+    },
+    {
+        "id": "157",
+        "country": "LV",
+        "city": "Pūre",
+        "address": "Daigones iela 13a",
+        "pickup_point": "Venipak Pickup, Virši DUS Pūre",
+        "postal_code": "3124"
+    },
+    {
+        "id": "158",
+        "country": "LV",
+        "city": "Ragana",
+        "address": "Tirgus iela 10",
+        "pickup_point": "Venipak locker, ELVI Venipak pakomāts",
+        "postal_code": "2144"
+    },
+    {
+        "id": "159",
+        "country": "LV",
+        "city": "Ragana",
+        "address": "Tirgus iela 4",
+        "pickup_point": "Venipak Pickup, Virši DUS Ragana",
+        "postal_code": "2144"
+    },
+    {
+        "id": "160",
+        "country": "LV",
+        "city": "Rauna",
+        "address": "Cēsu iela 2A",
+        "pickup_point": "Venipak locker, TOP Venipak pakomāts",
+        "postal_code": "4131"
+    },
+    {
+        "id": "161",
+        "country": "LV",
+        "city": "Rēzekne",
+        "address": "Ludzas iela 46",
+        "pickup_point": "Venipak locker, Citro Venipak pakomāts",
+        "postal_code": "4601"
+    },
+    {
+        "id": "162",
+        "country": "LV",
+        "city": "Rēzekne",
+        "address": "Stacijas ielā 20A",
+        "pickup_point": "Venipak locker, Citro Venipak pakomāts",
+        "postal_code": "4601"
+    },
+    {
+        "id": "163",
+        "country": "LV",
+        "city": "Rēzekne",
+        "address": "Atbrīvošanas aleja 141a",
+        "pickup_point": "Venipak locker, MAXIMA Venipak pakomāts",
+        "postal_code": "4604"
+    },
+    {
+        "id": "164",
+        "country": "LV",
+        "city": "Rēzekne",
+        "address": "Maskavas iela 16",
+        "pickup_point": "Venipak locker, MAXIMA Venipak pakomāts",
+        "postal_code": "4604"
+    },
+    {
+        "id": "165",
+        "country": "LV",
+        "city": "Rēzekne",
+        "address": "Galdnieku iela 8",
+        "pickup_point": "Venipak locker, RIMI Venipak pakomāts",
+        "postal_code": "4601"
+    },
+    {
+        "id": "166",
+        "country": "LV",
+        "city": "Rēzekne",
+        "address": "Atbrīvošanas aleja 101",
+        "pickup_point": "Venipak Pickup, DROGAS",
+        "postal_code": "4601"
+    },
+    {
+        "id": "167",
+        "country": "LV",
+        "city": "Rēzekne",
+        "address": "Atbrīvošanas aleja 141a",
+        "pickup_point": "Venipak Pickup, DROGAS",
+        "postal_code": "4604"
+    },
+    {
+        "id": "168",
+        "country": "LV",
+        "city": "Rēzekne",
+        "address": "Varoņu iela 36",
+        "pickup_point": "Venipak Pickup, Venipak Rēzeknes Termināls",
+        "postal_code": "4604"
+    },
+    {
+        "id": "169",
+        "country": "LV",
+        "city": "Roja",
+        "address": "Zvejnieku iela 1",
+        "pickup_point": "Venipak locker, Citro Venipak pakomāts",
+        "postal_code": "3264"
+    },
+    {
+        "id": "170",
+        "country": "LV",
+        "city": "Ropaži",
+        "address": "Rīgas iela 10",
+        "pickup_point": "Venipak locker, LaTS Venipak pakomāts",
+        "postal_code": "2135"
+    },
+    {
+        "id": "171",
+        "country": "LV",
+        "city": "Rūjiena",
+        "address": "Brīvības iela 8",
+        "pickup_point": "Venipak locker, TOP Venipak pakomāts",
+        "postal_code": "4240"
+    },
+    {
+        "id": "172",
+        "country": "LV",
+        "city": "Rumbula",
+        "address": "Granīta iela 13a",
+        "pickup_point": "Venipak Pickup, Virši DUS Granīta",
+        "postal_code": "1057"
+    },
+    {
+        "id": "173",
+        "country": "LV",
+        "city": "Salacgrīva",
+        "address": "Rīgas 13",
+        "pickup_point": "Venipak locker, TOP Venipak pakomāts",
+        "postal_code": "4033"
+    },
+    {
+        "id": "174",
+        "country": "LV",
+        "city": "Salaspils",
+        "address": "Rīgas iela 38",
+        "pickup_point": "Venipak locker, AIBE Venipak pakomāts",
+        "postal_code": "2169"
+    },
+    {
+        "id": "175",
+        "country": "LV",
+        "city": "Salaspils",
+        "address": "Rīgas iela 24",
+        "pickup_point": "Venipak locker, ELVI Venipak pakomāts",
+        "postal_code": "2121"
+    },
+    {
+        "id": "176",
+        "country": "LV",
+        "city": "Salaspils",
+        "address": "Skolas iela 9",
+        "pickup_point": "Venipak locker, MEGO Venipak pakomāts",
+        "postal_code": "2121"
+    },
+    {
+        "id": "177",
+        "country": "LV",
+        "city": "Salaspils",
+        "address": "Līvzemes iela 11/13",
+        "pickup_point": "Venipak locker, TOP Venipak pakomāts",
+        "postal_code": "2169"
+    },
+    {
+        "id": "178",
+        "country": "LV",
+        "city": "Salaspils",
+        "address": "Skolas iela 11",
+        "pickup_point": "Venipak Pickup, DROGAS",
+        "postal_code": "2121"
+    },
+    {
+        "id": "179",
+        "country": "LV",
+        "city": "Saldus",
+        "address": "Brīvības iela 30",
+        "pickup_point": "Venipak locker, MAXIMA Venipak pakomāts",
+        "postal_code": "3801"
+    },
+    {
+        "id": "180",
+        "country": "LV",
+        "city": "Saldus",
+        "address": "Striķu iela 10c",
+        "pickup_point": "Venipak locker, TC Akvārijs Venipak pakomāts",
+        "postal_code": "3801"
+    },
+    {
+        "id": "181",
+        "country": "LV",
+        "city": "Saldus",
+        "address": "Striķu iela 10C",
+        "pickup_point": "Venipak Pickup, TC Akvārijs DROGAS",
+        "postal_code": "3801"
+    },
+    {
+        "id": "182",
+        "country": "LV",
+        "city": "Saulkrasti",
+        "address": "Rīgas iela 51",
+        "pickup_point": "Venipak locker, TOP Venipak pakomāts",
+        "postal_code": "2160"
+    },
+    {
+        "id": "183",
+        "country": "LV",
+        "city": "Saulkrasti",
+        "address": "Ainažu iela 30",
+        "pickup_point": "Venipak Pickup, DROGAS",
+        "postal_code": "2160"
+    },
+    {
+        "id": "184",
+        "country": "LV",
+        "city": "Saurieši",
+        "address": "Degvielas uzpildes stacija Saurieši",
+        "pickup_point": "Venipak Pickup, Virši DUS Saurieši",
+        "postal_code": "2118"
+    },
+    {
+        "id": "185",
+        "country": "LV",
+        "city": "Sērene",
+        "address": "Kalngali, Sērenes pag., Aizkraukles nov.",
+        "pickup_point": "Venipak Pickup, Virši DUS Sērene",
+        "postal_code": "5123"
+    },
+    {
+        "id": "186",
+        "country": "LV",
+        "city": "Sigulda",
+        "address": "Vidus iela 1",
+        "pickup_point": "Venipak locker, ELVI Venipak pakomāts",
+        "postal_code": "2150"
+    },
+    {
+        "id": "187",
+        "country": "LV",
+        "city": "Sigulda",
+        "address": "Vidzemes šoseja 16",
+        "pickup_point": "Venipak locker, TC Raibais Suns Venipak pakomāts",
+        "postal_code": "2150"
+    },
+    {
+        "id": "188",
+        "country": "LV",
+        "city": "Sigulda",
+        "address": "Vidzemes šoseja 16",
+        "pickup_point": "Venipak Pickup, TC Raibais Suns DROGAS",
+        "postal_code": "2150"
+    },
+    {
+        "id": "189",
+        "country": "LV",
+        "city": "Sigulda",
+        "address": "Strēlnieku iela 2",
+        "pickup_point": "Venipak Pickup, TC Šokolāde DROGAS",
+        "postal_code": "2150"
+    },
+    {
+        "id": "190",
+        "country": "LV",
+        "city": "Skrīveri",
+        "address": "Daugavas iela 97",
+        "pickup_point": "Venipak locker, TOP Venipak pakomāts",
+        "postal_code": "5125"
+    },
+    {
+        "id": "191",
+        "country": "LV",
+        "city": "Smiltene",
+        "address": "Baznīcas laukums 2",
+        "pickup_point": "Venipak locker, SC Centrs Venipak pakomāts",
+        "postal_code": "4729"
+    },
+    {
+        "id": "192",
+        "country": "LV",
+        "city": "Smiltene",
+        "address": "Baznīcas laukums 1",
+        "pickup_point": "Venipak Pickup, TC Centrs DROGAS",
+        "postal_code": "4729"
+    },
+    {
+        "id": "193",
+        "country": "LV",
+        "city": "Spilve",
+        "address": "Viršvidi, Spilve, Babītes pag., Mārupes nov.",
+        "pickup_point": "Venipak Pickup, Virši DUS Babīte",
+        "postal_code": "2101"
+    },
+    {
+        "id": "194",
+        "country": "LV",
+        "city": "Stropica",
+        "address": "Ilgas, Stropica, Naujenes pag., Augšdaugavas nov",
+        "pickup_point": "Venipak Pickup, Virši DUS Ilgas",
+        "postal_code": "5458"
+    },
+    {
+        "id": "195",
+        "country": "LV",
+        "city": "Talsi",
+        "address": "Dundagas iela 18",
+        "pickup_point": "Venipak locker, RIMI Venipak pakomāts",
+        "postal_code": "3201"
+    },
+    {
+        "id": "196",
+        "country": "LV",
+        "city": "Talsi",
+        "address": "Rīgas iela 8",
+        "pickup_point": "Venipak locker, TC Jāņa centrs Venipak pakomāts",
+        "postal_code": "3201"
+    },
+    {
+        "id": "197",
+        "country": "LV",
+        "city": "Talsi",
+        "address": "Lielā iela 1",
+        "pickup_point": "Venipak Pickup, DROGAS",
+        "postal_code": "3201"
+    },
+    {
+        "id": "198",
+        "country": "LV",
+        "city": "Tukums",
+        "address": "Kurzemes iela 36",
+        "pickup_point": "Venipak locker, MAXIMA Venipak pakomāts",
+        "postal_code": "3101"
+    },
+    {
+        "id": "199",
+        "country": "LV",
+        "city": "Tukums",
+        "address": "Meža iela 28",
+        "pickup_point": "Venipak locker, Meža ielas 28 Venipak pakomāts",
+        "postal_code": "3101"
+    },
+    {
+        "id": "200",
+        "country": "LV",
+        "city": "Tukums",
+        "address": "Pasta iela 14",
+        "pickup_point": "Venipak locker, RIMI Venipak pakomāts",
+        "postal_code": "3101"
+    },
+    {
+        "id": "201",
+        "country": "LV",
+        "city": "Tukums",
+        "address": "Pasta iela 14",
+        "pickup_point": "Venipak Pickup, DROGAS",
+        "postal_code": "3101"
+    },
+    {
+        "id": "202",
+        "country": "LV",
+        "city": "Ugāle",
+        "address": "DUP Avenes Ugāle, Ugāles pag., Ventspils nov.",
+        "pickup_point": "Venipak Pickup, Virši DUS Ugāle",
+        "postal_code": "3615"
+    },
+    {
+        "id": "203",
+        "country": "LV",
+        "city": "Ulbroka",
+        "address": "Peldu iela 2",
+        "pickup_point": "Venipak locker, ELVI Venipak pakomāts",
+        "postal_code": "2130"
+    },
+    {
+        "id": "204",
+        "country": "LV",
+        "city": "Valdlauči",
+        "address": "Atpūtas iela 5",
+        "pickup_point": "Venipak locker, TOP Venipak pakomāts",
+        "postal_code": "1076"
+    },
+    {
+        "id": "205",
+        "country": "LV",
+        "city": "Valka",
+        "address": "Rigas iela 17",
+        "pickup_point": "Venipak locker, TOP Venipak pakomāts",
+        "postal_code": "4701"
+    },
+    {
+        "id": "206",
+        "country": "LV",
+        "city": "Valka",
+        "address": "Ausekļa iela 53",
+        "pickup_point": "Venipak Pickup, TC Walk DROGAS",
+        "postal_code": "4701"
+    },
+    {
+        "id": "207",
+        "country": "LV",
+        "city": "Valka",
+        "address": "Rīgas iela 80",
+        "pickup_point": "Venipak Pickup, Virši DUS Lugaži",
+        "postal_code": "4701"
+    },
+    {
+        "id": "208",
+        "country": "LV",
+        "city": "Valka",
+        "address": "Rūjienas iela 7",
+        "pickup_point": "Venipak Pickup, Virši DUS Valka",
+        "postal_code": "4701"
+    },
+    {
+        "id": "209",
+        "country": "LV",
+        "city": "Valle",
+        "address": "Rīgas iela 2",
+        "pickup_point": "Venipak Pickup, Virši DUS Valle",
+        "postal_code": "5106"
+    },
+    {
+        "id": "210",
+        "country": "LV",
+        "city": "Valmiera",
+        "address": "Georga Apiņa iela 27B",
+        "pickup_point": "Venipak locker, TOP Venipak pakomāts",
+        "postal_code": "4201"
+    },
+    {
+        "id": "211",
+        "country": "LV",
+        "city": "Valmiera",
+        "address": "Ausekļa iela 29",
+        "pickup_point": "Venipak locker, TOP Venipak pakomāts",
+        "postal_code": "4201"
+    },
+    {
+        "id": "212",
+        "country": "LV",
+        "city": "Valmiera",
+        "address": "Valkas iela 1",
+        "pickup_point": "Venipak locker, TOP Venipak pakomāts",
+        "postal_code": "4201"
+    },
+    {
+        "id": "213",
+        "country": "LV",
+        "city": "Valmiera",
+        "address": "Pauku iela 1",
+        "pickup_point": "Venipak locker, TOP Venipak pakomāts",
+        "postal_code": "4201"
+    },
+    {
+        "id": "214",
+        "country": "LV",
+        "city": "Valmiera",
+        "address": "Meža iela 7",
+        "pickup_point": "Venipak Pickup, DROGAS",
+        "postal_code": "4201"
+    },
+    {
+        "id": "215",
+        "country": "LV",
+        "city": "Valmiera",
+        "address": "Rīgas iela 20",
+        "pickup_point": "Venipak Pickup, DROGAS",
+        "postal_code": "4201"
+    },
+    {
+        "id": "216",
+        "country": "LV",
+        "city": "Vangaži",
+        "address": "Vidzemes iela 10",
+        "pickup_point": "Venipak locker, ELVI Venipak pakomāts",
+        "postal_code": "2136"
+    },
+    {
+        "id": "217",
+        "country": "LV",
+        "city": "Varakļāni",
+        "address": "Pils iela 7D",
+        "pickup_point": "Venipak locker, TOP Venipak pakomāts",
+        "postal_code": "4838"
+    },
+    {
+        "id": "218",
+        "country": "LV",
+        "city": "Vecbebri",
+        "address": "Dīķmalas, Vecbebri, Bebru pag., Aizkraukles nov.",
+        "pickup_point": "Venipak Pickup, Virši DUS Bebri",
+        "postal_code": "5135"
+    },
+    {
+        "id": "219",
+        "country": "LV",
+        "city": "Vecpiebalga",
+        "address": "Alauksta iela 2",
+        "pickup_point": "Venipak locker, TOP Venipak pakomāts",
+        "postal_code": "4122"
+    },
+    {
+        "id": "220",
+        "country": "LV",
+        "city": "Vecumnieki",
+        "address": "Rīgas iela 24B",
+        "pickup_point": "Venipak locker, LaTS Venipak pakomāts",
+        "postal_code": "3933"
+    },
+    {
+        "id": "221",
+        "country": "LV",
+        "city": "Ventspils",
+        "address": "Celtnieku iela 22",
+        "pickup_point": "Venipak locker, Mājai un Dārzam Venipak pakomāts",
+        "postal_code": "3602"
+    },
+    {
+        "id": "222",
+        "country": "LV",
+        "city": "Ventspils",
+        "address": "Ganību iela 22/24",
+        "pickup_point": "Venipak locker, MEGO Venipak pakomāts",
+        "postal_code": "3601"
+    },
+    {
+        "id": "223",
+        "country": "LV",
+        "city": "Ventspils",
+        "address": "Inženieru iela 65",
+        "pickup_point": "Venipak locker, MEGO Venipak pakomāts",
+        "postal_code": "3601"
+    },
+    {
+        "id": "224",
+        "country": "LV",
+        "city": "Ventspils",
+        "address": "Tārgales iela 62",
+        "pickup_point": "Venipak locker, RIMI Venipak pakomāts",
+        "postal_code": "3604"
+    },
+    {
+        "id": "225",
+        "country": "LV",
+        "city": "Ventspils",
+        "address": "Lielais prospekts 3/5",
+        "pickup_point": "Venipak locker, TC Tobago Venipak pakomāts",
+        "postal_code": "3601"
+    },
+    {
+        "id": "226",
+        "country": "LV",
+        "city": "Ventspils",
+        "address": "Kuldīgas iela 21",
+        "pickup_point": "Venipak Pickup, DROGAS",
+        "postal_code": "3601"
+    },
+    {
+        "id": "227",
+        "country": "LV",
+        "city": "Ventspils",
+        "address": "Lielais prospekts 3/5",
+        "pickup_point": "Venipak Pickup, TC Tobago DROGAS",
+        "postal_code": "3601"
+    },
+    {
+        "id": "228",
+        "country": "LV",
+        "city": "Viļāni",
+        "address": "Raiņa iela 23",
+        "pickup_point": "Venipak locker, ALBA Venipak pakomāts",
+        "postal_code": "4650"
+    },
+    {
+        "id": "229",
+        "country": "LV",
+        "city": "Zilāni",
+        "address": "Zīlānu iela 145",
+        "pickup_point": "Venipak Pickup, Virši DUS Zīlāni",
+        "postal_code": "5222"
+    },
+    {
+        "id": "230",
+        "country": "LV",
+        "city": "Rīga",
+        "address": "Gustava Zemgala gatve 74",
+        "pickup_point": "Venipak locker, BC Jaunā Teika Venipak pakomāts",
+        "postal_code": "1039"
+    },
+    {
+        "id": "231",
+        "country": "LV",
+        "city": "Rīga",
+        "address": "Brīvības iela 49/53",
+        "pickup_point": "Venipak locker, Brīvības ielas 49 Venipak pakomāts",
+        "postal_code": "1010"
+    },
+    {
+        "id": "232",
+        "country": "LV",
+        "city": "Rīga",
+        "address": "Sarkandaugavas iela 6A",
+        "pickup_point": "Venipak locker, Fix Price Venipak pakomāts",
+        "postal_code": "1005"
+    },
+    {
+        "id": "233",
+        "country": "LV",
+        "city": "Rīga",
+        "address": "Mūkusalas iela 73",
+        "pickup_point": "Venipak locker, MAXIMA Venipak pakomāts",
+        "postal_code": "1004"
+    },
+    {
+        "id": "234",
+        "country": "LV",
+        "city": "Rīga",
+		"address": "Augusta Dombrovska iela 74",
+        "pickup_point": "Venipak locker, MAXIMA Venipak pakomāts",
+        "postal_code": "1015"
+	},
+	
+	{
+    "id": "235",
+    "country": "LV",
+    "city": "Rīga",
+    "address": "Grostonas iela 1",
+    "pickup_point": "Venipak locker, MAXIMA Venipak pakomāts",
+    "postal_code": "1013"
+     },
+    {
+    "id": "236",
+    "country": "LV",
+    "city": "Rīga",
+    "address": "Augusta Deglava iela 67",
+    "pickup_point": "Venipak locker, MAXIMA Venipak pakomāts",
+    "postal_code": "1082"
+},
+{
+    "id": "237",
+    "country": "LV",
+    "city": "Rīga",
+    "address": "Nīcgales iela 46A",
+    "pickup_point": "Venipak locker, MAXIMA Venipak pakomāts",
+    "postal_code": "1035"
+},
+{
+    "id": "238",
+    "country": "LV",
+    "city": "Rīga",
+    "address": "Pilsoņu iela 1-k1",
+    "pickup_point": "Venipak locker, MAXIMA Venipak pakomāts",
+    "postal_code": "1002"
+},
+{
+    "id": "239",
+    "country": "LV",
+    "city": "Rīga",
+    "address": "Rītupes iela 2",
+    "pickup_point": "Venipak locker, MAXIMA Venipak pakomāts",
+    "postal_code": "1019"
+},
+{
+    "id": "240",
+    "country": "LV",
+    "city": "Rīga",
+    "address": "Lidoņu iela 30a",
+    "pickup_point": "Venipak locker, MAXIMA Venipak pakomāts",
+    "postal_code": "1055"
+},
+{
+    "id": "241",
+    "country": "LV",
+    "city": "Rīga",
+    "address": "Burtnieku iela 39",
+    "pickup_point": "Venipak locker, MAXIMA Venipak pakomāts",
+    "postal_code": "1084"
+},
+{
+    "id": "242",
+    "country": "LV",
+    "city": "Rīga",
+    "address": "Gaigalas iela 29",
+    "pickup_point": "Venipak locker, MAXIMA Venipak pakomāts",
+    "postal_code": "1016"
+},
+{
+    "id": "243",
+    "country": "LV",
+    "city": "Rīga",
+    "address": "Jūrmalas gatve 85",
+    "pickup_point": "Venipak locker, MAXIMA Venipak pakomāts",
+    "postal_code": "1029"
+},
+{
+    "id": "244",
+    "country": "LV",
+    "city": "Rīga",
+    "address": "Vienības gat. 113",
+    "pickup_point": "Venipak locker, MAXIMA Venipak pakomāts",
+    "postal_code": "1058"
+},
+{
+    "id": "245",
+    "country": "LV",
+    "city": "Rīga",
+    "address": "Andreja Saharova iela 20A",
+    "pickup_point": "Venipak locker, MAXIMA Venipak pakomāts",
+    "postal_code": "1021"
+},
+{
+    "id": "246",
+    "country": "LV",
+    "city": "Rīga",
+    "address": "Slokas iela 115",
+    "pickup_point": "Venipak locker, MAXIMA Venipak pakomāts",
+    "postal_code": "1067"
+},
+{
+    "id": "247",
+    "country": "LV",
+    "city": "Rīga",
+    "address": "Ilūkstes iela 24a",
+    "pickup_point": "Venipak locker, MAXIMA Venipak pakomāts",
+    "postal_code": "1082"
+},
+{
+    "id": "248",
+    "country": "LV",
+    "city": "Rīga",
+    "address": "Mīlgrāvja iela 2",
+    "pickup_point": "Venipak locker, MEGO Venipak pakomāts",
+    "postal_code": "1034"
+},
+{
+    "id": "249",
+    "country": "LV",
+    "city": "Rīga",
+    "address": "Kleistu iela 9",
+    "pickup_point": "Venipak locker, MEGO Venipak pakomāts",
+    "postal_code": "1067"
+},
+{
+    "id": "250",
+    "country": "LV",
+    "city": "Rīga",
+    "address": "Dzirciema iela 31A",
+    "pickup_point": "Venipak locker, MEGO Venipak pakomāts",
+    "postal_code": "1083"
+},
+{
+    "id": "251",
+    "country": "LV",
+    "city": "Rīga",
+    "address": "Graudu iela 10",
+    "pickup_point": "Venipak locker, MEGO Venipak pakomāts",
+    "postal_code": "1058"
+},
+{
+    "id": "252",
+    "country": "LV",
+    "city": "Rīga",
+    "address": "Parādes iela 5B",
+    "pickup_point": "Venipak locker, MEGO Venipak pakomāts",
+    "postal_code": "1016"
+},
+{
+    "id": "253",
+    "country": "LV",
+    "city": "Rīga",
+    "address": "Dižozolu iela 2",
+    "pickup_point": "Venipak locker, MEGO Venipak pakomāts",
+    "postal_code": "1058"
+},
+{
+    "id": "254",
+    "country": "LV",
+    "city": "Rīga",
+    "address": "Kurzemes prospekts 132",
+    "pickup_point": "Venipak locker, MEGO Venipak pakomāts",
+    "postal_code": "1069"
+},
+{
+    "id": "255",
+    "country": "LV",
+    "city": "Rīga",
+    "address": "Prūšu iela 2",
+    "pickup_point": "Venipak locker, MEGO Venipak pakomāts",
+    "postal_code": "1057"
+},
+{
+    "id": "256",
+    "country": "LV",
+    "city": "Rīga",
+    "address": "Biķernieku iela 16A",
+    "pickup_point": "Venipak locker, MEGO Venipak pakomāts",
+    "postal_code": "1039"
+},
+{
+    "id": "257",
+    "country": "LV",
+    "city": "Rīga",
+    "address": "Gobas iela 13",
+    "pickup_point": "Venipak locker, MEGO Venipak pakomāts",
+    "postal_code": "1016"
+},
+{
+    "id": "258",
+    "country": "LV",
+    "city": "Rīga",
+    "address": "Katoļu iela 4",
+    "pickup_point": "Venipak locker, Neste Venipak pakomāts",
+    "postal_code": "1003"
+},
+{
+    "id": "259",
+    "country": "LV",
+    "city": "Rīga",
+    "address": "Imantas 15. līnija 7",
+    "pickup_point": "Venipak locker, RIMI Gramzdas Venipak pakomāts",
+    "postal_code": "1029"
+},
+{
+    "id": "260",
+    "country": "LV",
+    "city": "Rīga",
+    "address": "Augusta Dombrovska iela 23",
+    "pickup_point": "Venipak locker, RIMI Venipak pakomāts",
+    "postal_code": "1015"
+},
+{
+    "id": "261",
+    "country": "LV",
+    "city": "Rīga",
+    "address": "Biķernieku iela 160",
+    "pickup_point": "Venipak locker, RIMI Venipak pakomāts",
+    "postal_code": "1079"
+},
+{
+    "id": "262",
+    "country": "LV",
+    "city": "Rīga",
+    "address": "Krišjāņa Valdemāra iela 112",
+    "pickup_point": "Venipak locker, RIMI Venipak pakomāts",
+    "postal_code": "1013"
+},
+{
+    "id": "263",
+    "country": "LV",
+    "city": "Rīga",
+    "address": "Anniņmuižas bulvāris 40A",
+    "pickup_point": "Venipak locker, RIMI Venipak pakomāts",
+    "postal_code": "1069"
+},
+{
+    "id": "264",
+    "country": "LV",
+    "city": "Rīga",
+    "address": "Dzelzavas iela 78",
+    "pickup_point": "Venipak locker, RIMI Venipak pakomāts",
+    "postal_code": "1082"
+},
+{
+    "id": "265",
+    "country": "LV",
+    "city": "Rīga",
+    "address": "Kalnciema iela 41",
+    "pickup_point": "Venipak locker, RIMI Venipak pakomāts",
+    "postal_code": "1046"
+},
+{
+    "id": "266",
+    "country": "LV",
+    "city": "Rīga",
+    "address": "Salaspils iela 20b",
+    "pickup_point": "Venipak locker, RIMI Venipak pakomāts",
+    "postal_code": "1057"
+},
+{
+    "id": "267",
+    "country": "LV",
+    "city": "Rīga",
+    "address": "Kreimeņu iela 4",
+    "pickup_point": "Venipak locker, RIMI Venipak pakomāts",
+    "postal_code": "1015"
+},
+{
+    "id": "268",
+    "country": "LV",
+    "city": "Rīga",
+    "address": "Pulkveža Brieža iela 33A",
+    "pickup_point": "Venipak locker, RIMI Venipak pakomāts",
+    "postal_code": "1045"
+},
+{
+    "id": "269",
+    "country": "LV",
+    "city": "Rīga",
+    "address": "Augusta Deglava iela 110",
+    "pickup_point": "Venipak locker, RIMI Venipak pakomāts",
+    "postal_code": "1082"
+},
+{
+    "id": "270",
+    "country": "LV",
+    "city": "Rīga",
+    "address": "Stirnu iela 26",
+    "pickup_point": "Venipak locker, RIMI Venipak pakomāts",
+    "postal_code": "1084"
+},
+{
+    "id": "271",
+    "country": "LV",
+    "city": "Rīga",
+    "address": "Vaidelotes iela 11a",
+    "pickup_point": "Venipak locker, RIMI Venipak pakomāts",
+    "postal_code": "1055"
+},
+{
+    "id": "272",
+    "country": "LV",
+    "city": "Rīga",
+    "address": "Latgales iela 400",
+    "pickup_point": "Venipak locker, RIMI Venipak pakomāts",
+    "postal_code": "1063"
+},
+{
+    "id": "273",
+    "country": "LV",
+    "city": "Rīga",
+    "address": "Mārupes iela 10A",
+    "pickup_point": "Venipak locker, TC Āgenskalna Venipak pakomāts",
+    "postal_code": "1002"
+},
+{
+    "id": "274",
+    "country": "LV",
+    "city": "Rīga",
+    "address": "Vienības gatve 194a",
+    "pickup_point": "Venipak locker, TC Aleja Venipak pakomāts",
+    "postal_code": "1058"
+},
+{
+    "id": "275",
+    "country": "LV",
+    "city": "Rīga",
+    "address": "Brīvības gatve 372",
+    "pickup_point": "Venipak locker, TC Alfa Venipak pakomāts",
+    "postal_code": "1006"
+},
+{
+    "id": "276",
+    "country": "LV",
+    "city": "Rīga",
+    "address": "Matīsa iela 25",
+    "pickup_point": "Venipak locker, TC Bērnu pasaule Venipak pakomāts",
+    "postal_code": "1001"
+},
+{
+    "id": "277",
+    "country": "LV",
+    "city": "Rīga",
+    "address": "Kurzemes prospekts 1",
+    "pickup_point": "Venipak locker, TC Damme Venipak pakomāts",
+    "postal_code": "1067"
+},
+{
+    "id": "278",
+    "country": "LV",
+    "city": "Rīga",
+    "address": "Latgales iela 357",
+    "pickup_point": "Venipak locker, TC Dole Venipak pakomāts",
+    "postal_code": "1063"
+},
+{
+    "id": "279",
+    "country": "LV",
+    "city": "Rīga",
+    "address": "Ieriķu iela 3",
+    "pickup_point": "Venipak locker, TC DOMINA Venipak pakomāts",
+    "postal_code": "1084"
+},
+{
+    "id": "280",
+    "country": "LV",
+    "city": "Rīga",
+    "address": "Gaiļezera iela 8",
+    "pickup_point": "Venipak locker, TC Gaiļezers Venipak pakomāts",
+    "postal_code": "1079"
+},
+{
+    "id": "281",
+    "country": "LV",
+    "city": "Rīga",
+    "address": "Anniņmuižas iela 17",
+    "pickup_point": "Venipak locker, TC IXO Venipak pakomāts",
+    "postal_code": "1029"
+},
+{
+    "id": "282",
+    "country": "LV",
+    "city": "Rīga",
+    "address": "Juglas krastmala 2",
+    "pickup_point": "Venipak locker, TC Jugla Centrs Venipak pakomāts",
+    "postal_code": "1024"
+},
+{
+    "id": "283",
+    "country": "LV",
+    "city": "Rīga",
+    "address": "Latgales iela 267",
+    "pickup_point": "Venipak locker, TC Maska Venipak pakomāts",
+    "postal_code": "1063"
+},
+{
+    "id": "284",
+    "country": "LV",
+    "city": "Rīga",
+    "address": "Biķernieku iela 143",
+    "pickup_point": "Venipak locker, TC Mežciems Venipak pakomāts",
+    "postal_code": "1021"
+},
+{
+    "id": "285",
+    "country": "LV",
+    "city": "Rīga",
+    "address": "Nīcgales iela 2",
+    "pickup_point": "Venipak locker, TC Minska Venipak pakomāts",
+    "postal_code": "1035"
+},
+{
+    "id": "286",
+    "country": "LV",
+    "city": "Rīga",
+    "address": "Krasta iela 46",
+    "pickup_point": "Venipak locker, TC Mols Venipak pakomāts",
+    "postal_code": "1003"
+},
+{
+    "id": "287",
+    "country": "LV",
+    "city": "Rīga",
+    "address": "Āzenes iela 5",
+    "pickup_point": "Venipak locker, TC Olimpia Venipak pakomāts",
+    "postal_code": "1048"
+},
+{
+    "id": "288",
+    "country": "LV",
+    "city": "Rīga",
+    "address": "Satekles iela 2B",
+    "pickup_point": "Venipak locker, TC Origo Venipak pakomāts",
+    "postal_code": "1050"
+},
+{
+    "id": "289",
+    "country": "LV",
+    "city": "Rīga",
+    "address": "Mazā Rencēnu iela 1",
+    "pickup_point": "Venipak locker, TC Ozols Venipak pakomāts",
+    "postal_code": "1073"
+},
+{
+    "id": "290",
+    "country": "LV",
+    "city": "Rīga",
+    "address": "Mūkusalas iela 71",
+    "pickup_point": "Venipak locker, TC Rīga Plaza Venipak pakomāts",
+    "postal_code": "1004"
+},
+{
+    "id": "291",
+    "country": "LV",
+    "city": "Rīga",
+    "address": "Duntes iela 19A",
+    "pickup_point": "Venipak locker, TC Sky and More Venipak pakomāts",
+    "postal_code": "1005"
+},
+{
+    "id": "292",
+    "country": "LV",
+    "city": "Rīga",
+    "address": "Jaunmoku iela 21",
+    "pickup_point": "Venipak locker, TC Spice Venipak pakomāts",
+    "postal_code": "1046"
+},
+{
+    "id": "293",
+    "country": "LV",
+    "city": "Rīga",
+    "address": "Valdeķu iela 39",
+    "pickup_point": "Venipak locker, TC Valdeķu ielas 39 Venipak pakomāts",
+    "postal_code": "1058"
+},
+{
+    "id": "294",
+    "country": "LV",
+    "city": "Rīga",
+    "address": "Zolitūdes iela 34",
+    "pickup_point": "Venipak locker, TC Venta Venipak pakomāts",
+    "postal_code": "1029"
+},
+{
+    "id": "295",
+    "country": "LV",
+    "city": "Rīga",
+    "address": "Viestura prospekts 35a",
+    "pickup_point": "Venipak locker, TOP Venipak pakomāts",
+    "postal_code": "1005"
+},
+{
+    "id": "296",
+    "country": "LV",
+    "city": "Rīga",
+    "address": "Zalves iela 46A",
+    "pickup_point": "Venipak locker, TOP Venipak pakomāts",
+    "postal_code": "1046"
+},
+{
+    "id": "297",
+    "country": "LV",
+    "city": "Rīga",
+    "address": "G. Astras iela 2 - k2",
+    "pickup_point": "Venipak Pickup, DROGAS",
+    "postal_code": "1084"
+},
+{
+    "id": "298",
+    "country": "LV",
+    "city": "Rīga",
+    "address": "Zolitūdes iela 34",
+    "pickup_point": "Venipak Pickup, DROGAS",
+    "postal_code": "1029"
+},
+{
+    "id": "299",
+    "country": "LV",
+    "city": "Rīga",
+    "address": "Brīvības gatve 372",
+    "pickup_point": "Venipak Pickup, DROGAS",
+    "postal_code": "1006"
+},
+{
+    "id": "300",
+    "country": "LV",
+    "city": "Rīga",
+    "address": "Ulbrokas iela 22A",
+    "pickup_point": "Venipak Pickup, DROGAS",
+    "postal_code": "1021"
+},
+{
+    "id": "301",
+    "country": "LV",
+    "city": "Rīga",
+    "address": "Melīdas iela 9",
+    "pickup_point": "Venipak Pickup, DROGAS",
+    "postal_code": "1015"
+},
+{
+    "id": "302",
+    "country": "LV",
+    "city": "Rīga",
+    "address": "Stirnu iela 26",
+    "pickup_point": "Venipak Pickup, DROGAS",
+    "postal_code": "1035"
+},
+{
+    "id": "303",
+    "country": "LV",
+    "city": "Rīga",
+    "address": "Anniņmuižas bulvāris 40A",
+    "pickup_point": "Venipak Pickup, DROGAS",
+    "postal_code": "1067"
+},
+{
+    "id": "304",
+    "country": "LV",
+    "city": "Rīga",
+    "address": "A. Deglava iela 100",
+    "pickup_point": "Venipak Pickup, DROGAS",
+    "postal_code": "1082"
+},
+{
+    "id": "305",
+    "country": "LV",
+    "city": "Rīga",
+    "address": "Sarkandaugavas iela 2",
+    "pickup_point": "Venipak Pickup, DROGAS",
+    "postal_code": "1005"
+},
+{
+    "id": "306",
+    "country": "LV",
+    "city": "Rīga",
+    "address": "Mārupes iela 15a",
+    "pickup_point": "Venipak Pickup, DROGAS",
+    "postal_code": "1002"
+},
+{
+    "id": "307",
+    "country": "LV",
+    "city": "Rīga",
+    "address": "Stūrmaņu iela 29",
+    "pickup_point": "Venipak Pickup, DROGAS",
+    "postal_code": "1016"
+},
+{
+    "id": "308",
+    "country": "LV",
+    "city": "Rīga",
+    "address": "Biķernieku iela 143",
+    "pickup_point": "Venipak Pickup, DROGAS",
+    "postal_code": "1021"
+},
+{
+    "id": "309",
+    "country": "LV",
+    "city": "Rīga",
+    "address": "Tērbatas iela 9/10",
+    "pickup_point": "Venipak Pickup, DROGAS",
+    "postal_code": "1011"
+},
+{
+    "id": "310",
+    "country": "LV",
+    "city": "Rīga",
+    "address": "Kaļķu iela 5",
+    "pickup_point": "Venipak Pickup, DROGAS",
+    "postal_code": "1050"
+},
+{
+    "id": "311",
+    "country": "LV",
+    "city": "Rīga",
+    "address": "Kr. Barona iela 4",
+    "pickup_point": "Venipak Pickup, DROGAS",
+    "postal_code": "1050"
+},
+{
+    "id": "312",
+    "country": "LV",
+    "city": "Rīga",
+    "address": "A. Čaka iela 53",
+    "pickup_point": "Venipak Pickup, DROGAS",
+    "postal_code": "1011"
+},
+{
+    "id": "313",
+    "country": "LV",
+    "city": "Rīga",
+    "address": "Brīvības iela 194",
+    "pickup_point": "Venipak Pickup, DROGAS",
+    "postal_code": "1012"
+},
+{
+    "id": "314",
+    "country": "LV",
+    "city": "Rīga",
+    "address": "Kr. Valdemāra iela 14",
+    "pickup_point": "Venipak Pickup, DROGAS",
+    "postal_code": "1010"
+},
+{
+    "id": "315",
+    "country": "LV",
+    "city": "Rīga",
+    "address": "Marijas iela 9",
+    "pickup_point": "Venipak Pickup, DROGAS",
+    "postal_code": "1050"
+},
+{
+    "id": "316",
+    "country": "LV",
+    "city": "Rīga",
+    "address": "Antonijas iela 9",
+    "pickup_point": "Venipak Pickup, DROGAS",
+    "postal_code": "1010"
+},
+{
+    "id": "317",
+    "country": "LV",
+    "city": "Rīga",
+    "address": "Brīvības iela 58",
+    "pickup_point": "Venipak Pickup, DROGAS",
+    "postal_code": "1010"
+},
+{
+    "id": "318",
+    "country": "LV",
+    "city": "Rīga",
+    "address": "Avotu iela 26",
+    "pickup_point": "Venipak Pickup, DROGAS",
+    "postal_code": "1011"
+},
+{
+    "id": "319",
+    "country": "LV",
+    "city": "Rīga",
+    "address": "Kr. Valdemāra iela 145/1",
+    "pickup_point": "Venipak Pickup, DROGAS",
+    "postal_code": "1013"
+},
+{
+    "id": "320",
+    "country": "LV",
+    "city": "Rīga",
+    "address": "Kr. Barona iela 63",
+    "pickup_point": "Venipak Pickup, DROGAS",
+    "postal_code": "1001"
+},
+{
+    "id": "321",
+    "country": "LV",
+    "city": "Rīga",
+    "address": "Slokas iela 115",
+    "pickup_point": "Venipak Pickup, DROGAS",
+    "postal_code": "1067"
+},
+{
+    "id": "322",
+    "country": "LV",
+    "city": "Rīga",
+    "address": "Latgales iela 250",
+    "pickup_point": "Venipak Pickup, DROGAS",
+    "postal_code": "1019"
+},
+{
+    "id": "323",
+    "country": "LV",
+    "city": "Rīga",
+    "address": "Brīvības gatve 432",
+    "pickup_point": "Venipak Pickup, DROGAS",
+    "postal_code": "1024"
+},
+{
+    "id": "324",
+    "country": "LV",
+    "city": "Rīga",
+    "address": "Vienības gatve 111",
+    "pickup_point": "Venipak Pickup, DROGAS",
+    "postal_code": "1058"
+},
+{
+    "id": "325",
+    "country": "LV",
+    "city": "Rīga",
+    "address": "Melnsila iela 22",
+    "pickup_point": "Venipak Pickup, DROGAS",
+    "postal_code": "1046"
+},
+{
+    "id": "326",
+    "country": "LV",
+    "city": "Rīga",
+    "address": "Dižozolu iela 21",
+    "pickup_point": "Venipak Pickup, DROGAS",
+    "postal_code": "1058"
+},
+{
+    "id": "327",
+    "country": "LV",
+    "city": "Rīga",
+    "address": "Ulmaņa gatve 88a",
+    "pickup_point": "Venipak Pickup, DROGAS",
+    "postal_code": "1046"
+},
+{
+    "id": "328",
+    "country": "LV",
+    "city": "Rīga",
+    "address": "Mazā Stacijas iela 2a",
+    "pickup_point": "Venipak Pickup, DROGAS",
+    "postal_code": "1083"
+},
+{
+    "id": "329",
+    "country": "LV",
+    "city": "Rīga",
+    "address": "Satekles iela 2b",
+    "pickup_point": "Venipak Pickup, DROGAS",
+    "postal_code": "1050"
+},
+{
+    "id": "330",
+    "country": "LV",
+    "city": "Rīga",
+    "address": "Kurzemes prospekts 141",
+    "pickup_point": "Venipak Pickup, DROGAS",
+    "postal_code": "1069"
+},
+{
+    "id": "331",
+    "country": "LV",
+    "city": "Rīga",
+    "address": "Mūkusalas iela 73",
+    "pickup_point": "Venipak Pickup, DROGAS",
+    "postal_code": "1004"
+},
+{
+    "id": "332",
+    "country": "LV",
+    "city": "Rīga",
+    "address": "A.Saharova iela 20a",
+    "pickup_point": "Venipak Pickup, DROGAS",
+    "postal_code": "1021"
+},
+{
+    "id": "333",
+    "country": "LV",
+    "city": "Rīga",
+    "address": "Rusova iela 1",
+    "pickup_point": "Venipak Pickup, DROGAS",
+    "postal_code": "1026"
+},
+{
+    "id": "334",
+    "country": "LV",
+    "city": "Rīga",
+    "address": "Pilsoņu iela 1C",
+    "pickup_point": "Venipak Pickup, TC Āgenskalns DROGAS",
+    "postal_code": "1002"
+},
+{
+    "id": "335",
+    "country": "LV",
+    "city": "Rīga",
+    "address": "Latgales iela 257",
+    "pickup_point": "Venipak Pickup, TC Akropole DROGAS",
+    "postal_code": "1019"
+},
+{
+    "id": "336",
+    "country": "LV",
+    "city": "Rīga",
+    "address": "Vienības gatve 194a",
+    "pickup_point": "Venipak Pickup, TC Aleja DROGAS",
+    "postal_code": "1058"
+},
+{
+    "id": "337",
+    "country": "LV",
+    "city": "Rīga",
+    "address": "Kurzemes prospekts 1",
+    "pickup_point": "Venipak Pickup, TC Damme DROGAS",
+    "postal_code": "1067"
+},
+{
+    "id": "338",
+    "country": "LV",
+    "city": "Rīga",
+    "address": "Latgales iela 357",
+    "pickup_point": "Venipak Pickup, TC Dole DROGAS",
+    "postal_code": "1063"
+},
+{
+    "id": "339",
+    "country": "LV",
+    "city": "Rīga",
+    "address": "Ieriķu iela 3",
+    "pickup_point": "Venipak Pickup, TC Domina DROGAS",
+    "postal_code": "1084"
+},
+{
+    "id": "340",
+    "country": "LV",
+    "city": "Rīga",
+    "address": "Gaiļezera iela 8",
+    "pickup_point": "Venipak Pickup, TC Gaiļezers DROGAS",
+    "postal_code": "1079"
+},
+{
+    "id": "341",
+    "country": "LV",
+    "city": "Rīga",
+    "address": "Audēju iela 16",
+    "pickup_point": "Venipak Pickup, TC Galerija Centrs DROGAS",
+    "postal_code": "1050"
+},
+{
+    "id": "342",
+    "country": "LV",
+    "city": "Rīga",
+    "address": "Nīcgales iela 2",
+    "pickup_point": "Venipak Pickup, TC Minska DROGAS",
+    "postal_code": "1035"
+},
+{
+    "id": "343",
+    "country": "LV",
+    "city": "Rīga",
+    "address": "Krasta iela 46",
+    "pickup_point": "Venipak Pickup, TC Mols DROGAS",
+    "postal_code": "1003"
+},
+{
+    "id": "344",
+    "country": "LV",
+    "city": "Rīga",
+    "address": "Stacijas laukums 2",
+    "pickup_point": "Venipak Pickup, TC Origo DROGAS",
+    "postal_code": "1050"
+},
+{
+    "id": "345",
+    "country": "LV",
+    "city": "Rīga",
+    "address": "Mazā Rancēnu iela 1A",
+    "pickup_point": "Venipak Pickup, TC Ozols DROGAS",
+    "postal_code": "1073"
+},
+{
+    "id": "346",
+    "country": "LV",
+    "city": "Rīga",
+    "address": "Mūkusalas iela 71",
+    "pickup_point": "Venipak Pickup, TC Rīga Plaza DROGAS",
+    "postal_code": "1004"
+},
+{
+    "id": "347",
+    "country": "LV",
+    "city": "Rīga",
+    "address": "Lielirbes iela 29",
+    "pickup_point": "Venipak Pickup, TC Spice DROGAS",
+    "postal_code": "1046"
+},
+{
+    "id": "348",
+    "country": "LV",
+    "city": "Rīga",
+    "address": "A. Saharova iela 21",
+    "pickup_point": "Venipak Pickup, TC Tālava DROGAS",
+    "postal_code": "1021"
+},
+{
+    "id": "349",
+    "country": "LV",
+    "city": "Rīga",
+    "address": "Brīvības iela 201",
+    "pickup_point": "Venipak Pickup, TC Teika Plaza DROGAS",
+    "postal_code": "1039"
+},
+{
+    "id": "350",
+    "country": "LV",
+    "city": "Rīga",
+    "address": "Latgales iela 400",
+    "pickup_point": "Venipak Pickup, TC ZOOM Drogas",
+    "postal_code": "1063"
+},
+{
+    "id": "351",
+    "country": "LV",
+    "city": "Rīga",
+    "address": "Latgales iela 493",
+    "pickup_point": "Venipak Pickup, Venipak Rīgas termināls",
+    "postal_code": "2121"
+}
+]
+		
+		
+		
+		

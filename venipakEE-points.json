@@ -1,0 +1,1354 @@
+[
+    {
+        "id": "1",
+        "country": "EE",
+        "city": "Tallinn",
+        "address": "Saha tee 9",
+        "pickup_point": "Venipak locker, Grossi Venipak pakiautomaat",
+        "postal_code": "74201"
+    },
+    {
+        "id": "2",
+        "country": "EE",
+        "city": "Tallinn",
+        "address": "Erika tn 14",
+        "pickup_point": "Venipak locker, Arsenali Keskus Venipak pakiautomaat",
+        "postal_code": "10416"
+    },
+    {
+        "id": "3",
+        "country": "EE",
+        "city": "Tallinn",
+        "address": "Toompuiestee 37/2",
+        "pickup_point": "Venipak locker, Balti Jaam Venipak pakiautomaat",
+        "postal_code": "10149"
+    },
+    {
+        "id": "4",
+        "country": "EE",
+        "city": "Tallinn",
+        "address": "Järveotsa tee 35b",
+        "pickup_point": "Venipak locker, Grossi Venipak pakiautomaat",
+        "postal_code": "13520"
+    },
+    {
+        "id": "5",
+        "country": "EE",
+        "city": "Tallinn",
+        "address": "Haabersti tn 1",
+        "pickup_point": "Venipak locker, Haabersti Rimi Venipak pakiautomaat",
+        "postal_code": "13516"
+    },
+    {
+        "id": "6",
+        "country": "EE",
+        "city": "Tallinn",
+        "address": "Pärnu mnt 386",
+        "pickup_point": "Venipak locker, Hiiu Rimi Venipak pakiautomaat",
+        "postal_code": "11612"
+    },
+    {
+        "id": "7",
+        "country": "EE",
+        "city": "Tallinn",
+        "address": "Kadaka tee 56a",
+        "pickup_point": "Venipak locker, Kadaka Selver Venipak pakiautomaat",
+        "postal_code": "12915"
+    },
+    {
+        "id": "8",
+        "country": "EE",
+        "city": "Tallinn",
+        "address": "E. Vilde tee 124",
+        "pickup_point": "Venipak locker, Kaja Maxima Venipak pakiautomaat",
+        "postal_code": "12614"
+    },
+    {
+        "id": "9",
+        "country": "EE",
+        "city": "Tallinn",
+        "address": "Sõle tn 31",
+        "pickup_point": "Venipak locker, Kolde Selver Venipak pakiautomaat",
+        "postal_code": "10321"
+    },
+    {
+        "id": "10",
+        "country": "EE",
+        "city": "Tallinn",
+        "address": "Õismäe tee 107a",
+        "pickup_point": "Venipak locker, Kollane keskus Venipak pakiautomaat",
+        "postal_code": "13515"
+    },
+    {
+        "id": "11",
+        "country": "EE",
+        "city": "Tallinn",
+        "address": "Endla tn 45",
+        "pickup_point": "Venipak locker, Kristiine keskus Venipak pakiautomaat",
+        "postal_code": "10615"
+    },
+    {
+        "id": "12",
+        "country": "EE",
+        "city": "Tallinn",
+        "address": "Pärnu mnt 453f",
+        "pickup_point": "Venipak locker, Laagri Hesburger Venipak pakiautomaat",
+        "postal_code": "10916"
+    },
+    {
+        "id": "13",
+        "country": "EE",
+        "city": "Tallinn",
+        "address": "Mustakivi tee 13",
+        "pickup_point": "Venipak locker, Lasnamäe Centrumi pakiautomaat",
+        "postal_code": "13912"
+    },
+    {
+        "id": "14",
+        "country": "EE",
+        "city": "Tallinn",
+        "address": "J. Smuuli tee 43",
+        "pickup_point": "Venipak locker, Lasnamäe Maksimarket Venipak pakiautomaat",
+        "postal_code": "11415"
+    },
+    {
+        "id": "15",
+        "country": "EE",
+        "city": "Tallinn",
+        "address": "Mustakivi tee 17",
+        "pickup_point": "Venipak locker, Lasnamäe Prisma Venipak pakiautomaat",
+        "postal_code": "13912"
+    },
+    {
+        "id": "16",
+        "country": "EE",
+        "city": "Tallinn",
+        "address": "Linnamäe tee 95",
+        "pickup_point": "Venipak locker, Linnamäe keskus Venipak pakiautomaat",
+        "postal_code": "13911"
+    },
+    {
+        "id": "17",
+        "country": "EE",
+        "city": "Tallinn",
+        "address": "Linnamäe tee 3",
+        "pickup_point": "Venipak locker, Linnamäe Konsum Venipak pakiautomaat",
+        "postal_code": "13912"
+    },
+    {
+        "id": "18",
+        "country": "EE",
+        "city": "Tallinn",
+        "address": "Pärnu mnt 106",
+        "pickup_point": "Venipak locker, Magdaleena Venipak pakiautomaat",
+        "postal_code": "11312"
+    },
+    {
+        "id": "19",
+        "country": "EE",
+        "city": "Tallinn",
+        "address": "Sõpruse pst 201",
+        "pickup_point": "Venipak locker, Magistrali keskus Venipak pakiautomaat",
+        "postal_code": "13419"
+    },
+    {
+        "id": "20",
+        "country": "EE",
+        "city": "Tallinn",
+        "address": "Männiku tee 100",
+        "pickup_point": "Venipak locker, Männiku Rimi Venipak pakiautomaat",
+        "postal_code": "11215"
+    },
+    {
+        "id": "21",
+        "country": "EE",
+        "city": "Tallinn",
+        "address": "Mustamäe tee 16",
+        "pickup_point": "Venipak locker, Marienthali Selver Venipak pakiautomaat",
+        "postal_code": "10617"
+    },
+    {
+        "id": "22",
+        "country": "EE",
+        "city": "Tallinn",
+        "address": "Ehitajate tee 148",
+        "pickup_point": "Venipak locker, Maxima Venipak pakiautomaat",
+        "postal_code": "13517"
+    },
+    {
+        "id": "23",
+        "country": "EE",
+        "city": "Tallinn",
+        "address": "Paepargi tn 57",
+        "pickup_point": "Venipak locker, Maxima Venipak pakiautomaat",
+        "postal_code": "11417"
+    },
+    {
+        "id": "24",
+        "country": "EE",
+        "city": "Tallinn",
+        "address": "Sõpruse pst 171",
+        "pickup_point": "Venipak locker, Maxima Venipak pakiautomaat",
+        "postal_code": "13413"
+    },
+    {
+        "id": "25",
+        "country": "EE",
+        "city": "Tallinn",
+        "address": "Kopli tn 69b",
+        "pickup_point": "Venipak locker, Maxima Venipak pakiautomaat",
+        "postal_code": "10312"
+    },
+    {
+        "id": "26",
+        "country": "EE",
+        "city": "Tallinn",
+        "address": "Valdeku tn 114",
+        "pickup_point": "Venipak locker, Maxima Venipak pakiautomaat",
+        "postal_code": "11215"
+    },
+    {
+        "id": "27",
+        "country": "EE",
+        "city": "Tallinn",
+        "address": "Paldiski mnt 56",
+        "pickup_point": "Venipak locker, Merimetsa Selver Venipak pakiautomaat",
+        "postal_code": "10614"
+    },
+    {
+        "id": "28",
+        "country": "EE",
+        "city": "Tallinn",
+        "address": "A. H. Tammsaare tee 104a",
+        "pickup_point": "Venipak locker, Mustamäe keskus Venipak pakiautomaat",
+        "postal_code": "12918"
+    },
+    {
+        "id": "29",
+        "country": "EE",
+        "city": "Tallinn",
+        "address": "Ahtri tn 9",
+        "pickup_point": "Venipak locker, Nautica Venipak pakiautomaat",
+        "postal_code": "10151"
+    },
+    {
+        "id": "30",
+        "country": "EE",
+        "city": "Tallinn",
+        "address": "Ehitajate tee 107",
+        "pickup_point": "Venipak locker, Nurmenuku Rimi Venipak pakiautomaat",
+        "postal_code": "13514"
+    },
+    {
+        "id": "31",
+        "country": "EE",
+        "city": "Tallinn",
+        "address": "Merivälja tee 24",
+        "pickup_point": "Venipak locker, Pirita keskus Venipak pakiautomaat",
+        "postal_code": "11911"
+    },
+    {
+        "id": "32",
+        "country": "EE",
+        "city": "Tallinn",
+        "address": "Rummu tee 4",
+        "pickup_point": "Venipak locker, Pirita Selver Venipak pakiautomaat",
+        "postal_code": "11911"
+    },
+    {
+        "id": "33",
+        "country": "EE",
+        "city": "Tallinn",
+        "address": "Viljandi mnt 41",
+        "pickup_point": "Venipak locker, Raudalu CityAlko Venipak pakiautomaat",
+        "postal_code": "11218"
+    },
+    {
+        "id": "34",
+        "country": "EE",
+        "city": "Tallinn",
+        "address": "Rävala pst 10",
+        "pickup_point": "Venipak locker, Rävala pst Venipak pakiautomaat",
+        "postal_code": "10143"
+    },
+    {
+        "id": "35",
+        "country": "EE",
+        "city": "Tallinn",
+        "address": "Tatari tn 64",
+        "pickup_point": "Venipak locker, Rimi Venipak pakiautomaat",
+        "postal_code": "10134"
+    },
+    {
+        "id": "36",
+        "country": "EE",
+        "city": "Tallinn",
+        "address": "Tartu mnt 87",
+        "pickup_point": "Venipak locker, Sikupilli keskus Venipak pakiautomaat",
+        "postal_code": "10112"
+    },
+    {
+        "id": "37",
+        "country": "EE",
+        "city": "Tallinn",
+        "address": "J. Smuuli tee 9",
+        "pickup_point": "Venipak locker, Smuuli Maxima Venipak pakiautomaat",
+        "postal_code": "13628"
+    },
+    {
+        "id": "38",
+        "country": "EE",
+        "city": "Tallinn",
+        "address": "Sõpruse pst 174",
+        "pickup_point": "Venipak locker, Sõpruse Rimi Venipak pakiautomaat",
+        "postal_code": "13424"
+    },
+    {
+        "id": "39",
+        "country": "EE",
+        "city": "Tallinn",
+        "address": "Liivalaia tn 53",
+        "pickup_point": "Venipak locker, Stockmann Venipak pakiautomaat",
+        "postal_code": "10145"
+    },
+    {
+        "id": "40",
+        "country": "EE",
+        "city": "Tallinn",
+        "address": "Tuulemaa tn 20",
+        "pickup_point": "Venipak locker, Stroomi keskus Venipak pakiautomaat",
+        "postal_code": "10315"
+    },
+    {
+        "id": "41",
+        "country": "EE",
+        "city": "Tallinn",
+        "address": "J. Sütiste tee 28",
+        "pickup_point": "Venipak locker, Sütiste Maxima Venipak pakiautomaat",
+        "postal_code": "13411"
+    },
+    {
+        "id": "42",
+        "country": "EE",
+        "city": "Tallinn",
+        "address": "Tähesaju tee 1",
+        "pickup_point": "Venipak locker, Tähesaju Selver Venipak pakiautomaat",
+        "postal_code": "13917"
+    },
+    {
+        "id": "43",
+        "country": "EE",
+        "city": "Tallinn",
+        "address": "Vesivärava tn 37",
+        "pickup_point": "Venipak locker, Torupilli Selver Venipak pakiautomaat",
+        "postal_code": "10152"
+    },
+    {
+        "id": "44",
+        "country": "EE",
+        "city": "Tallinn",
+        "address": "Suur-Sõjamäe tn 4",
+        "pickup_point": "Venipak locker, Ülemiste keskus Venipak pakiautomaat",
+        "postal_code": "11415"
+    },
+    {
+        "id": "45",
+        "country": "EE",
+        "city": "Tallinn",
+        "address": "Laagna tee 80",
+        "pickup_point": "Venipak locker, Ümera Maxima Venipak pakiautomaat",
+        "postal_code": "13817"
+    },
+    {
+        "id": "46",
+        "country": "EE",
+        "city": "Tallinn",
+        "address": "Vabaduse pst 54b",
+        "pickup_point": "Venipak locker, Valdeku Selver Venipak pakiautomaat",
+        "postal_code": "11621"
+    },
+    {
+        "id": "47",
+        "country": "EE",
+        "city": "Tallinn",
+        "address": "E. Vilde tee 101",
+        "pickup_point": "Venipak locker, Vilde Rimi Venipak pakiautomaat",
+        "postal_code": "12911"
+    },
+    {
+        "id": "48",
+        "country": "EE",
+        "city": "Abja-paluoja",
+        "address": "Pärnu mnt 13",
+        "pickup_point": "Venipak locker, Coop Venipak pakiautomaat",
+        "postal_code": "69403"
+    },
+    {
+        "id": "49",
+        "country": "EE",
+        "city": "Alatskivi",
+        "address": "Lossi tn 1a",
+        "pickup_point": "Venipak locker, Coop Venipak pakiautomaat",
+        "postal_code": "60201"
+    },
+    {
+        "id": "50",
+        "country": "EE",
+        "city": "Antsla",
+        "address": "F. R. Kreutzwaldi tn 4a",
+        "pickup_point": "Venipak locker, Coop Venipak pakiautomaat",
+        "postal_code": "66403"
+    },
+    {
+        "id": "51",
+        "country": "EE",
+        "city": "Aseri",
+        "address": "Tehase tn 23",
+        "pickup_point": "Venipak locker, Grossi Venipak pakiautomaat",
+        "postal_code": "43401"
+    },
+    {
+        "id": "52",
+        "country": "EE",
+        "city": "Audru",
+        "address": "Pärna allee 1",
+        "pickup_point": "Venipak locker, Meie pood Venipak pakiautomaat",
+        "postal_code": "88301"
+    },
+    {
+        "id": "53",
+        "country": "EE",
+        "city": "Elva",
+        "address": "Valga mnt 5",
+        "pickup_point": "Venipak locker, Maxima Venipak pakiautomaat",
+        "postal_code": "61504"
+    },
+    {
+        "id": "54",
+        "country": "EE",
+        "city": "Häädemeeste",
+        "address": "Pärnu mnt 40",
+        "pickup_point": "Venipak locker, Coop Venipak pakiautomaat",
+        "postal_code": "86001"
+    },
+    {
+        "id": "55",
+        "country": "EE",
+        "city": "Haapsalu",
+        "address": "Lihula mnt 3",
+        "pickup_point": "Venipak locker, SuperAlko Venipak pakiautomaat",
+        "postal_code": "90507"
+    },
+    {
+        "id": "56",
+        "country": "EE",
+        "city": "Haapsalu",
+        "address": "Tallinna mnt 84",
+        "pickup_point": "Venipak locker, Uuemõisa Coop Venipak pakiautomaat",
+        "postal_code": "90401"
+    },
+    {
+        "id": "57",
+        "country": "EE",
+        "city": "Haljala",
+        "address": "Võsu mnt 5",
+        "pickup_point": "Venipak locker, Grossi Venipak pakiautomaat",
+        "postal_code": "45301"
+    },
+    {
+        "id": "58",
+        "country": "EE",
+        "city": "Iisaku",
+        "address": "Tartu mnt 55",
+        "pickup_point": "Venipak locker, Grossi Venipak pakiautomaat",
+        "postal_code": "41101"
+    },
+    {
+        "id": "59",
+        "country": "EE",
+        "city": "Järva-jaani",
+        "address": "Lai tn 23",
+        "pickup_point": "Venipak locker, Grossi Venipak pakiautomaat",
+        "postal_code": "73301"
+    },
+    {
+        "id": "60",
+        "country": "EE",
+        "city": "Järvakandi",
+        "address": "Turu tn 1",
+        "pickup_point": "Venipak locker, Grossi Venipak pakiautomaat",
+        "postal_code": "79101"
+    },
+    {
+        "id": "61",
+        "country": "EE",
+        "city": "Jõelähtme vald, harjumaa",
+        "address": "Aasa tee 1, Loo",
+        "pickup_point": "Venipak Pickup, Venipak terminal, luuk nr 43",
+        "postal_code": "74208"
+    },
+    {
+        "id": "62",
+        "country": "EE",
+        "city": "Jõgeva",
+        "address": "Pargi tn 1",
+        "pickup_point": "Venipak locker, Grossi Venipak pakiautomaat",
+        "postal_code": "48306"
+    },
+    {
+        "id": "63",
+        "country": "EE",
+        "city": "Jõhvi",
+        "address": "Narva mnt 8",
+        "pickup_point": "Venipak locker, Jewe keskus Venipak pakiautomaat",
+        "postal_code": "41536"
+    },
+    {
+        "id": "64",
+        "country": "EE",
+        "city": "Jõhvi",
+        "address": "Puru tee 1",
+        "pickup_point": "Venipak locker, Pargi keskus Venipak pakiautomaat",
+        "postal_code": "41534"
+    },
+    {
+        "id": "65",
+        "country": "EE",
+        "city": "Jüri",
+        "address": "Aruküla tee 7",
+        "pickup_point": "Venipak locker, Grossi Venipak pakiautomaat",
+        "postal_code": "75301"
+    },
+    {
+        "id": "66",
+        "country": "EE",
+        "city": "Kadrina",
+        "address": "Viitna tee 4",
+        "pickup_point": "Venipak locker, Coop Venipak pakiautomaat",
+        "postal_code": "45201"
+    },
+    {
+        "id": "67",
+        "country": "EE",
+        "city": "Käina",
+        "address": "Spordi tn 9",
+        "pickup_point": "Venipak locker, Coop Venipak pakiautomaat",
+        "postal_code": "92101"
+    },
+    {
+        "id": "68",
+        "country": "EE",
+        "city": "Kärdla",
+        "address": "Linnumäe",
+        "pickup_point": "Venipak locker, Hiiumaa Selver Venipak pakiautomaat",
+        "postal_code": "92422"
+    },
+    {
+        "id": "69",
+        "country": "EE",
+        "city": "Karksi-nuia",
+        "address": "Rahumäe tn 1",
+        "pickup_point": "Venipak locker, Coop Venipak pakiautomaat",
+        "postal_code": "69103"
+    },
+    {
+        "id": "70",
+        "country": "EE",
+        "city": "Kehra",
+        "address": "Kose mnt 7",
+        "pickup_point": "Venipak locker, Grossi Venipak pakiautomaat",
+        "postal_code": "74307"
+    },
+    {
+        "id": "71",
+        "country": "EE",
+        "city": "Kehtna",
+        "address": "Lasteaia tn 12",
+        "pickup_point": "Venipak locker, Coop Venipak pakiautomaat",
+        "postal_code": "79001"
+    },
+    {
+        "id": "72",
+        "country": "EE",
+        "city": "Keila",
+        "address": "Piiri tn 7",
+        "pickup_point": "Venipak locker, Grossi Venipak pakiautomaat",
+        "postal_code": "76610"
+    },
+    {
+        "id": "73",
+        "country": "EE",
+        "city": "Keila",
+        "address": "Tallinna mnt 25",
+        "pickup_point": "Venipak locker, Maxima Venipak pakiautomaat",
+        "postal_code": "76608"
+    },
+    {
+        "id": "74",
+        "country": "EE",
+        "city": "Kiili",
+        "address": "Vaela tee 4",
+        "pickup_point": "Venipak locker, Maxima Venipak pakiautomaat",
+        "postal_code": "75401"
+    },
+    {
+        "id": "75",
+        "country": "EE",
+        "city": "Kilingi-nõmme",
+        "address": "Pärnu tn 37",
+        "pickup_point": "Venipak locker, Coop Venipak pakiautomaat",
+        "postal_code": "86303"
+    },
+    {
+        "id": "76",
+        "country": "EE",
+        "city": "Kiviõli",
+        "address": "Metsa tn 3",
+        "pickup_point": "Venipak locker, K5 keskus Venipak pakiautomaat",
+        "postal_code": "43125"
+    },
+    {
+        "id": "77",
+        "country": "EE",
+        "city": "Koeru",
+        "address": "Pärna pst 2",
+        "pickup_point": "Venipak locker, Konsum Venipak pakiautomaat",
+        "postal_code": "73001"
+    },
+    {
+        "id": "78",
+        "country": "EE",
+        "city": "Kohila",
+        "address": "Vabaduse tn 7",
+        "pickup_point": "Venipak locker, Coop Venipak pakiautomaat",
+        "postal_code": "79805"
+    },
+    {
+        "id": "79",
+        "country": "EE",
+        "city": "Kohtla-järve",
+        "address": "Puru tee 77",
+        "pickup_point": "Venipak locker, Ahtme Maxima Venipak pakiautomaat",
+        "postal_code": "31023"
+    },
+    {
+        "id": "80",
+        "country": "EE",
+        "city": "Kohtla-järve",
+        "address": "Maleva tn 23",
+        "pickup_point": "Venipak locker, Grossi Venipak pakiautomaat",
+        "postal_code": "31021"
+    },
+    {
+        "id": "81",
+        "country": "EE",
+        "city": "Kohtla-järve",
+        "address": "Keskallee 12",
+        "pickup_point": "Venipak locker, Maxima Venipak pakiautomaat",
+        "postal_code": "30322"
+    },
+    {
+        "id": "82",
+        "country": "EE",
+        "city": "Kohtla-järve",
+        "address": "Järveküla tee 50",
+        "pickup_point": "Venipak locker, Vironia keskus Venipak pakiautomaat",
+        "postal_code": "30321"
+    },
+    {
+        "id": "83",
+        "country": "EE",
+        "city": "Kose",
+        "address": "Kodu tn 2",
+        "pickup_point": "Venipak locker, Grossi Venipak pakiautomaat",
+        "postal_code": "75101"
+    },
+    {
+        "id": "84",
+        "country": "EE",
+        "city": "Kunda",
+        "address": "Kasemäe tn 12",
+        "pickup_point": "Venipak locker, Grossi Venipak pakiautomaat",
+        "postal_code": "44107"
+    },
+    {
+        "id": "85",
+        "country": "EE",
+        "city": "Kuressaare",
+        "address": "Tallinna tn 88",
+        "pickup_point": "Venipak locker, Auriga keskus Venipak pakiautomaat",
+        "postal_code": "93892"
+    },
+    {
+        "id": "86",
+        "country": "EE",
+        "city": "Kuressaare",
+        "address": "Raekoja tn 1",
+        "pickup_point": "Venipak locker, Kuressaare Kaubamaja Venipak pakiautomaat",
+        "postal_code": "93814"
+    },
+    {
+        "id": "87",
+        "country": "EE",
+        "city": "Kuusalu",
+        "address": "Mäe tn 1",
+        "pickup_point": "Venipak locker, Grossi Venipak pakiautomaat",
+        "postal_code": "74601"
+    },
+    {
+        "id": "88",
+        "country": "EE",
+        "city": "Laagri",
+        "address": "Veskitammi tn 3",
+        "pickup_point": "Venipak locker, Maxima Venipak pakiautomaat",
+        "postal_code": "76401"
+    },
+    {
+        "id": "89",
+        "country": "EE",
+        "city": "Laiaküla",
+        "address": "Lilleoru tee 4",
+        "pickup_point": "Venipak locker, Pärnamäe keskus Venipak pakiautomaat",
+        "postal_code": "74008"
+    },
+    {
+        "id": "90",
+        "country": "EE",
+        "city": "Lihula",
+        "address": "Jaama tn 4",
+        "pickup_point": "Venipak locker, Meie pood Venipak pakiautomaat",
+        "postal_code": "90302"
+    },
+    {
+        "id": "91",
+        "country": "EE",
+        "city": "Liiva",
+        "address": "Liiva",
+        "pickup_point": "Venipak locker, Liiva Coop Venipak pakiautomaat",
+        "postal_code": "94701"
+    },
+    {
+        "id": "92",
+        "country": "EE",
+        "city": "Loksa",
+        "address": "Rohuaia tn 6",
+        "pickup_point": "Venipak locker, Grossi Venipak pakiautomaat",
+        "postal_code": "74806"
+    },
+    {
+        "id": "93",
+        "country": "EE",
+        "city": "Maardu",
+        "address": "Keemikute tn 2",
+        "pickup_point": "Venipak locker, Maxima Venipak pakiautomaat",
+        "postal_code": "74116"
+    },
+    {
+        "id": "94",
+        "country": "EE",
+        "city": "Maardu",
+        "address": "Keemikute tn 37",
+        "pickup_point": "Venipak locker, Maxima Venipak pakiautomaat",
+        "postal_code": "74111"
+    },
+    {
+        "id": "95",
+        "country": "EE",
+        "city": "Märjamaa",
+        "address": "Kasti tee 1",
+        "pickup_point": "Venipak locker, Maxima Venipak pakiautomaat",
+        "postal_code": "78305"
+    },
+    {
+        "id": "96",
+        "country": "EE",
+        "city": "Mustvee",
+        "address": "Tähe tn 9",
+        "pickup_point": "Venipak locker, Grossi Venipak pakiautomaat",
+        "postal_code": "49603"
+    },
+    {
+        "id": "97",
+        "country": "EE",
+        "city": "Narva",
+        "address": "Fama tn 10",
+        "pickup_point": "Venipak locker, Fama keskuse Venipak pakiautomaat",
+        "postal_code": "20303"
+    },
+    {
+        "id": "98",
+        "country": "EE",
+        "city": "Narva",
+        "address": "Pähklimäe tn 2a",
+        "pickup_point": "Venipak locker, Grossi Venipak pakiautomaat",
+        "postal_code": "20607"
+    },
+    {
+        "id": "99",
+        "country": "EE",
+        "city": "Narva",
+        "address": "Kreenholmi tn 52",
+        "pickup_point": "Venipak locker, Kreenholmi Maxima Venipak pakiautomaat",
+        "postal_code": "20104"
+    },
+    {
+        "id": "100",
+        "country": "EE",
+        "city": "Narva",
+        "address": "Tallinna mnt 30b",
+        "pickup_point": "Venipak locker, Maksimarket Venipak pakiautomaat",
+        "postal_code": "21006"
+    },
+    {
+        "id": "101",
+        "country": "EE",
+        "city": "Narva-jõesuu",
+        "address": "J. Poska tn 26",
+        "pickup_point": "Venipak locker, Coop Venipak pakiautomaat",
+        "postal_code": "29023"
+    },
+    {
+        "id": "102",
+        "country": "EE",
+        "city": "Otepää",
+        "address": "Valga mnt 1b",
+        "pickup_point": "Venipak locker, Maxima Venipak pakiautomaat",
+        "postal_code": "67405"
+    },
+    {
+        "id": "103",
+        "country": "EE",
+        "city": "Paide",
+        "address": "Raudtee tn 29",
+        "pickup_point": "Venipak locker, Paide Hesburger Venipak pakiautomaat",
+        "postal_code": "72715"
+    },
+    {
+        "id": "104",
+        "country": "EE",
+        "city": "Paide",
+        "address": "Aiavilja tn 2",
+        "pickup_point": "Venipak locker, Rimi Venipak pakiautomaat",
+        "postal_code": "72720"
+    },
+    {
+        "id": "105",
+        "country": "EE",
+        "city": "Paikuse",
+        "address": "Pärnade pst 1",
+        "pickup_point": "Venipak locker, Coop Venipak pakiautomaat",
+        "postal_code": "86602"
+    },
+    {
+        "id": "106",
+        "country": "EE",
+        "city": "Paldiski",
+        "address": "Rae tn 26",
+        "pickup_point": "Venipak locker, Grossi Venipak pakiautomaat",
+        "postal_code": "76805"
+    },
+    {
+        "id": "107",
+        "country": "EE",
+        "city": "Pärnu",
+        "address": "Papiniidu tn 8",
+        "pickup_point": "Venipak locker, Kaubamajakas Venipak pakiautomaat",
+        "postal_code": "80042"
+    },
+    {
+        "id": "108",
+        "country": "EE",
+        "city": "Pärnu",
+        "address": "Niidu tn 18b",
+        "pickup_point": "Venipak locker, Niidu Kaubanduskeskus, Venipak pakiautomaat",
+        "postal_code": "80047"
+    },
+    {
+        "id": "109",
+        "country": "EE",
+        "city": "Pärnu",
+        "address": "Lai tn 5",
+        "pickup_point": "Venipak locker, Pärnu Keskus Venipak pakiautomaat",
+        "postal_code": "80011"
+    },
+    {
+        "id": "110",
+        "country": "EE",
+        "city": "Pärnu",
+        "address": "Karusselli tn 91",
+        "pickup_point": "Venipak locker, Ranna Selver Venipak pakiautomaat",
+        "postal_code": "80017"
+    },
+    {
+        "id": "111",
+        "country": "EE",
+        "city": "Pärnu",
+        "address": "Suur-Jõe tn 57",
+        "pickup_point": "Venipak locker, Suurejõe Selver Venipak pakiautomaat",
+        "postal_code": "80042"
+    },
+    {
+        "id": "112",
+        "country": "EE",
+        "city": "Pärnu",
+        "address": "Tallinna mnt 93a",
+        "pickup_point": "Venipak locker, Ülejõe Selver Selver Venipak pakiautomaat",
+        "postal_code": "80041"
+    },
+    {
+        "id": "113",
+        "country": "EE",
+        "city": "Pärnu",
+        "address": "Haapsalu mnt 41",
+        "pickup_point": "Venipak locker, Vana-Pärnu Selver ABC Venipak pakiautomaat",
+        "postal_code": "80030"
+    },
+    {
+        "id": "114",
+        "country": "EE",
+        "city": "Pärnu",
+        "address": "Savi 20",
+        "pickup_point": "Venipak Pickup, Venipak Pärnu terminal",
+        "postal_code": "80040"
+    },
+    {
+        "id": "115",
+        "country": "EE",
+        "city": "Pärnu-jaagupi",
+        "address": "Uus tn 20a",
+        "pickup_point": "Venipak locker, Grossi Venipak pakiautomaat",
+        "postal_code": "87201"
+    },
+    {
+        "id": "116",
+        "country": "EE",
+        "city": "Peetri",
+        "address": "Küti tee 4",
+        "pickup_point": "Venipak locker, Peetri keskus Venipak pakiautomaat",
+        "postal_code": "75312"
+    },
+    {
+        "id": "117",
+        "country": "EE",
+        "city": "Peetri",
+        "address": "Veesaare tee 2",
+        "pickup_point": "Venipak locker, Peetri Selver Venipak pakiautomaat",
+        "postal_code": "75312"
+    },
+    {
+        "id": "118",
+        "country": "EE",
+        "city": "Põltsamaa",
+        "address": "Tartu mnt 1b",
+        "pickup_point": "Venipak locker, Grossi Venipak pakiautomaat",
+        "postal_code": "48105"
+    },
+    {
+        "id": "119",
+        "country": "EE",
+        "city": "Põlva",
+        "address": "Jaama tn 12",
+        "pickup_point": "Venipak locker, Selver Venipak pakiautomaat",
+        "postal_code": "63303"
+    },
+    {
+        "id": "120",
+        "country": "EE",
+        "city": "Raasiku",
+        "address": "Tallinna mnt 19/3",
+        "pickup_point": "Venipak locker, Raasiku Venipak pakiautomaat",
+        "postal_code": "75203"
+    },
+    {
+        "id": "121",
+        "country": "EE",
+        "city": "Rakvere",
+        "address": "Ilu pst 2",
+        "pickup_point": "Venipak locker, Grossi Venipak pakiautomaat",
+        "postal_code": "44314"
+    },
+    {
+        "id": "122",
+        "country": "EE",
+        "city": "Rakvere",
+        "address": "E. Vilde tn 8",
+        "pickup_point": "Venipak locker, Rimi Venipak pakiautomaat",
+        "postal_code": "44310"
+    },
+    {
+        "id": "123",
+        "country": "EE",
+        "city": "Räpina",
+        "address": "Pargi tn 1",
+        "pickup_point": "Venipak locker, Maxima Venipak pakiautomaat",
+        "postal_code": "64505"
+    },
+    {
+        "id": "124",
+        "country": "EE",
+        "city": "Rapla",
+        "address": "Tallinna mnt 16",
+        "pickup_point": "Venipak locker, Coop Venipak pakiautomaat",
+        "postal_code": "79513"
+    },
+    {
+        "id": "125",
+        "country": "EE",
+        "city": "Risti",
+        "address": "Tallinna mnt 3a",
+        "pickup_point": "Venipak locker, Risti Bussijaam Venipak pakiautomaat",
+        "postal_code": "90901"
+    },
+    {
+        "id": "126",
+        "country": "EE",
+        "city": "Rõngu",
+        "address": "Tartu mnt 2",
+        "pickup_point": "Venipak locker, Coop Venipak pakiautomaat",
+        "postal_code": "61001"
+    },
+    {
+        "id": "127",
+        "country": "EE",
+        "city": "Saku",
+        "address": "Üksnurme tee 2",
+        "pickup_point": "Venipak locker, Saku Selver Venipak pakiautomaat",
+        "postal_code": "75501"
+    },
+    {
+        "id": "128",
+        "country": "EE",
+        "city": "Saue",
+        "address": "Pärnasalu põik 1",
+        "pickup_point": "Venipak locker, Grossi Venipak pakiautomaat",
+        "postal_code": "76505"
+    },
+    {
+        "id": "129",
+        "country": "EE",
+        "city": "Sillamäe",
+        "address": "I. Pavlovi tn 1a",
+        "pickup_point": "Venipak locker, Maxima Venipak pakiautomaat",
+        "postal_code": "40232"
+    },
+    {
+        "id": "130",
+        "country": "EE",
+        "city": "Sindi",
+        "address": "Jaama tn 8",
+        "pickup_point": "Venipak locker, Coop Venipak pakiautomaat",
+        "postal_code": "86705"
+    },
+    {
+        "id": "131",
+        "country": "EE",
+        "city": "Suure-jaani",
+        "address": "Pärnu tn 3",
+        "pickup_point": "Venipak locker, Konsum Venipak pakiautomaat",
+        "postal_code": "71502"
+    },
+    {
+        "id": "132",
+        "country": "EE",
+        "city": "Tabasalu",
+        "address": "Klooga mnt 10b",
+        "pickup_point": "Venipak locker, Rimi Venipak pakiautomaat",
+        "postal_code": "76901"
+    },
+    {
+        "id": "133",
+        "country": "EE",
+        "city": "Tammiste",
+        "address": "Kellukese tee 2",
+        "pickup_point": "Venipak locker, Coop Konsum Venipak pakiautomaat",
+        "postal_code": "85009"
+    },
+    {
+        "id": "134",
+        "country": "EE",
+        "city": "Tamsalu",
+        "address": "Tehnika tn 24",
+        "pickup_point": "Venipak locker, Grossi Venipak pakiautomaat",
+        "postal_code": "46106"
+    },
+    {
+        "id": "135",
+        "country": "EE",
+        "city": "Tapa",
+        "address": "Jaama tn 1",
+        "pickup_point": "Venipak locker, Grossi Venipak pakiautomaat",
+        "postal_code": "45106"
+    },
+    {
+        "id": "136",
+        "country": "EE",
+        "city": "Tartu",
+        "address": "Kalda tee 43",
+        "pickup_point": "Venipak locker, Anne Selver Venipak pakiautomaat",
+        "postal_code": "50707"
+    },
+    {
+        "id": "137",
+        "country": "EE",
+        "city": "Tartu",
+        "address": "Ujula tn 2",
+        "pickup_point": "Venipak locker, Coop Venipak pakiautomaat",
+        "postal_code": "51008"
+    },
+    {
+        "id": "138",
+        "country": "EE",
+        "city": "Tartu",
+        "address": "Kasesalu tee 51",
+        "pickup_point": "Venipak locker, Ihaste Konsum Venipak pakiautomaat",
+        "postal_code": "62220"
+    },
+    {
+        "id": "139",
+        "country": "EE",
+        "city": "Tartu",
+        "address": "Jaama tn 74",
+        "pickup_point": "Venipak locker, Jaamamõisa Selver Venipak pakiautomaat",
+        "postal_code": "50605"
+    },
+    {
+        "id": "140",
+        "country": "EE",
+        "city": "Tartu",
+        "address": "Lääneringtee 39",
+        "pickup_point": "Venipak locker, Lõunakeskus Venipak pakiautomaat",
+        "postal_code": "50501"
+    },
+    {
+        "id": "141",
+        "country": "EE",
+        "city": "Tartu",
+        "address": "Keskuse tee 2",
+        "pickup_point": "Venipak locker, Raadi Grossi Venipak pakiautomaat",
+        "postal_code": "60532"
+    },
+    {
+        "id": "142",
+        "country": "EE",
+        "city": "Tartu",
+        "address": "Narva mnt 112",
+        "pickup_point": "Venipak locker, Raadi Maxima Venipak pakiautomaat",
+        "postal_code": "50303"
+    },
+    {
+        "id": "143",
+        "country": "EE",
+        "city": "Tartu",
+        "address": "Rebase tn 10",
+        "pickup_point": "Venipak locker, Rebase Rimi hyper Venipak pakiautomaat",
+        "postal_code": "50104"
+    },
+    {
+        "id": "144",
+        "country": "EE",
+        "city": "Tartu",
+        "address": "Aardla tn 114",
+        "pickup_point": "Venipak locker, Ringtee Selver Venipak pakiautomaat",
+        "postal_code": "50415"
+    },
+    {
+        "id": "145",
+        "country": "EE",
+        "city": "Tartu",
+        "address": "Anne tn 57",
+        "pickup_point": "Venipak locker, Saare Maxima Venipak pakiautomaat",
+        "postal_code": "50703"
+    },
+    {
+        "id": "146",
+        "country": "EE",
+        "city": "Tartu",
+        "address": "Võru tn 77",
+        "pickup_point": "Venipak locker, Selver Venipak pakiautomaat",
+        "postal_code": "50112"
+    },
+    {
+        "id": "147",
+        "country": "EE",
+        "city": "Tartu",
+        "address": "Sepa tn 21",
+        "pickup_point": "Venipak locker, Sepa keskuse pakiautomaat",
+        "postal_code": "50113"
+    },
+    {
+        "id": "148",
+        "country": "EE",
+        "city": "Tartu",
+        "address": "Võru tn 55f",
+        "pickup_point": "Venipak locker, Sõbrakeskus Venipak pakiautomaat",
+        "postal_code": "50111"
+    },
+    {
+        "id": "149",
+        "country": "EE",
+        "city": "Tartu",
+        "address": "Mõisavahe tn 34b",
+        "pickup_point": "Venipak locker, Tartu Tervisekeskus Venipak pakiautomaat",
+        "postal_code": "50708"
+    },
+    {
+        "id": "150",
+        "country": "EE",
+        "city": "Tartu",
+        "address": "Turu tn 2",
+        "pickup_point": "Venipak locker, Tasku keskus Venipak pakiautomaat",
+        "postal_code": "51004"
+    },
+    {
+        "id": "151",
+        "country": "EE",
+        "city": "Tartu",
+        "address": "Vitamiini tn 1",
+        "pickup_point": "Venipak locker, Veeriku Selver Venipak pakiautomaat",
+        "postal_code": "50412"
+    },
+    {
+        "id": "152",
+        "country": "EE",
+        "city": "Tõrremäe",
+        "address": "Haljala tee 4",
+        "pickup_point": "Venipak locker, Rakvere Põhjakeskus Venipak pakiautomaat",
+        "postal_code": "44415"
+    },
+    {
+        "id": "153",
+        "country": "EE",
+        "city": "Tõrva",
+        "address": "Valga tn 3",
+        "pickup_point": "Venipak locker, Kevade keskus Venipak pakiautomaat",
+        "postal_code": "68605"
+    },
+    {
+        "id": "154",
+        "country": "EE",
+        "city": "Türi",
+        "address": "Viljandi tn 10",
+        "pickup_point": "Venipak locker, Maxima Venipak pakiautomaat",
+        "postal_code": "72210"
+    },
+    {
+        "id": "155",
+        "country": "EE",
+        "city": "Ülenurme",
+        "address": "Võru mnt 2",
+        "pickup_point": "Venipak locker, Coop Venipak pakiautomaat",
+        "postal_code": "61714"
+    },
+    {
+        "id": "156",
+        "country": "EE",
+        "city": "Vahi alevik, tartumaa",
+        "address": "Vabriku 2",
+        "pickup_point": "Venipak Pickup, Venipak Tartu terminal",
+        "postal_code": "60534"
+    },
+    {
+        "id": "157",
+        "country": "EE",
+        "city": "Väike-maarja",
+        "address": "Pikk tn 9",
+        "pickup_point": "Venipak locker, Grossi Venipak pakiautomaat",
+        "postal_code": "46202"
+    },
+    {
+        "id": "158",
+        "country": "EE",
+        "city": "Valga",
+        "address": "Riia tn 18",
+        "pickup_point": "Venipak locker, Rimi Venipak pakiautomaat",
+        "postal_code": "68203"
+    },
+    {
+        "id": "159",
+        "country": "EE",
+        "city": "Valjala",
+        "address": "Posti tn 27",
+        "pickup_point": "Venipak locker, Valjala Coop Venipak pakiautomaat",
+        "postal_code": "94302"
+    },
+    {
+        "id": "160",
+        "country": "EE",
+        "city": "Vändra",
+        "address": "Pärnu-Paide mnt 21",
+        "pickup_point": "Venipak locker, Coop Venipak pakiautomaat",
+        "postal_code": "87701"
+    },
+    {
+        "id": "161",
+        "country": "EE",
+        "city": "Värska",
+        "address": "Järvesuu tn 2a",
+        "pickup_point": "Venipak locker, Coop Venipak pakiautomaat",
+        "postal_code": "64001"
+    },
+    {
+        "id": "162",
+        "country": "EE",
+        "city": "Viimsi",
+        "address": "Pargi tee 22",
+        "pickup_point": "Venipak locker, Maxima Venipak pakiautomaat",
+        "postal_code": "74001"
+    },
+    {
+        "id": "163",
+        "country": "EE",
+        "city": "Viimsi",
+        "address": "Randvere tee 9",
+        "pickup_point": "Venipak locker, Viimsi market Venipak pakiautomaat",
+        "postal_code": "74001"
+    },
+    {
+        "id": "164",
+        "country": "EE",
+        "city": "Viljandi",
+        "address": "Lääne tn 2",
+        "pickup_point": "Venipak locker, Coop Venipak pakiautomaat",
+        "postal_code": "71013"
+    },
+    {
+        "id": "165",
+        "country": "EE",
+        "city": "Viljandi",
+        "address": "Riia mnt 35",
+        "pickup_point": "Venipak locker, Männimäe Selver Venipak pakiautomaat",
+        "postal_code": "71002"
+    },
+    {
+        "id": "166",
+        "country": "EE",
+        "city": "Viljandi",
+        "address": "Tallinna tn 41",
+        "pickup_point": "Venipak locker, Uku Keskus Venipak pakiautomaat",
+        "postal_code": "71020"
+    },
+    {
+        "id": "167",
+        "country": "EE",
+        "city": "Võhma",
+        "address": "Tallinna tn 26",
+        "pickup_point": "Venipak locker, Coop Venipak pakiautomaat",
+        "postal_code": "70603"
+    },
+    {
+        "id": "168",
+        "country": "EE",
+        "city": "Võru",
+        "address": "Kooli tn 6",
+        "pickup_point": "Venipak locker, Kagukeskus Venipak pakiautomaat",
+        "postal_code": "65606"
+    },
+    {
+        "id": "169",
+        "country": "EE",
+        "city": "Võru",
+        "address": "Jüri tn 83",
+        "pickup_point": "Venipak locker, Maksimarket Venipak pakiautomaat",
+        "postal_code": "65607"
+    }
+]

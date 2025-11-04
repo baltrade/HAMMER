@@ -1,0 +1,2862 @@
+﻿[
+    {
+        "id": "1",
+        "country": "LT",
+        "city": "Vilnius",
+        "address": "Švitrigailos g. 13",
+        "pickup_point": "Venipak locker, Amatų skvero Venipak paštomatas",
+        "postal_code": "3228"
+    },
+    {
+        "id": "2",
+        "country": "LT",
+        "city": "Vilnius",
+        "address": "Upės g. 9",
+        "pickup_point": "Venipak locker, CUP Venipak paštomatas",
+        "postal_code": "9308"
+    },
+    {
+        "id": "3",
+        "country": "LT",
+        "city": "Vilnius",
+        "address": "Balsių g. 12",
+        "pickup_point": "Venipak locker, Čia Market Venipak paštomatas",
+        "postal_code": "8400"
+    },
+    {
+        "id": "4",
+        "country": "LT",
+        "city": "Vilnius",
+        "address": "S. Krasausko g. 1",
+        "pickup_point": "Venipak locker, Čia Market Venipak paštomatas",
+        "postal_code": "25128"
+    },
+    {
+        "id": "5",
+        "country": "LT",
+        "city": "Vilnius",
+        "address": "Dominikonų g. 6",
+        "pickup_point": "Venipak locker, Dominikonų Venipak paštomatas",
+        "postal_code": "1131"
+    },
+    {
+        "id": "6",
+        "country": "LT",
+        "city": "Vilnius",
+        "address": "L. Sapiegos g. 1c",
+        "pickup_point": "Venipak locker, Express Market Venipak paštomatas",
+        "postal_code": "10312"
+    },
+    {
+        "id": "7",
+        "country": "LT",
+        "city": "Vilnius",
+        "address": "Polocko g. 42a",
+        "pickup_point": "Venipak locker, Express market Venipak paštomatas",
+        "postal_code": "1205"
+    },
+    {
+        "id": "8",
+        "country": "LT",
+        "city": "Vilnius",
+        "address": "Didlaukio g. 80A",
+        "pickup_point": "Venipak locker, IKI Baltupiai Venipak paštomatas",
+        "postal_code": "8326"
+    },
+    {
+        "id": "9",
+        "country": "LT",
+        "city": "Vilnius",
+        "address": "Buivydiškių g. 17",
+        "pickup_point": "Venipak locker, IKI Buivydiškės Venipak paštomatas",
+        "postal_code": "7195"
+    },
+    {
+        "id": "10",
+        "country": "LT",
+        "city": "Vilnius",
+        "address": "Dzūkų g. 1",
+        "pickup_point": "Venipak locker, IKI Dzūkų Venipak paštomatas",
+        "postal_code": "2161"
+    },
+    {
+        "id": "11",
+        "country": "LT",
+        "city": "Vilnius",
+        "address": "Jeruzalės g. 17",
+        "pickup_point": "Venipak locker, IKI Jeruzalė Venipak paštomatas",
+        "postal_code": "8420"
+    },
+    {
+        "id": "12",
+        "country": "LT",
+        "city": "Vilnius",
+        "address": "S. Stanevičiaus g. 23",
+        "pickup_point": "Venipak locker, IKI Jovaras Venipak paštomatas",
+        "postal_code": "7133"
+    },
+    {
+        "id": "13",
+        "country": "LT",
+        "city": "Vilnius",
+        "address": "Mindaugo g. 25",
+        "pickup_point": "Venipak locker, IKI Mindaugo Venipak paštomatas",
+        "postal_code": "3214"
+    },
+    {
+        "id": "14",
+        "country": "LT",
+        "city": "Vilnius",
+        "address": "Architektų g. 43",
+        "pickup_point": "Venipak locker, IKI Papartis Venipak paštomatas",
+        "postal_code": "4221"
+    },
+    {
+        "id": "15",
+        "country": "LT",
+        "city": "Vilnius",
+        "address": "Gabijos g. 34",
+        "pickup_point": "Venipak locker, IKI Pašilaičiai Venipak paštomatas",
+        "postal_code": "6155"
+    },
+    {
+        "id": "16",
+        "country": "LT",
+        "city": "Vilnius",
+        "address": "Jonažolių g. 1",
+        "pickup_point": "Venipak locker, IKI Pavasaris Venipak paštomatas",
+        "postal_code": "4134"
+    },
+    {
+        "id": "17",
+        "country": "LT",
+        "city": "Vilnius",
+        "address": "Juodasis kelias 35A",
+        "pickup_point": "Venipak locker, IKI Pavilnys Venipak paštomatas",
+        "postal_code": "11307"
+    },
+    {
+        "id": "18",
+        "country": "LT",
+        "city": "Vilnius",
+        "address": "Saulėtekio al. 43",
+        "pickup_point": "Venipak locker, IKI Plytinės Venipak paštomatas",
+        "postal_code": "10227"
+    },
+    {
+        "id": "19",
+        "country": "LT",
+        "city": "Vilnius",
+        "address": "J. Franko g. 2A",
+        "pickup_point": "Venipak locker, IKI Santariškės Venipak paštomatas",
+        "postal_code": "8431"
+    },
+    {
+        "id": "20",
+        "country": "LT",
+        "city": "Vilnius",
+        "address": "Žirmūnų g. 106E",
+        "pickup_point": "Venipak locker, IKI Šaltinėlis Venipak paštomatas",
+        "postal_code": "9121"
+    },
+    {
+        "id": "21",
+        "country": "LT",
+        "city": "Vilnius",
+        "address": "Šeškinės g. 32",
+        "pickup_point": "Venipak locker, IKI Šeškinė Venipak paštomatas",
+        "postal_code": "7157"
+    },
+    {
+        "id": "22",
+        "country": "LT",
+        "city": "Vilnius",
+        "address": "Vaduvos g. 4A",
+        "pickup_point": "Venipak locker, IKI Venipak paštomatas",
+        "postal_code": "2304"
+    },
+    {
+        "id": "23",
+        "country": "LT",
+        "city": "Vilnius",
+        "address": "Pilaitės pr. 42",
+        "pickup_point": "Venipak locker, IKI Venipak paštomatas",
+        "postal_code": "6222"
+    },
+    {
+        "id": "24",
+        "country": "LT",
+        "city": "Vilnius",
+        "address": "Estu g.1",
+        "pickup_point": "Venipak locker, IKI Venipak paštomatas",
+        "postal_code": "11330"
+    },
+    {
+        "id": "25",
+        "country": "LT",
+        "city": "Vilnius",
+        "address": "Žirmūnų g. 2",
+        "pickup_point": "Venipak locker, IKI Vilnius Venipak paštomatas",
+        "postal_code": "9214"
+    },
+    {
+        "id": "26",
+        "country": "LT",
+        "city": "Vilnius",
+        "address": "Bajorų kelias 4",
+        "pickup_point": "Venipak locker, IKI Visoriai Venipak paštomatas",
+        "postal_code": "8466"
+    },
+    {
+        "id": "27",
+        "country": "LT",
+        "city": "Vilnius",
+        "address": "Visalaukio g. 1",
+        "pickup_point": "Venipak locker, IKI Žalieji ežerai Venipak paštomatas",
+        "postal_code": "8428"
+    },
+    {
+        "id": "28",
+        "country": "LT",
+        "city": "Vilnius",
+        "address": "J. Basanavičiaus g. 29A",
+        "pickup_point": "Venipak locker, LPSK Venipak paštomatas",
+        "postal_code": "3104"
+    },
+    {
+        "id": "29",
+        "country": "LT",
+        "city": "Vilnius",
+        "address": "Vytauto pr. 32",
+        "pickup_point": "Venipak locker, Verslo Centras 32 Venipak paštomatas",
+        "postal_code": "44328"
+    },
+    {
+        "id": "30",
+        "country": "LT",
+        "city": "Kaunas",
+        "address": "Laisvės al. 97",
+        "pickup_point": "Venipak Pickup, Eurokos",
+        "postal_code": "44291"
+    },
+    {
+        "id": "31",
+        "country": "LT",
+        "city": "Kaunas",
+        "address": "Šiaurės pr. 8D",
+        "pickup_point": "Venipak Pickup, Eurokos",
+        "postal_code": "49155"
+    },
+    {
+        "id": "32",
+        "country": "LT",
+        "city": "Kaunas",
+        "address": "Veiverių g. 150B",
+        "pickup_point": "Venipak Pickup, Eurokos (Maxima bazė)",
+        "postal_code": "46391"
+    },
+    {
+        "id": "33",
+        "country": "LT",
+        "city": "Kaunas",
+        "address": "Karaliaus Mindaugo pr. 49",
+        "pickup_point": "Venipak Pickup, Eurokos (PC Akropolis)",
+        "postal_code": "44333"
+    },
+    {
+        "id": "34",
+        "country": "LT",
+        "city": "Kaunas",
+        "address": "K. Baršausko g. 66a",
+        "pickup_point": "Venipak Pickup, Eurokos (PC Molas)",
+        "postal_code": "51436"
+    },
+    {
+        "id": "35",
+        "country": "LT",
+        "city": "Kaunas",
+        "address": "Jonavos g. 60",
+        "pickup_point": "Venipak Pickup, Eurokos (PC River Mall)",
+        "postal_code": "44192"
+    },
+    {
+        "id": "36",
+        "country": "LT",
+        "city": "Kaunas",
+        "address": "V. Krėvės pr. 97",
+        "pickup_point": "Venipak Pickup, Eurokos (PC Saulėtekis)",
+        "postal_code": "50369"
+    },
+    {
+        "id": "37",
+        "country": "LT",
+        "city": "Kaunas",
+        "address": "Jotvingių g. 15",
+        "pickup_point": "Venipak Pickup, Eurokos (PC Taubūčiai)",
+        "postal_code": "48124"
+    },
+    {
+        "id": "38",
+        "country": "LT",
+        "city": "Kaunas",
+        "address": "Drobės g. 62",
+        "pickup_point": "Venipak Pickup, PaperSeal Venipak Pickup",
+        "postal_code": "45181"
+    },
+    {
+        "id": "39",
+        "country": "LT",
+        "city": "ŠIAULIAI",
+        "address": "M.Valančiaus g. 18",
+        "pickup_point": "Venipak locker, NORFA Venipak paštomatas",
+        "postal_code": "76302"
+    },
+    {
+        "id": "40",
+        "country": "LT",
+        "city": "ŠIAULIAI",
+        "address": "Gegužių g. 30",
+        "pickup_point": "Venipak locker, PC ARENA Venipak paštomatas",
+        "postal_code": "78346"
+    },
+    {
+        "id": "41",
+        "country": "LT",
+        "city": "ŠIAULIAI",
+        "address": "Ukmergės g. 44",
+        "pickup_point": "Venipak locker, AIBĖ Venipak paštomatas",
+        "postal_code": "76158"
+    },
+    {
+        "id": "42",
+        "country": "LT",
+        "city": "ŠIAULIAI",
+        "address": "Vaidoto g. 1",
+        "pickup_point": "Venipak locker, Čia Market Venipak paštomatas",
+        "postal_code": "76142"
+    },
+    {
+        "id": "43",
+        "country": "LT",
+        "city": "ŠIAULIAI",
+        "address": "Birutės g. 49",
+        "pickup_point": "Venipak locker, IKI Birutė Venipak paštomatas",
+        "postal_code": "76216"
+    },
+    {
+        "id": "44",
+        "country": "LT",
+        "city": "ŠIAULIAI",
+        "address": "Gardino g. 2",
+        "pickup_point": "Venipak locker, IKI Dainai Venipak paštomatas",
+        "postal_code": "78230"
+    },
+    {
+        "id": "45",
+        "country": "LT",
+        "city": "ŠIAULIAI",
+        "address": "Lyros g. 5",
+        "pickup_point": "Venipak locker, IKI Lyra Turgus Venipak paštomatas",
+        "postal_code": "78287"
+    },
+    {
+        "id": "46",
+        "country": "LT",
+        "city": "ŠIAULIAI",
+        "address": "Gegužių g. 21",
+        "pickup_point": "Venipak locker, IKI Venipak paštomatas",
+        "postal_code": "78316"
+    },
+    {
+        "id": "47",
+        "country": "LT",
+        "city": "ŠIAULIAI",
+        "address": "Vilniaus g. 3",
+        "pickup_point": "Venipak locker, Maxima Venipak paštomatas",
+        "postal_code": "76275"
+    },
+    {
+        "id": "48",
+        "country": "LT",
+        "city": "ŠIAULIAI",
+        "address": "Gumbinės g. 145A",
+        "pickup_point": "Venipak locker, NORFA Venipak paštomatas",
+        "postal_code": "76326"
+    },
+    {
+        "id": "49",
+        "country": "LT",
+        "city": "ŠIAULIAI",
+        "address": "Tilžės g. 13a",
+        "pickup_point": "Venipak locker, NORFA Venipak paštomatas",
+        "postal_code": "78242"
+    },
+    {
+        "id": "50",
+        "country": "LT",
+        "city": "ŠIAULIAI",
+        "address": "Pramonės g. 6",
+        "pickup_point": "Venipak locker, PC Bruklinas Venipak paštomatas",
+        "postal_code": "78148"
+    },
+    {
+        "id": "51",
+        "country": "LT",
+        "city": "ŠIAULIAI",
+        "address": "Draugystės pr. 14",
+        "pickup_point": "Venipak locker, PC Kubas Venipak paštomatas",
+        "postal_code": "77149"
+    },
+    {
+        "id": "52",
+        "country": "LT",
+        "city": "ŠIAULIAI",
+        "address": "Tilžės g. 109",
+        "pickup_point": "Venipak locker, PC Saulės miestas Venipak paštomatas",
+        "postal_code": "77159"
+    },
+    {
+        "id": "53",
+        "country": "LT",
+        "city": "ŠIAULIAI",
+        "address": "Tilžės g. 225",
+        "pickup_point": "Venipak locker, PC Tilžė Venipak paštomatas",
+        "postal_code": "76297"
+    },
+    {
+        "id": "54",
+        "country": "LT",
+        "city": "ŠIAULIAI",
+        "address": "Piktmiškio g. 75",
+        "pickup_point": "Venipak locker, RIMI Piktmiškio Venipak paštomatas",
+        "postal_code": "77110"
+    },
+    {
+        "id": "55",
+        "country": "LT",
+        "city": "ŠIAULIAI",
+        "address": "Gardino g. 2",
+        "pickup_point": "Venipak Pickup, Eurokos",
+        "postal_code": "78230"
+    },
+    {
+        "id": "56",
+        "country": "LT",
+        "city": "ŠIAULIAI",
+        "address": "Vilniaus g. 217",
+        "pickup_point": "Venipak Pickup, Eurokos",
+        "postal_code": "76344"
+    },
+    {
+        "id": "57",
+        "country": "LT",
+        "city": "ŠIAULIAI",
+        "address": "Pramonės g. 6",
+        "pickup_point": "Venipak Pickup, Eurokos (PC Bruklinas)",
+        "postal_code": "78148"
+    },
+    {
+        "id": "58",
+        "country": "LT",
+        "city": "ŠIAULIAI",
+        "address": "Tilžės g. 225",
+        "pickup_point": "Venipak Pickup, Eurokos (PC Tilžė)",
+        "postal_code": "76206"
+    },
+    {
+        "id": "59",
+        "country": "LT",
+        "city": "ŠIAULIAI",
+        "address": "Daubos g. 12",
+        "pickup_point": "Venipak Pickup, Venipak Terminalas",
+        "postal_code": "78150"
+    },
+    {
+        "id": "60",
+        "country": "LT",
+        "city": "PANEVĖŽYS",
+        "address": "Nemuno g. 70",
+        "pickup_point": "Venipak locker, IKI Nemunas Venipak paštomatas",
+        "postal_code": "35190"
+    },
+    {
+        "id": "61",
+        "country": "LT",
+        "city": "PANEVĖŽYS",
+        "address": "Vilniaus g. 60",
+        "pickup_point": "Venipak locker, IKI Venipak paštomatas",
+        "postal_code": "36105"
+    },
+    {
+        "id": "62",
+        "country": "LT",
+        "city": "PANEVĖŽYS",
+        "address": "Klaipėdos g. 92",
+        "pickup_point": "Venipak locker, MAXIMA Venipak paštomatas",
+        "postal_code": "37383"
+    },
+    {
+        "id": "63",
+        "country": "LT",
+        "city": "PANEVĖŽYS",
+        "address": "Ukmergės g. 23",
+        "pickup_point": "Venipak locker, MAXIMA Venipak paštomatas",
+        "postal_code": "35177"
+    },
+    {
+        "id": "64",
+        "country": "LT",
+        "city": "PANEVĖŽYS",
+        "address": "Respublikos g. 71",
+        "pickup_point": "Venipak locker, MAXIMA Venipak paštomatas",
+        "postal_code": "35157"
+    },
+    {
+        "id": "65",
+        "country": "LT",
+        "city": "PANEVĖŽYS",
+        "address": "Klaipėdos g. 103",
+        "pickup_point": "Venipak locker, MAXIMA Venipak paštomatas",
+        "postal_code": "37311"
+    },
+    {
+        "id": "66",
+        "country": "LT",
+        "city": "PANEVĖŽYS",
+        "address": "Nemuno g. 29",
+        "pickup_point": "Venipak locker, NORFA Venipak paštomatas",
+        "postal_code": "36243"
+    },
+    {
+        "id": "67",
+        "country": "LT",
+        "city": "PANEVĖŽYS",
+        "address": "Beržų g. 27",
+        "pickup_point": "Venipak locker, NORFA Venipak paštomatas",
+        "postal_code": "36204"
+    },
+    {
+        "id": "68",
+        "country": "LT",
+        "city": "PANEVĖŽYS",
+        "address": "Molainių g. 11",
+        "pickup_point": "Venipak locker, NORFA Venipak paštomatas",
+        "postal_code": "37162"
+    },
+    {
+        "id": "69",
+        "country": "LT",
+        "city": "PANEVĖŽYS",
+        "address": "Vasario 16-osios g. 55",
+        "pickup_point": "Venipak locker, NORFA Venipak paštomatas",
+        "postal_code": "35187"
+    },
+    {
+        "id": "70",
+        "country": "LT",
+        "city": "PANEVĖŽYS",
+        "address": "Smėlynės g. 85",
+        "pickup_point": "Venipak locker, NORFA Venipak paštomatas",
+        "postal_code": "35110"
+    },
+    {
+        "id": "71",
+        "country": "LT",
+        "city": "PANEVĖŽYS",
+        "address": "Klaipėdos g. 143A",
+        "pickup_point": "Venipak locker, PC Molas Venipak paštomatas",
+        "postal_code": "37189"
+    },
+    {
+        "id": "72",
+        "country": "LT",
+        "city": "PANEVĖŽYS",
+        "address": "Piniavos skg. 10",
+        "pickup_point": "Venipak locker, PC ROŽYNAS Venipak paštomatas",
+        "postal_code": "37454"
+    },
+    {
+        "id": "73",
+        "country": "LT",
+        "city": "PANEVĖŽYS",
+        "address": "Aukštaičių g. 88",
+        "pickup_point": "Venipak locker, PC Vasaris Venipak paštomatas",
+        "postal_code": "36115"
+    },
+    {
+        "id": "74",
+        "country": "LT",
+        "city": "PANEVĖŽYS",
+        "address": "Ragaudžių g. 2",
+        "pickup_point": "Venipak locker, RIMI Venipak paštomatas",
+        "postal_code": "36265"
+    },
+    {
+        "id": "75",
+        "country": "LT",
+        "city": "PANEVĖŽYS",
+        "address": "Ramygalos g. 147B",
+        "pickup_point": "Venipak Pickup, BIKUVA",
+        "postal_code": "36220"
+    },
+    {
+        "id": "76",
+        "country": "LT",
+        "city": "PANEVĖŽYS",
+        "address": "Klaipėdos g. 92",
+        "pickup_point": "Venipak Pickup, DROGAS",
+        "postal_code": "37383"
+    },
+    {
+        "id": "77",
+        "country": "LT",
+        "city": "PANEVĖŽYS",
+        "address": "Ukmergės g. 18",
+        "pickup_point": "Venipak Pickup, Eurokos",
+        "postal_code": "35201"
+    },
+    {
+        "id": "78",
+        "country": "LT",
+        "city": "PANEVĖŽYS",
+        "address": "Klaipėdos g. 103",
+        "pickup_point": "Venipak Pickup, Eurokos",
+        "postal_code": "37311"
+    },
+    {
+        "id": "79",
+        "country": "LT",
+        "city": "PANEVĖŽYS",
+        "address": "Respublikos g. 71",
+        "pickup_point": "Venipak Pickup, Eurokos",
+        "postal_code": "35157"
+    },
+    {
+        "id": "80",
+        "country": "LT",
+        "city": "PANEVĖŽYS",
+        "address": "Savitiškio g. 61",
+        "pickup_point": "Venipak Pickup, Eurokos (PC RYO)",
+        "postal_code": "37189"
+    },
+    {
+        "id": "81",
+        "country": "LT",
+        "city": "PANEVĖŽYS",
+        "address": "J. Janonio g. 1",
+        "pickup_point": "Venipak Pickup, Venipak Terminalas",
+        "postal_code": "35101"
+    },
+    {
+        "id": "82",
+        "country": "LT",
+        "city": "Akademija",
+        "address": "Pilėnų g. 1",
+        "pickup_point": "Venipak locker, Express Market Venipak paštomatas",
+        "postal_code": "53347"
+    },
+    {
+        "id": "83",
+        "country": "LT",
+        "city": "Akmenė",
+        "address": "J. Dalinkevičiaus g. 5",
+        "pickup_point": "Venipak locker, NORFA Venipak paštomatas",
+        "postal_code": "85367"
+    },
+    {
+        "id": "84",
+        "country": "LT",
+        "city": "Alytus",
+        "address": "Ulonų g. 31",
+        "pickup_point": "Venipak locker, IKI Alytus Venipak paštomatas",
+        "postal_code": "62161"
+    },
+    {
+        "id": "85",
+        "country": "LT",
+        "city": "Alytus",
+        "address": "Naujoji g. 48",
+        "pickup_point": "Venipak locker, IKI Alytus 2 Venipak paštomatas",
+        "postal_code": "62381"
+    },
+    {
+        "id": "86",
+        "country": "LT",
+        "city": "Alytus",
+        "address": "Naujoji g. 2E",
+        "pickup_point": "Venipak locker, MAXIMA Venipak paštomatas",
+        "postal_code": "62411"
+    },
+    {
+        "id": "87",
+        "country": "LT",
+        "city": "Alytus",
+        "address": "Naujoji g. 90",
+        "pickup_point": "Venipak locker, NORFA Venipak paštomatas",
+        "postal_code": "62387"
+    },
+    {
+        "id": "88",
+        "country": "LT",
+        "city": "Alytus",
+        "address": "Naujoji g. 2C",
+        "pickup_point": "Venipak locker, PC ARENA Venipak paštomatas",
+        "postal_code": "62411"
+    },
+    {
+        "id": "89",
+        "country": "LT",
+        "city": "Alytus",
+        "address": "Naujoji g. 48",
+        "pickup_point": "Venipak Pickup, DROGAS",
+        "postal_code": "62381"
+    },
+    {
+        "id": "90",
+        "country": "LT",
+        "city": "Alytus",
+        "address": "Naujoji g. 2E",
+        "pickup_point": "Venipak Pickup, Eurokos",
+        "postal_code": "62411"
+    },
+    {
+        "id": "91",
+        "country": "LT",
+        "city": "Alytus",
+        "address": "Naujoji g. 124",
+        "pickup_point": "Venipak Pickup, Venipak Terminalas",
+        "postal_code": "62175"
+    },
+    {
+        "id": "92",
+        "country": "LT",
+        "city": "Anykščiai",
+        "address": "Vilniaus g. 36",
+        "pickup_point": "Venipak locker, IKI Anykščiai Venipak paštomatas",
+        "postal_code": "29140"
+    },
+    {
+        "id": "93",
+        "country": "LT",
+        "city": "Anykščiai",
+        "address": "Statybininkų g. 1E",
+        "pickup_point": "Venipak locker, MAXIMA Venipak paštomatas",
+        "postal_code": "29145"
+    },
+    {
+        "id": "94",
+        "country": "LT",
+        "city": "Anykščiai",
+        "address": "Šaltupio g. 29",
+        "pickup_point": "Venipak locker, NORFA Venipak paštomatas",
+        "postal_code": "29131"
+    },
+    {
+        "id": "95",
+        "country": "LT",
+        "city": "Anykščiai",
+        "address": "Šaltupio g. 29",
+        "pickup_point": "Venipak Pickup, Eurokos",
+        "postal_code": "29131"
+    },
+    {
+        "id": "96",
+        "country": "LT",
+        "city": "Ariogala",
+        "address": "Vytauto g. 84",
+        "pickup_point": "Venipak locker, NORFA Venipak paštomatas",
+        "postal_code": "60256"
+    },
+    {
+        "id": "97",
+        "country": "LT",
+        "city": "Babtai",
+        "address": "Šiaurės g. 2",
+        "pickup_point": "Venipak locker, IKI Babtai Venipak paštomatas",
+        "postal_code": "54331"
+    },
+    {
+        "id": "98",
+        "country": "LT",
+        "city": "Balbieriškis",
+        "address": "Bažnyčios g. 1",
+        "pickup_point": "Venipak locker, NORFA Venipak paštomatas",
+        "postal_code": "59242"
+    },
+    {
+        "id": "99",
+        "country": "LT",
+        "city": "Baltoji Vokė",
+        "address": "Vilniaus g. 4",
+        "pickup_point": "Venipak locker, AIBĖ Venipak paštomatas",
+        "postal_code": "14119"
+    },
+    {
+        "id": "100",
+        "country": "LT",
+        "city": "Birštonas",
+        "address": "Jaunimo g. 2",
+        "pickup_point": "Venipak locker, NORFA Venipak paštomatas",
+        "postal_code": "59206"
+    },
+    {
+        "id": "101",
+        "country": "LT",
+        "city": "Biržai",
+        "address": "Vilniaus g. 66",
+        "pickup_point": "Venipak locker, IKI Biržai Venipak paštomatas",
+        "postal_code": "41169"
+    },
+    {
+        "id": "102",
+        "country": "LT",
+        "city": "Biržai",
+        "address": "Vytauto g. 21",
+        "pickup_point": "Venipak locker, MAXIMA Venipak paštomatas",
+        "postal_code": "41174"
+    },
+    {
+        "id": "103",
+        "country": "LT",
+        "city": "Biržai",
+        "address": "Rotušės g. 2",
+        "pickup_point": "Venipak locker, NORFA Venipak paštomatas",
+        "postal_code": "41175"
+    },
+    {
+        "id": "104",
+        "country": "LT",
+        "city": "Biržai",
+        "address": "Vytauto g. 21",
+        "pickup_point": "Venipak Pickup, Eurokos",
+        "postal_code": "41174"
+    },
+    {
+        "id": "105",
+        "country": "LT",
+        "city": "Bukiškis",
+        "address": "Vilniaus g. 110",
+        "pickup_point": "Venipak locker, AIBĖ Venipak paštomatas",
+        "postal_code": "14182"
+    },
+    {
+        "id": "106",
+        "country": "LT",
+        "city": "Daugai",
+        "address": "Ežero g. 30",
+        "pickup_point": "Venipak locker, MAXIMA Venipak paštomatas",
+        "postal_code": "64144"
+    },
+    {
+        "id": "107",
+        "country": "LT",
+        "city": "Druskininkai",
+        "address": "Vilniaus al. 24",
+        "pickup_point": "Venipak locker, IKI Druskininkai Venipak paštomatas",
+        "postal_code": "66119"
+    },
+    {
+        "id": "108",
+        "country": "LT",
+        "city": "Druskininkai",
+        "address": "M. K. Čiurlionio g. 99",
+        "pickup_point": "Venipak locker, MAXIMA Venipak paštomatas",
+        "postal_code": "66142"
+    },
+    {
+        "id": "109",
+        "country": "LT",
+        "city": "Druskininkai",
+        "address": "M. K. Čiurlionio g. 107",
+        "pickup_point": "Venipak locker, NORFA Venipak paštomatas",
+        "postal_code": "66161"
+    },
+    {
+        "id": "110",
+        "country": "LT",
+        "city": "Druskininkai",
+        "address": "Veisiejų g. 31",
+        "pickup_point": "Venipak locker, NORFA Venipak paštomatas",
+        "postal_code": "66245"
+    },
+    {
+        "id": "111",
+        "country": "LT",
+        "city": "Druskininkai",
+        "address": "M. K. Čiurlionio g. 107",
+        "pickup_point": "Venipak Pickup, Eurokos",
+        "postal_code": "66161"
+    },
+    {
+        "id": "112",
+        "country": "LT",
+        "city": "Dūkštas",
+        "address": "Vilniaus g. 62",
+        "pickup_point": "Venipak locker, AIBĖ Venipak paštomatas",
+        "postal_code": "32200"
+    },
+    {
+        "id": "113",
+        "country": "LT",
+        "city": "Dusetos",
+        "address": "Vytauto g. 42",
+        "pickup_point": "Venipak locker, AIBĖ Venipak paštomatas",
+        "postal_code": "32272"
+    },
+    {
+        "id": "114",
+        "country": "LT",
+        "city": "Eičiūnai",
+        "address": "Vilniaus g. 100",
+        "pickup_point": "Venipak locker, IKI Eičiūnai Venipak paštomatas",
+        "postal_code": "14167"
+    },
+    {
+        "id": "115",
+        "country": "LT",
+        "city": "Eiguliai",
+        "address": "Šiaurės pr. 95",
+        "pickup_point": "Venipak locker, IKI Eiguliai Venipak paštomatas",
+        "postal_code": "49153"
+    },
+    {
+        "id": "116",
+        "country": "LT",
+        "city": "Elektrėnai",
+        "address": "Elektrinės g. 21D",
+        "pickup_point": "Venipak locker, MAXIMA Venipak paštomatas",
+        "postal_code": "26108"
+    },
+    {
+        "id": "117",
+        "country": "LT",
+        "city": "Elektrėnai",
+        "address": "Sabališkių g. 1J",
+        "pickup_point": "Venipak locker, NORFA Venipak paštomatas",
+        "postal_code": "26132"
+    },
+    {
+        "id": "118",
+        "country": "LT",
+        "city": "Elektrėnai",
+        "address": "Sabališkių g. 1J",
+        "pickup_point": "Venipak Pickup, Eurokos",
+        "postal_code": "26132"
+    },
+    {
+        "id": "119",
+        "country": "LT",
+        "city": "Ežerėlis",
+        "address": "Kauno g. 29",
+        "pickup_point": "Venipak locker, AIBĖ Venipak paštomatas",
+        "postal_code": "53387"
+    },
+    {
+        "id": "120",
+        "country": "LT",
+        "city": "Gargždai",
+        "address": "Klaipėdos g. 41",
+        "pickup_point": "Venipak locker, IKI Gargždai Venipak paštomatas",
+        "postal_code": "96155"
+    },
+    {
+        "id": "121",
+        "country": "LT",
+        "city": "Gargždai",
+        "address": "Kvietinių g. 6",
+        "pickup_point": "Venipak locker, MAXIMA Venipak paštomatas",
+        "postal_code": "96135"
+    },
+    {
+        "id": "122",
+        "country": "LT",
+        "city": "Gargždai",
+        "address": "P. Cvirkos g. 6",
+        "pickup_point": "Venipak locker, NORFA Venipak paštomatas",
+        "postal_code": "96134"
+    },
+    {
+        "id": "123",
+        "country": "LT",
+        "city": "Gargždai",
+        "address": "P. Cvirkos g. 13",
+        "pickup_point": "Venipak locker, NORFA Venipak paštomatas",
+        "postal_code": "96126"
+    },
+    {
+        "id": "124",
+        "country": "LT",
+        "city": "Gargždai",
+        "address": "P. Cvirkos g. 6",
+        "pickup_point": "Venipak Pickup, Eurokos",
+        "postal_code": "96134"
+    },
+    {
+        "id": "125",
+        "country": "LT",
+        "city": "Garliava",
+        "address": "Bažnyčios g. 3",
+        "pickup_point": "Venipak locker, IKI Garliava Venipak paštomatas",
+        "postal_code": "53250"
+    },
+    {
+        "id": "126",
+        "country": "LT",
+        "city": "Garliava",
+        "address": "Vytauto g. 128",
+        "pickup_point": "Venipak locker, MAXIMA Venipak paštomatas",
+        "postal_code": "53223"
+    },
+    {
+        "id": "127",
+        "country": "LT",
+        "city": "Garliava",
+        "address": "Vytauto g. 61",
+        "pickup_point": "Venipak locker, NORFA Venipak paštomatas",
+        "postal_code": "53258"
+    },
+    {
+        "id": "128",
+        "country": "LT",
+        "city": "Garliava",
+        "address": "Vytauto g. 61",
+        "pickup_point": "Venipak Pickup, Eurokos",
+        "postal_code": "53258"
+    },
+    {
+        "id": "129",
+        "country": "LT",
+        "city": "Gelgaudiškis",
+        "address": "Taikos g. 24",
+        "pickup_point": "Venipak locker, AIBĖ Venipak paštomatas",
+        "postal_code": "71425"
+    },
+    {
+        "id": "130",
+        "country": "LT",
+        "city": "Grigiškės",
+        "address": "Kovo 11-osios g. 39",
+        "pickup_point": "Venipak locker, NORFA Venipak paštomatas",
+        "postal_code": "27104"
+    },
+    {
+        "id": "131",
+        "country": "LT",
+        "city": "Grigiškės",
+        "address": "Vilniaus g. 10",
+        "pickup_point": "Venipak Pickup, BIKUVA",
+        "postal_code": "27101"
+    },
+    {
+        "id": "132",
+        "country": "LT",
+        "city": "Ignalina",
+        "address": "Atgimimo g. 2",
+        "pickup_point": "Venipak locker, IKI Ignalina Venipak paštomatas",
+        "postal_code": "30116"
+    },
+    {
+        "id": "133",
+        "country": "LT",
+        "city": "Ignalina",
+        "address": "Laisvės g. 67",
+        "pickup_point": "Venipak locker, NORFA Venipak paštomatas",
+        "postal_code": "30116"
+    },
+    {
+        "id": "134",
+        "country": "LT",
+        "city": "Ignalina",
+        "address": "Laisvės g. 67",
+        "pickup_point": "Venipak Pickup, Eurokos",
+        "postal_code": "30116"
+    },
+    {
+        "id": "135",
+        "country": "LT",
+        "city": "Jonava",
+        "address": "Plento g. 3",
+        "pickup_point": "Venipak locker, IKI Jonava Venipak paštomatas",
+        "postal_code": "55195"
+    },
+    {
+        "id": "136",
+        "country": "LT",
+        "city": "Jonava",
+        "address": "Žeimių g. 26",
+        "pickup_point": "Venipak locker, MAXIMA Venipak paštomatas",
+        "postal_code": "55125"
+    },
+    {
+        "id": "137",
+        "country": "LT",
+        "city": "Jonava",
+        "address": "Kosmonautų g. 1",
+        "pickup_point": "Venipak locker, NORFA Venipak paštomatas",
+        "postal_code": "55154"
+    },
+    {
+        "id": "138",
+        "country": "LT",
+        "city": "Jonava",
+        "address": "Chemikų g. 1",
+        "pickup_point": "Venipak locker, NORFA Venipak paštomatas",
+        "postal_code": "55241"
+    },
+    {
+        "id": "139",
+        "country": "LT",
+        "city": "Jonava",
+        "address": "J. Basanavičiaus g. 6",
+        "pickup_point": "Venipak locker, PC DOMUS Venipak paštomatas",
+        "postal_code": "55171"
+    },
+    {
+        "id": "140",
+        "country": "LT",
+        "city": "Jonava",
+        "address": "Žeimių g. 26",
+        "pickup_point": "Venipak Pickup, DROGAS",
+        "postal_code": "55125"
+    },
+    {
+        "id": "141",
+        "country": "LT",
+        "city": "Jonava",
+        "address": "Chemikų g. 1",
+        "pickup_point": "Venipak Pickup, Eurokos",
+        "postal_code": "55241"
+    },
+    {
+        "id": "142",
+        "country": "LT",
+        "city": "Joniškėlis",
+        "address": "Pašvitinio g. 21",
+        "pickup_point": "Venipak locker, NORFA Venipak paštomatas",
+        "postal_code": "39303"
+    },
+    {
+        "id": "143",
+        "country": "LT",
+        "city": "Joniškis",
+        "address": "Vilniaus g. 4",
+        "pickup_point": "Venipak locker, IKI Joniškis Venipak paštomatas",
+        "postal_code": "84147"
+    },
+    {
+        "id": "144",
+        "country": "LT",
+        "city": "Joniškis",
+        "address": "Upytės g. 19",
+        "pickup_point": "Venipak locker, MAXIMA Venipak paštomatas",
+        "postal_code": "84154"
+    },
+    {
+        "id": "145",
+        "country": "LT",
+        "city": "Joniškis",
+        "address": "Pašvitinio g. 15",
+        "pickup_point": "Venipak locker, NORFA Venipak paštomatas",
+        "postal_code": "84145"
+    },
+    {
+        "id": "146",
+        "country": "LT",
+        "city": "Joniškis",
+        "address": "Upytės g. 19",
+        "pickup_point": "Venipak Pickup, Eurokos",
+        "postal_code": "84154"
+    },
+    {
+        "id": "147",
+        "country": "LT",
+        "city": "Juodupė",
+        "address": "Rokiškio g. 4A",
+        "pickup_point": "Venipak locker, AIBĖ Venipak paštomatas",
+        "postal_code": "42425"
+    },
+    {
+        "id": "148",
+        "country": "LT",
+        "city": "Jurbarkas",
+        "address": "Dariaus ir Girėno g. 92",
+        "pickup_point": "Venipak locker, IKI Jurbarkas Venipak paštomatas",
+        "postal_code": "74187"
+    },
+    {
+        "id": "149",
+        "country": "LT",
+        "city": "Jurbarkas",
+        "address": "Dariaus ir Girėno g. 120A",
+        "pickup_point": "Venipak locker, MAXIMA Venipak paštomatas",
+        "postal_code": "74187"
+    },
+    {
+        "id": "150",
+        "country": "LT",
+        "city": "Jurbarkas",
+        "address": "Algirdo g. 2A",
+        "pickup_point": "Venipak locker, NORFA Venipak paštomatas",
+        "postal_code": "74206"
+    },
+    {
+        "id": "151",
+        "country": "LT",
+        "city": "Jurbarkas",
+        "address": "Dariaus ir Girėno g. 120A",
+        "pickup_point": "Venipak Pickup, Eurokos",
+        "postal_code": "74187"
+    },
+    {
+        "id": "152",
+        "country": "LT",
+        "city": "Kaišiadorys",
+        "address": "Gedimino g. 81",
+        "pickup_point": "Venipak locker, IKI Kaišiadorys Venipak paštomatas",
+        "postal_code": "56121"
+    },
+    {
+        "id": "153",
+        "country": "LT",
+        "city": "Kaišiadorys",
+        "address": "Gedimino g. 119",
+        "pickup_point": "Venipak locker, MAXIMA Venipak paštomatas",
+        "postal_code": "56159"
+    },
+    {
+        "id": "154",
+        "country": "LT",
+        "city": "Kaišiadorys",
+        "address": "J. Basanavičiaus g. 55",
+        "pickup_point": "Venipak locker, NORFA Venipak paštomatas",
+        "postal_code": "56134"
+    },
+    {
+        "id": "155",
+        "country": "LT",
+        "city": "Kaišiadorys",
+        "address": "Gedimino g. 119",
+        "pickup_point": "Venipak Pickup, Eurokos",
+        "postal_code": "56159"
+    },
+    {
+        "id": "156",
+        "country": "LT",
+        "city": "Kalvarija",
+        "address": "Vytauto g. 46",
+        "pickup_point": "Venipak locker, NORFA Venipak paštomatas",
+        "postal_code": "69217"
+    },
+    {
+        "id": "157",
+        "country": "LT",
+        "city": "Kalveliai",
+        "address": "Vilniaus g. 16",
+        "pickup_point": "Venipak locker, AIBĖ Venipak paštomatas",
+        "postal_code": "13213"
+    },
+    {
+        "id": "158",
+        "country": "LT",
+        "city": "Kapčiamiestis",
+        "address": "Vytauto g. 4",
+        "pickup_point": "Venipak locker, AIBĖ Venipak paštomatas",
+        "postal_code": "67313"
+    },
+    {
+        "id": "159",
+        "country": "LT",
+        "city": "Karmėlava",
+        "address": "Vilniaus g. 54",
+        "pickup_point": "Venipak locker, IKI Karmėlava Venipak paštomatas",
+        "postal_code": "54459"
+    },
+    {
+        "id": "160",
+        "country": "LT",
+        "city": "Kavarskas",
+        "address": "P. Cvirkos g. 3",
+        "pickup_point": "Venipak locker, AIBĖ Venipak paštomatas",
+        "postal_code": "29259"
+    },
+    {
+        "id": "161",
+        "country": "LT",
+        "city": "Kazlų Rūda",
+        "address": "M. Valančiaus g. 13",
+        "pickup_point": "Venipak locker, IKI Kazlų Rūda Venipak paštomatas",
+        "postal_code": "69439"
+    },
+    {
+        "id": "162",
+        "country": "LT",
+        "city": "Kazlų Rūda",
+        "address": "Vytauto g. 94A",
+        "pickup_point": "Venipak locker, NORFA Venipak paštomatas",
+        "postal_code": "69431"
+    },
+    {
+        "id": "163",
+        "country": "LT",
+        "city": "Kėdainiai",
+        "address": "J. Basanavičiaus g. 93",
+        "pickup_point": "Venipak locker, IKI Kėdainiai Venipak paštomatas",
+        "postal_code": "57354"
+    },
+    {
+        "id": "164",
+        "country": "LT",
+        "city": "Kėdainiai",
+        "address": "J. Basanavičiaus g. 80",
+        "pickup_point": "Venipak locker, MAXIMA Venipak paštomatas",
+        "postal_code": "57270"
+    },
+    {
+        "id": "165",
+        "country": "LT",
+        "city": "Kėdainiai",
+        "address": "S. Dariaus ir S. Girėno g. 50",
+        "pickup_point": "Venipak locker, NORFA Venipak paštomatas",
+        "postal_code": "57155"
+    },
+    {
+        "id": "166",
+        "country": "LT",
+        "city": "Kėdainiai",
+        "address": "Tilto g. 2",
+        "pickup_point": "Venipak locker, NORFA Venipak paštomatas",
+        "postal_code": "57158"
+    },
+    {
+        "id": "167",
+        "country": "LT",
+        "city": "Kėdainiai",
+        "address": "J. Basanavičiaus g. 93",
+        "pickup_point": "Venipak Pickup, DROGAS",
+        "postal_code": "57354"
+    },
+    {
+        "id": "168",
+        "country": "LT",
+        "city": "Kėdainiai",
+        "address": "J. Basanavičiaus g. 80",
+        "pickup_point": "Venipak Pickup, Eurokos",
+        "postal_code": "57270"
+    },
+    {
+        "id": "169",
+        "country": "LT",
+        "city": "Kelmė",
+        "address": "Vytauto Didžiojo g. 110",
+        "pickup_point": "Venipak locker, IKI Kelmė Venipak paštomatas",
+        "postal_code": "86140"
+    },
+    {
+        "id": "170",
+        "country": "LT",
+        "city": "Kelmė",
+        "address": "Dariaus ir Girėno g. 5A",
+        "pickup_point": "Venipak locker, NORFA Venipak paštomatas",
+        "postal_code": "86135"
+    },
+    {
+        "id": "171",
+        "country": "LT",
+        "city": "Kelmė",
+        "address": "Dariaus ir Girėno g. 5A",
+        "pickup_point": "Venipak Pickup, Eurokos",
+        "postal_code": "86135"
+    },
+    {
+        "id": "172",
+        "country": "LT",
+        "city": "Kybartai",
+        "address": "J. Basanavičiaus g. 42",
+        "pickup_point": "Venipak locker, NORFA Venipak paštomatas",
+        "postal_code": "70387"
+    },
+    {
+        "id": "173",
+        "country": "LT",
+        "city": "Klaipėda",
+        "address": "Taikos pr. 64",
+        "pickup_point": "Venipak locker, IKI Debrecenas Venipak paštomatas",
+        "postal_code": "93225"
+    },
+    {
+        "id": "174",
+        "country": "LT",
+        "city": "Klaipėda",
+        "address": "Taikos pr. 139",
+        "pickup_point": "Venipak locker, IKI Klaipėda Venipak paštomatas",
+        "postal_code": "94284"
+    },
+    {
+        "id": "175",
+        "country": "LT",
+        "city": "Klaipėda",
+        "address": "Vingio g. 14",
+        "pickup_point": "Venipak locker, IKI Vingis Venipak paštomatas",
+        "postal_code": "95193"
+    },
+    {
+        "id": "176",
+        "country": "LT",
+        "city": "Klaipėda",
+        "address": "Taikos pr. 48",
+        "pickup_point": "Venipak locker, MAXIMA Venipak paštomatas",
+        "postal_code": "91220"
+    },
+    {
+        "id": "177",
+        "country": "LT",
+        "city": "Klaipėda",
+        "address": "Šiaurės pr. 17",
+        "pickup_point": "Venipak locker, MAXIMA Venipak paštomatas",
+        "postal_code": "92312"
+    },
+    {
+        "id": "178",
+        "country": "LT",
+        "city": "Klaipėda",
+        "address": "Taikos pr. 141",
+        "pickup_point": "Venipak locker, MAXIMA Venipak paštomatas",
+        "postal_code": "94284"
+    },
+    {
+        "id": "179",
+        "country": "LT",
+        "city": "Klaipėda",
+        "address": "Naikupės g. 30",
+        "pickup_point": "Venipak locker, MAXIMA Venipak paštomatas",
+        "postal_code": "93202"
+    },
+    {
+        "id": "180",
+        "country": "LT",
+        "city": "Klaipėda",
+        "address": "Taikos pr. 101",
+        "pickup_point": "Venipak locker, NORFA Venipak paštomatas",
+        "postal_code": "94198"
+    },
+    {
+        "id": "181",
+        "country": "LT",
+        "city": "Klaipėda",
+        "address": "Vyturio g. 27",
+        "pickup_point": "Venipak locker, NORFA Venipak paštomatas",
+        "postal_code": "95186"
+    },
+    {
+        "id": "182",
+        "country": "LT",
+        "city": "Klaipėda",
+        "address": "Bijūnų g. 8",
+        "pickup_point": "Venipak locker, NORFA Venipak paštomatas",
+        "postal_code": "91204"
+    },
+    {
+        "id": "183",
+        "country": "LT",
+        "city": "Klaipėda",
+        "address": "Dubysos g. 21",
+        "pickup_point": "Venipak locker, PC Banginis Venipak paštomatas",
+        "postal_code": "93232"
+    },
+    {
+        "id": "184",
+        "country": "LT",
+        "city": "Klaipėda",
+        "address": "Šilutės pl. 35",
+        "pickup_point": "Venipak locker, PC Studlendas Venipak paštomatas",
+        "postal_code": "94105"
+    },
+    {
+        "id": "185",
+        "country": "LT",
+        "city": "Klaipėda",
+        "address": "Taikos pr. 61",
+        "pickup_point": "Venipak locker, PC Vyturys Venipak paštomatas",
+        "postal_code": "91182"
+    },
+    {
+        "id": "186",
+        "country": "LT",
+        "city": "Klaipėda",
+        "address": "Taikos pr. 48",
+        "pickup_point": "Venipak Pickup, DROGAS",
+        "postal_code": "91220"
+    },
+    {
+        "id": "187",
+        "country": "LT",
+        "city": "Klaipėda",
+        "address": "Taikos pr. 139",
+        "pickup_point": "Venipak Pickup, DROGAS",
+        "postal_code": "94284"
+    },
+    {
+        "id": "188",
+        "country": "LT",
+        "city": "Klaipėda",
+        "address": "Taikos pr. 64",
+        "pickup_point": "Venipak Pickup, Eurokos",
+        "postal_code": "93225"
+    },
+    {
+        "id": "189",
+        "country": "LT",
+        "city": "Klaipėda",
+        "address": "Šilutės pl. 35",
+        "pickup_point": "Venipak Pickup, Eurokos (PC Studlendas)",
+        "postal_code": "94105"
+    },
+    {
+        "id": "190",
+        "country": "LT",
+        "city": "Klaipėda",
+        "address": "Taikos pr. 61",
+        "pickup_point": "Venipak Pickup, Eurokos (PC Vyturys)",
+        "postal_code": "91182"
+    },
+    {
+        "id": "191",
+        "country": "LT",
+        "city": "Klaipėda",
+        "address": "Dubysos g. 21",
+        "pickup_point": "Venipak Pickup, Eurokos (PC Banginis)",
+        "postal_code": "93232"
+    },
+    {
+        "id": "192",
+        "country": "LT",
+        "city": "Klaipėda",
+        "address": "Naujoji Uosto g. 3",
+        "pickup_point": "Venipak Pickup, Venipak Terminalas",
+        "postal_code": "92120"
+    },
+    {
+        "id": "193",
+        "country": "LT",
+        "city": "Kretinga",
+        "address": "Rotušės a. 7",
+        "pickup_point": "Venipak locker, IKI Kretinga Venipak paštomatas",
+        "postal_code": "97140"
+    },
+    {
+        "id": "194",
+        "country": "LT",
+        "city": "Kretinga",
+        "address": "Šventosios g. 25A",
+        "pickup_point": "Venipak locker, MAXIMA Venipak paštomatas",
+        "postal_code": "97124"
+    },
+    {
+        "id": "195",
+        "country": "LT",
+        "city": "Kretinga",
+        "address": "Savanorių g. 31",
+        "pickup_point": "Venipak locker, NORFA Venipak paštomatas",
+        "postal_code": "97111"
+    },
+    {
+        "id": "196",
+        "country": "LT",
+        "city": "Kretinga",
+        "address": "Rotušės a. 7",
+        "pickup_point": "Venipak Pickup, Eurokos",
+        "postal_code": "97140"
+    },
+    {
+        "id": "197",
+        "country": "LT",
+        "city": "Kudirkos Naumiestis",
+        "address": "P. Vaičaičio g. 24",
+        "pickup_point": "Venipak locker, NORFA Venipak paštomatas",
+        "postal_code": "71318"
+    },
+    {
+        "id": "198",
+        "country": "LT",
+        "city": "Kulautuva",
+        "address": "Poilsio g. 5",
+        "pickup_point": "Venipak locker, AIBĖ Venipak paštomatas",
+        "postal_code": "53481"
+    },
+    {
+        "id": "199",
+        "country": "LT",
+        "city": "Kupiškis",
+        "address": "Gedimino g. 96",
+        "pickup_point": "Venipak locker, IKI Kupiškis Venipak paštomatas",
+        "postal_code": "40128"
+    },
+    {
+        "id": "200",
+        "country": "LT",
+        "city": "Kupiškis",
+        "address": "P. Mašioto g. 31B",
+        "pickup_point": "Venipak locker, NORFA Venipak paštomatas",
+        "postal_code": "40134"
+    },
+    {
+        "id": "201",
+        "country": "LT",
+        "city": "Kupiškis",
+        "address": "Gedimino g. 96",
+        "pickup_point": "Venipak Pickup, Eurokos",
+        "postal_code": "40128"
+    },
+    {
+        "id": "202",
+        "country": "LT",
+        "city": "Kuršėnai",
+        "address": "Vilniaus g. 43",
+        "pickup_point": "Venipak locker, IKI Kuršėnai Venipak paštomatas",
+        "postal_code": "81137"
+    },
+    {
+        "id": "203",
+        "country": "LT",
+        "city": "Kuršėnai",
+        "address": "J. Basanavičiaus g. 52",
+        "pickup_point": "Venipak locker, NORFA Venipak paštomatas",
+        "postal_code": "81183"
+    },
+    {
+        "id": "204",
+        "country": "LT",
+        "city": "Kuršėnai",
+        "address": "Vilniaus g. 43",
+        "pickup_point": "Venipak Pickup, Eurokos",
+        "postal_code": "81137"
+    },
+    {
+        "id": "205",
+        "country": "LT",
+        "city": "Kybartai",
+        "address": "J. Basanavičiaus g. 42",
+        "pickup_point": "Venipak locker, NORFA Venipak paštomatas",
+        "postal_code": "70387"
+    },
+    {
+        "id": "206",
+        "country": "LT",
+        "city": "Lazdijai",
+        "address": "Vilniaus g. 62",
+        "pickup_point": "Venipak locker, MAXIMA Venipak paštomatas",
+        "postal_code": "67106"
+    },
+    {
+        "id": "207",
+        "country": "LT",
+        "city": "Lazdijai",
+        "address": "Kauno g. 6A",
+        "pickup_point": "Venipak locker, NORFA Venipak paštomatas",
+        "postal_code": "67128"
+    },
+    {
+        "id": "208",
+        "country": "LT",
+        "city": "Lazdijai",
+        "address": "Vilniaus g. 62",
+        "pickup_point": "Venipak Pickup, Eurokos",
+        "postal_code": "67106"
+    },
+    {
+        "id": "209",
+        "country": "LT",
+        "city": "Lekėčiai",
+        "address": "Kauno g. 4",
+        "pickup_point": "Venipak locker, AIBĖ Venipak paštomatas",
+        "postal_code": "71202"
+    },
+    {
+        "id": "210",
+        "country": "LT",
+        "city": "Lentvaris",
+        "address": "Geležinkelio g. 19",
+        "pickup_point": "Venipak locker, IKI Lentvaris Venipak paštomatas",
+        "postal_code": "25116"
+    },
+    {
+        "id": "211",
+        "country": "LT",
+        "city": "Lentvaris",
+        "address": "Bažnyčios g. 18",
+        "pickup_point": "Venipak locker, NORFA Venipak paštomatas",
+        "postal_code": "25120"
+    },
+    {
+        "id": "212",
+        "country": "LT",
+        "city": "Linkuva",
+        "address": "Laisvės g. 1",
+        "pickup_point": "Venipak locker, NORFA Venipak paštomatas",
+        "postal_code": "83441"
+    },
+    {
+        "id": "213",
+        "country": "LT",
+        "city": "Marijampolė",
+        "address": "Dariaus ir Girėno g. 3",
+        "pickup_point": "Venipak locker, IKI Marijampolė Venipak paštomatas",
+        "postal_code": "68256"
+    },
+    {
+        "id": "214",
+        "country": "LT",
+        "city": "Marijampolė",
+        "address": "V. Kudirkos g. 3",
+        "pickup_point": "Venipak locker, MAXIMA Venipak paštomatas",
+        "postal_code": "68176"
+    },
+    {
+        "id": "215",
+        "country": "LT",
+        "city": "Marijampolė",
+        "address": "Sporto g. 1",
+        "pickup_point": "Venipak locker, NORFA Venipak paštomatas",
+        "postal_code": "68230"
+    },
+    {
+        "id": "216",
+        "country": "LT",
+        "city": "Marijampolė",
+        "address": "Bažnyčios g. 38",
+        "pickup_point": "Venipak locker, NORFA Venipak paštomatas",
+        "postal_code": "68309"
+    },
+    {
+        "id": "217",
+        "country": "LT",
+        "city": "Marijampolė",
+        "address": "Vilkaviškio g. 4",
+        "pickup_point": "Venipak locker, PC Norfa Venipak paštomatas",
+        "postal_code": "68183"
+    },
+    {
+        "id": "218",
+        "country": "LT",
+        "city": "Marijampolė",
+        "address": "V. Kudirkos g. 3",
+        "pickup_point": "Venipak Pickup, Eurokos",
+        "postal_code": "68176"
+    },
+    {
+        "id": "219",
+        "country": "LT",
+        "city": "Marijampolė",
+        "address": "Gamyklų g. 9",
+        "pickup_point": "Venipak Pickup, Venipak Terminalas",
+        "postal_code": "68108"
+    },
+    {
+        "id": "220",
+        "country": "LT",
+        "city": "Mažeikiai",
+        "address": "Sedos g. 16",
+        "pickup_point": "Venipak locker, IKI Mažeikiai Venipak paštomatas",
+        "postal_code": "89233"
+    },
+    {
+        "id": "221",
+        "country": "LT",
+        "city": "Mažeikiai",
+        "address": "Žemaitijos g. 38",
+        "pickup_point": "Venipak locker, MAXIMA Venipak paštomatas",
+        "postal_code": "89152"
+    },
+    {
+        "id": "222",
+        "country": "LT",
+        "city": "Mažeikiai",
+        "address": "Naftininkų g. 68",
+        "pickup_point": "Venipak locker, NORFA Venipak paštomatas",
+        "postal_code": "89239"
+    },
+    {
+        "id": "223",
+        "country": "LT",
+        "city": "Mažeikiai",
+        "address": "Ventos g. 8C",
+        "pickup_point": "Venipak locker, NORFA Venipak paštomatas",
+        "postal_code": "89103"
+    },
+    {
+        "id": "224",
+        "country": "LT",
+        "city": "Mažeikiai",
+        "address": "Naftininkų g. 68",
+        "pickup_point": "Venipak Pickup, Eurokos",
+        "postal_code": "89239"
+    },
+    {
+        "id": "225",
+        "country": "LT",
+        "city": "Molėtai",
+        "address": "Vilniaus g. 95",
+        "pickup_point": "Venipak locker, IKI Molėtai Venipak paštomatas",
+        "postal_code": "33111"
+    },
+    {
+        "id": "226",
+        "country": "LT",
+        "city": "Molėtai",
+        "address": "Vilniaus g. 49",
+        "pickup_point": "Venipak locker, NORFA Venipak paštomatas",
+        "postal_code": "33103"
+    },
+    {
+        "id": "227",
+        "country": "LT",
+        "city": "Molėtai",
+        "address": "Vilniaus g. 49",
+        "pickup_point": "Venipak Pickup, Eurokos",
+        "postal_code": "33103"
+    },
+    {
+        "id": "228",
+        "country": "LT",
+        "city": "Naujoji Akmenė",
+        "address": "V. Kudirkos g. 18",
+        "pickup_point": "Venipak locker, IKI Naujoji Akmenė Venipak paštomatas",
+        "postal_code": "85146"
+    },
+    {
+        "id": "229",
+        "country": "LT",
+        "city": "Naujoji Akmenė",
+        "address": "Respublikos g. 84",
+        "pickup_point": "Venipak locker, NORFA Venipak paštomatas",
+        "postal_code": "85179"
+    },
+    {
+        "id": "230",
+        "country": "LT",
+        "city": "Naujoji Akmenė",
+        "address": "V. Kudirkos g. 18",
+        "pickup_point": "Venipak Pickup, Eurokos",
+        "postal_code": "85146"
+    },
+    {
+        "id": "231",
+        "country": "LT",
+        "city": "Nemenčinė",
+        "address": "Vilniaus g. 72",
+        "pickup_point": "Venipak locker, IKI Nemenčinė Venipak paštomatas",
+        "postal_code": "15172"
+    },
+    {
+        "id": "232",
+        "country": "LT",
+        "city": "Nemenčinė",
+        "address": "Švenčionių g. 86",
+        "pickup_point": "Venipak locker, NORFA Venipak paštomatas",
+        "postal_code": "15168"
+    },
+    {
+        "id": "233",
+        "country": "LT",
+        "city": "Nemėžis",
+        "address": "Skersinės g. 1",
+        "pickup_point": "Venipak locker, IKI Nemėžis Venipak paštomatas",
+        "postal_code": "13260"
+    },
+    {
+        "id": "234",
+        "country": "LT",
+        "city": "Neringa",
+        "address": "Pervalkos g. 13",
+        "pickup_point": "Venipak locker, AIBĖ Venipak paštomatas",
+        "postal_code": "93104"
+    },
+    {
+        "id": "235",
+        "country": "LT",
+        "city": "Neringa",
+        "address": "L. Rėzos g. 54",
+        "pickup_point": "Venipak locker, IKI Neringa Venipak paštomatas",
+        "postal_code": "93101"
+    },
+    {
+        "id": "236",
+        "country": "LT",
+        "city": "Neringa",
+        "address": "Taikos g. 32",
+        "pickup_point": "Venipak locker, MAXIMA Venipak paštomatas",
+        "postal_code": "93121"
+    },
+    {
+        "id": "237",
+        "country": "LT",
+        "city": "Obeliai",
+        "address": "Panevėžio g. 7",
+        "pickup_point": "Venipak locker, AIBĖ Venipak paštomatas",
+        "postal_code": "42214"
+    },
+    {
+        "id": "238",
+        "country": "LT",
+        "city": "Pagėgiai",
+        "address": "Vilniaus g. 36A",
+        "pickup_point": "Venipak locker, NORFA Venipak paštomatas",
+        "postal_code": "99287"
+    },
+    {
+        "id": "239",
+        "country": "LT",
+        "city": "Pakruojis",
+        "address": "Vytauto Didžiojo g. 43",
+        "pickup_point": "Venipak locker, IKI Pakruojis Venipak paštomatas",
+        "postal_code": "83156"
+    },
+    {
+        "id": "240",
+        "country": "LT",
+        "city": "Pakruojis",
+        "address": "P. Mašioto g. 31",
+        "pickup_point": "Venipak locker, NORFA Venipak paštomatas",
+        "postal_code": "83140"
+    },
+    {
+        "id": "241",
+        "country": "LT",
+        "city": "Pakruojis",
+        "address": "P. Mašioto g. 31",
+        "pickup_point": "Venipak Pickup, Eurokos",
+        "postal_code": "83140"
+    },
+    {
+        "id": "242",
+        "country": "LT",
+        "city": "Palanga",
+        "address": "Klaipėdos pl. 42",
+        "pickup_point": "Venipak locker, IKI Palanga Venipak paštomatas",
+        "postal_code": "00115"
+    },
+    {
+        "id": "243",
+        "country": "LT",
+        "city": "Palanga",
+        "address": "Vytauto g. 94A",
+        "pickup_point": "Venipak locker, MAXIMA Venipak paštomatas",
+        "postal_code": "00132"
+    },
+    {
+        "id": "244",
+        "country": "LT",
+        "city": "Palanga",
+        "address": "Malūno g. 10",
+        "pickup_point": "Venipak locker, NORFA Venipak paštomatas",
+        "postal_code": "00126"
+    },
+    {
+        "id": "245",
+        "country": "LT",
+        "city": "Palanga",
+        "address": "Vytauto g. 94A",
+        "pickup_point": "Venipak Pickup, Eurokos",
+        "postal_code": "00132"
+    },
+    {
+        "id": "246",
+        "country": "LT",
+        "city": "Pandėlys",
+        "address": "Panevėžio g. 7",
+        "pickup_point": "Venipak locker, AIBĖ Venipak paštomatas",
+        "postal_code": "42372"
+    },
+    {
+        "id": "247",
+        "country": "LT",
+        "city": "Panemunėlis",
+        "address": "Stoties g. 5",
+        "pickup_point": "Venipak locker, AIBĖ Venipak paštomatas",
+        "postal_code": "42323"
+    },
+    {
+        "id": "248",
+        "country": "LT",
+        "city": "Panemunė",
+        "address": "Panemunės g. 7",
+        "pickup_point": "Venipak locker, AIBĖ Venipak paštomatas",
+        "postal_code": "99241"
+    },
+    {
+        "id": "249",
+        "country": "LT",
+        "city": "Pasvalys",
+        "address": "Taikos g. 24",
+        "pickup_point": "Venipak locker, IKI Pasvalys Venipak paštomatas",
+        "postal_code": "39179"
+    },
+    {
+        "id": "250",
+        "country": "LT",
+        "city": "Pasvalys",
+        "address": "Vilniaus g. 54",
+        "pickup_point": "Venipak locker, NORFA Venipak paštomatas",
+        "postal_code": "39177"
+    },
+    {
+        "id": "251",
+        "country": "LT",
+        "city": "Pasvalys",
+        "address": "Taikos g. 24",
+        "pickup_point": "Venipak Pickup, Eurokos",
+        "postal_code": "39179"
+    },
+    {
+        "id": "252",
+        "country": "LT",
+        "city": "Plungė",
+        "address": "J. Tumo-Vaižganto g. 81",
+        "pickup_point": "Venipak locker, IKI Plungė Venipak paštomatas",
+        "postal_code": "90160"
+    },
+    {
+        "id": "253",
+        "country": "LT",
+        "city": "Plungė",
+        "address": "Telšių g. 2",
+        "pickup_point": "Venipak locker, MAXIMA Venipak paštomatas",
+        "postal_code": "90162"
+    },
+    {
+        "id": "254",
+        "country": "LT",
+        "city": "Plungė",
+        "address": "Laisvės g. 6A",
+        "pickup_point": "Venipak locker, NORFA Venipak paštomatas",
+        "postal_code": "90156"
+    },
+    {
+        "id": "255",
+        "country": "LT",
+        "city": "Plungė",
+        "address": "J. Tumo-Vaižganto g. 81",
+        "pickup_point": "Venipak Pickup, Eurokos",
+        "postal_code": "90160"
+    },
+    {
+        "id": "256",
+        "country": "LT",
+        "city": "Prienai",
+        "address": "Kauno g. 19",
+        "pickup_point": "Venipak locker, IKI Prienai Venipak paštomatas",
+        "postal_code": "59127"
+    },
+    {
+        "id": "257",
+        "country": "LT",
+        "city": "Prienai",
+        "address": "Vytenio g. 6",
+        "pickup_point": "Venipak locker, NORFA Venipak paštomatas",
+        "postal_code": "59130"
+    },
+    {
+        "id": "258",
+        "country": "LT",
+        "city": "Prienai",
+        "address": "Kauno g. 19",
+        "pickup_point": "Venipak Pickup, Eurokos",
+        "postal_code": "59127"
+    },
+    {
+        "id": "259",
+        "country": "LT",
+        "city": "Radviliškis",
+        "address": "Gedimino g. 42A",
+        "pickup_point": "Venipak locker, MAXIMA Venipak paštomatas",
+        "postal_code": "82168"
+    },
+    {
+        "id": "260",
+        "country": "LT",
+        "city": "Radviliškis",
+        "address": "Taikos g. 9",
+        "pickup_point": "Venipak locker, NORFA Venipak paštomatas",
+        "postal_code": "82128"
+    },
+    {
+        "id": "261",
+        "country": "LT",
+        "city": "Radviliškis",
+        "address": "Vasario 16-osios g. 11",
+        "pickup_point": "Venipak locker, NORFA Venipak paštomatas",
+        "postal_code": "82134"
+    },
+    {
+        "id": "262",
+        "country": "LT",
+        "city": "Radviliškis",
+        "address": "Vasario 16-osios g. 11",
+        "pickup_point": "Venipak Pickup, Eurokos",
+        "postal_code": "82135"
+    },
+    {
+        "id": "263",
+        "country": "LT",
+        "city": "Raguva",
+        "address": "Laisvės g. 19",
+        "pickup_point": "Venipak Pickup, AIBĖ",
+        "postal_code": "38156"
+    },
+    {
+        "id": "264",
+        "country": "LT",
+        "city": "Ramučiai",
+        "address": "Centrinė g. 56",
+        "pickup_point": "Venipak locker, IKI Venipak paštomatas",
+        "postal_code": "54464"
+    },
+    {
+        "id": "265",
+        "country": "LT",
+        "city": "Raseiniai",
+        "address": "Žemaičių g. 2",
+        "pickup_point": "Venipak locker, EOLTAS Venipak paštomatas",
+        "postal_code": "60119"
+    },
+    {
+        "id": "266",
+        "country": "LT",
+        "city": "Raseiniai",
+        "address": "Vilniaus g. 93",
+        "pickup_point": "Venipak locker, MAXIMA Venipak paštomatas",
+        "postal_code": "60170"
+    },
+    {
+        "id": "267",
+        "country": "LT",
+        "city": "Raseiniai",
+        "address": "Jaunimo g. 2",
+        "pickup_point": "Venipak locker, NORFA Venipak paštomatas",
+        "postal_code": "60149"
+    },
+    {
+        "id": "268",
+        "country": "LT",
+        "city": "Raseiniai",
+        "address": "Vilniaus g. 128A",
+        "pickup_point": "Venipak Pickup, Eurokos",
+        "postal_code": "60169"
+    },
+    {
+        "id": "269",
+        "country": "LT",
+        "city": "Raudondvaris",
+        "address": "J. Naujalio g. 20B",
+        "pickup_point": "Venipak locker, IKI Naujalis Venipak paštomatas",
+        "postal_code": "54138"
+    },
+    {
+        "id": "270",
+        "country": "LT",
+        "city": "Riešė",
+        "address": "Beržų g. 92",
+        "pickup_point": "Venipak locker, MAXIMA Venipak paštomatas",
+        "postal_code": "14266"
+    },
+    {
+        "id": "271",
+        "country": "LT",
+        "city": "Rietavas",
+        "address": "Kvėdarnos g. 1",
+        "pickup_point": "Venipak locker, PC SENUKAI Venipak paštomatas",
+        "postal_code": "90316"
+    },
+    {
+        "id": "272",
+        "country": "LT",
+        "city": "Rietavas",
+        "address": "Plungės g. 17A",
+        "pickup_point": "Venipak Pickup, Eurokos",
+        "postal_code": "90313"
+    },
+    {
+        "id": "273",
+        "country": "LT",
+        "city": "Ringaudai",
+        "address": "Margirio g. 2A",
+        "pickup_point": "Venipak locker, IKI Ringaudai Venipak paštomatas",
+        "postal_code": "53335"
+    },
+    {
+        "id": "274",
+        "country": "LT",
+        "city": "Rokiškis",
+        "address": "Panevėžio g. 16",
+        "pickup_point": "Venipak locker, IKI Venipak paštomatas",
+        "postal_code": "42162"
+    },
+    {
+        "id": "275",
+        "country": "LT",
+        "city": "Rokiškis",
+        "address": "Respublikos g. 111B",
+        "pickup_point": "Venipak locker, MAXIMA Venipak paštomatas",
+        "postal_code": "42135"
+    },
+    {
+        "id": "276",
+        "country": "LT",
+        "city": "Rokiškis",
+        "address": "Nepriklausomybės a. 20",
+        "pickup_point": "Venipak Pickup, BIKUVA",
+        "postal_code": "42117"
+    },
+    {
+        "id": "277",
+        "country": "LT",
+        "city": "Rudamina",
+        "address": "Gamyklos g. 26",
+        "pickup_point": "Venipak locker, IKI Rudamina Venipak paštomatas",
+        "postal_code": "13249"
+    },
+    {
+        "id": "278",
+        "country": "LT",
+        "city": "Rūdiškės",
+        "address": "Trakų g. 10A",
+        "pickup_point": "Venipak locker, NORFA Venipak paštomatas",
+        "postal_code": "21171"
+    },
+    {
+        "id": "279",
+        "country": "LT",
+        "city": "Rukla",
+        "address": "Karaliaus Mindaugo g. 5",
+        "pickup_point": "Venipak locker, AIBĖ Venipak paštomatas",
+        "postal_code": "55290"
+    },
+    {
+        "id": "280",
+        "country": "LT",
+        "city": "Rumšiškės",
+        "address": "L. Lekavičiaus g. 32",
+        "pickup_point": "Venipak locker, MAXIMA Venipak paštomatas",
+        "postal_code": "56337"
+    },
+    {
+        "id": "281",
+        "country": "LT",
+        "city": "Rumšiškės",
+        "address": "L. Lekavičiaus g.",
+        "pickup_point": "Venipak Pickup, Saurida",
+        "postal_code": "56335"
+    },
+    {
+        "id": "282",
+        "country": "LT",
+        "city": "Simnas",
+        "address": "Vytauto g. 30",
+        "pickup_point": "Venipak locker, AIBĖ Venipak paštomatas",
+        "postal_code": "64305"
+    },
+    {
+        "id": "283",
+        "country": "LT",
+        "city": "Skaidiškės",
+        "address": "Rudaminos g. 29",
+        "pickup_point": "Venipak locker, MAXIMA Venipak paštomatas",
+        "postal_code": "13275"
+    },
+    {
+        "id": "284",
+        "country": "LT",
+        "city": "Skuodas",
+        "address": "Mosėdžio g. 2",
+        "pickup_point": "Venipak locker, MAXIMA Venipak paštomatas",
+        "postal_code": "98121"
+    },
+    {
+        "id": "285",
+        "country": "LT",
+        "city": "Skuodas",
+        "address": "Dariaus ir Girėno g. 46",
+        "pickup_point": "Venipak locker, NORFA Venipak paštomatas",
+        "postal_code": "98120"
+    },
+    {
+        "id": "286",
+        "country": "LT",
+        "city": "Skuodas",
+        "address": "Vilniaus g. 34",
+        "pickup_point": "Venipak Pickup, Eurokos",
+        "postal_code": "98117"
+    },
+    {
+        "id": "287",
+        "country": "LT",
+        "city": "Skuodas",
+        "address": "Vytauto g. 20",
+        "pickup_point": "Venipak Pickup, Saurida",
+        "postal_code": "98123"
+    },
+    {
+        "id": "288",
+        "country": "LT",
+        "city": "Slengiai",
+        "address": "Žaliakelio g. 1",
+        "pickup_point": "Venipak locker, RIMI Klipščiai Venipak paštomatas",
+        "postal_code": "92338"
+    },
+    {
+        "id": "289",
+        "country": "LT",
+        "city": "Stakliškės",
+        "address": "Piliakalnio g. 3",
+        "pickup_point": "Venipak Pickup, degalinė Borusta",
+        "postal_code": "59375"
+    },
+    {
+        "id": "290",
+        "country": "LT",
+        "city": "Šakiai",
+        "address": "V. Kudirkos g. 66",
+        "pickup_point": "Venipak locker, MAXIMA Venipak paštomatas",
+        "postal_code": "71125"
+    },
+    {
+        "id": "291",
+        "country": "LT",
+        "city": "Šakiai",
+        "address": "Šaulių g. 49",
+        "pickup_point": "Venipak locker, NORFA Venipak paštomatas",
+        "postal_code": "71117"
+    },
+    {
+        "id": "292",
+        "country": "LT",
+        "city": "Šalčininkai",
+        "address": "Vilniaus g. 2b",
+        "pickup_point": "Venipak locker, NORFA Venipak paštomatas",
+        "postal_code": "17101"
+    },
+    {
+        "id": "293",
+        "country": "LT",
+        "city": "Šalčininkai",
+        "address": "Vilniaus g. 13 C",
+        "pickup_point": "Venipak Pickup, EOLTAS",
+        "postal_code": "17105"
+    },
+    {
+        "id": "294",
+        "country": "LT",
+        "city": "Šeduva",
+        "address": "Panevėžio g. 33",
+        "pickup_point": "Venipak locker, NORFA Venipak paštomatas",
+        "postal_code": "82224"
+    },
+    {
+        "id": "295",
+        "country": "LT",
+        "city": "Šilalė",
+        "address": "Kudirkos g. 21",
+        "pickup_point": "Venipak locker, Čia Market Venipak paštomatas",
+        "postal_code": "75135"
+    },
+    {
+        "id": "296",
+        "country": "LT",
+        "city": "Šilalė",
+        "address": "J. Basanavičiaus g. 21",
+        "pickup_point": "Venipak locker, IKI Šilalė Venipak paštomatas",
+        "postal_code": "75124"
+    },
+    {
+        "id": "297",
+        "country": "LT",
+        "city": "Šilalė",
+        "address": "Rytinio Kelio g. 19",
+        "pickup_point": "Venipak Pickup, Saurida",
+        "postal_code": "75122"
+    },
+    {
+        "id": "298",
+        "country": "LT",
+        "city": "Šilutė",
+        "address": "Lietuvininkų g. 58",
+        "pickup_point": "Venipak locker, MAXIMA Venipak paštomatas",
+        "postal_code": "99176"
+    },
+    {
+        "id": "299",
+        "country": "LT",
+        "city": "Šilutė",
+        "address": "Cintjoniškių g. 13",
+        "pickup_point": "Venipak locker, NORFA Venipak paštomatas",
+        "postal_code": "99116"
+    },
+    {
+        "id": "300",
+        "country": "LT",
+        "city": "Šilutė",
+        "address": "Gluosnių g. 4b",
+        "pickup_point": "Venipak Pickup, BIKUVA",
+        "postal_code": "99116"
+    },
+    {
+        "id": "301",
+        "country": "LT",
+        "city": "Šilutė",
+        "address": "Liepų g. 16",
+        "pickup_point": "Venipak Pickup, DROGAS",
+        "postal_code": "99184"
+    },
+    {
+        "id": "302",
+        "country": "LT",
+        "city": "Šilutė",
+        "address": "Cintjoniškių g. 13",
+        "pickup_point": "Venipak Pickup, Eurokos",
+        "postal_code": "99116"
+    },
+    {
+        "id": "303",
+        "country": "LT",
+        "city": "Širvintos",
+        "address": "Plento g. 29",
+        "pickup_point": "Venipak locker, IKI Širvintos Venipak paštomatas",
+        "postal_code": "19117"
+    },
+    {
+        "id": "304",
+        "country": "LT",
+        "city": "Širvintos",
+        "address": "Plento g. 60",
+        "pickup_point": "Venipak locker, MAXIMA Venipak paštomatas",
+        "postal_code": "19121"
+    },
+    {
+        "id": "305",
+        "country": "LT",
+        "city": "Širvintos",
+        "address": "Vilniaus g. 81",
+        "pickup_point": "Venipak locker, NORFA Venipak paštomatas",
+        "postal_code": "19121"
+    },
+    {
+        "id": "306",
+        "country": "LT",
+        "city": "Širvintos",
+        "address": "Plento g. 60",
+        "pickup_point": "Venipak Pickup, Eurokos",
+        "postal_code": "19121"
+    },
+    {
+        "id": "307",
+        "country": "LT",
+        "city": "Švenčionėliai",
+        "address": "Bažnyčios g. 47",
+        "pickup_point": "Venipak locker, NORFA Venipak paštomatas",
+        "postal_code": "18223"
+    },
+    {
+        "id": "308",
+        "country": "LT",
+        "city": "Švenčionys",
+        "address": "Vilniaus g. 18",
+        "pickup_point": "Venipak locker, MAXIMA Venipak paštomatas",
+        "postal_code": "18123"
+    },
+    {
+        "id": "309",
+        "country": "LT",
+        "city": "Švenčionys",
+        "address": "Vilniaus g. 20",
+        "pickup_point": "Venipak locker, NORFA Venipak paštomatas",
+        "postal_code": "18123"
+    },
+    {
+        "id": "310",
+        "country": "LT",
+        "city": "Švenčionys",
+        "address": "Vilniaus g. 18",
+        "pickup_point": "Venipak Pickup, Eurokos",
+        "postal_code": "18123"
+    },
+    {
+        "id": "311",
+        "country": "LT",
+        "city": "Tauragė",
+        "address": "Prezidento g. 72",
+        "pickup_point": "Venipak locker, IKI Tauragė Venipak paštomatas",
+        "postal_code": "72239"
+    },
+    {
+        "id": "312",
+        "country": "LT",
+        "city": "Tauragė",
+        "address": "Bažnyčių g. 1",
+        "pickup_point": "Venipak locker, MAXIMA Venipak paštomatas",
+        "postal_code": "72253"
+    },
+    {
+        "id": "313",
+        "country": "LT",
+        "city": "Tauragė",
+        "address": "Gedimino g. 27",
+        "pickup_point": "Venipak locker, NORFA Venipak paštomatas",
+        "postal_code": "72255"
+    },
+    {
+        "id": "314",
+        "country": "LT",
+        "city": "Tauragė",
+        "address": "Gedimino g. 24",
+        "pickup_point": "Venipak Locker, PC Taurapolis Venipak paštomatas",
+        "postal_code": "72237"
+    },
+    {
+        "id": "315",
+        "country": "LT",
+        "city": "Tauragė",
+        "address": "Bažnyčių g. 1",
+        "pickup_point": "Venipak Pickup, Eurokos",
+        "postal_code": "72253"
+    },
+    {
+        "id": "316",
+        "country": "LT",
+        "city": "Telšiai",
+        "address": "S. Daukanto g. 1A",
+        "pickup_point": "Venipak locker, IKI Telšiai Venipak paštomatas",
+        "postal_code": "87108"
+    },
+    {
+        "id": "317",
+        "country": "LT",
+        "city": "Telšiai",
+        "address": "Plungės g. 49",
+        "pickup_point": "Venipak locker, MAXIMA Venipak paštomatas",
+        "postal_code": "87328"
+    },
+    {
+        "id": "318",
+        "country": "LT",
+        "city": "Telšiai",
+        "address": "Stoties g. 12",
+        "pickup_point": "Venipak locker, NORFA Venipak paštomatas",
+        "postal_code": "87110"
+    },
+    {
+        "id": "319",
+        "country": "LT",
+        "city": "Telšiai",
+        "address": "S. Daukanto g. 1A",
+        "pickup_point": "Venipak Pickup, Eurokos",
+        "postal_code": "87108"
+    },
+    {
+        "id": "320",
+        "country": "LT",
+        "city": "Trakai",
+        "address": "Vytauto g. 90",
+        "pickup_point": "Venipak locker, IKI Trakai Venipak paštomatas",
+        "postal_code": "21117"
+    },
+    {
+        "id": "321",
+        "country": "LT",
+        "city": "Trakai",
+        "address": "Vytauto g. 60",
+        "pickup_point": "Venipak locker, NORFA Venipak paštomatas",
+        "postal_code": "21113"
+    },
+    {
+        "id": "322",
+        "country": "LT",
+        "city": "Trakai",
+        "address": "Vytauto g. 90",
+        "pickup_point": "Venipak Pickup, Eurokos",
+        "postal_code": "21117"
+    },
+    {
+        "id": "323",
+        "country": "LT",
+        "city": "Troškūnai",
+        "address": "Kauno g. 1",
+        "pickup_point": "Venipak locker, AIBĖ Venipak paštomatas",
+        "postal_code": "29306"
+    },
+    {
+        "id": "324",
+        "country": "LT",
+        "city": "Ukmergė",
+        "address": "Vilniaus g. 62",
+        "pickup_point": "Venipak locker, IKI Ukmergė Venipak paštomatas",
+        "postal_code": "20159"
+    },
+    {
+        "id": "325",
+        "country": "LT",
+        "city": "Ukmergė",
+        "address": "Vytauto g. 113",
+        "pickup_point": "Venipak locker, MAXIMA Venipak paštomatas",
+        "postal_code": "20184"
+    },
+    {
+        "id": "326",
+        "country": "LT",
+        "city": "Ukmergė",
+        "address": "Gruodžio 17-osios g. 8",
+        "pickup_point": "Venipak locker, NORFA Venipak paštomatas",
+        "postal_code": "20140"
+    },
+    {
+        "id": "327",
+        "country": "LT",
+        "city": "Ukmergė",
+        "address": "Vilniaus g. 62",
+        "pickup_point": "Venipak Pickup, Eurokos",
+        "postal_code": "20159"
+    },
+    {
+        "id": "328",
+        "country": "LT",
+        "city": "Utena",
+        "address": "J. Basanavičiaus g. 127",
+        "pickup_point": "Venipak locker, IKI Utena Venipak paštomatas",
+        "postal_code": "28220"
+    },
+    {
+        "id": "329",
+        "country": "LT",
+        "city": "Utena",
+        "address": "Aušros g. 78",
+        "pickup_point": "Venipak locker, MAXIMA Venipak paštomatas",
+        "postal_code": "28147"
+    },
+    {
+        "id": "330",
+        "country": "LT",
+        "city": "Utena",
+        "address": "J. Basanavičiaus g. 54",
+        "pickup_point": "Venipak locker, NORFA Venipak paštomatas",
+        "postal_code": "28241"
+    },
+    {
+        "id": "331",
+        "country": "LT",
+        "city": "Utena",
+        "address": "Kupiškio g. 19",
+        "pickup_point": "Venipak locker, NORFA Venipak paštomatas",
+        "postal_code": "28136"
+    },
+    {
+        "id": "332",
+        "country": "LT",
+        "city": "Utena",
+        "address": "J. Basanavičiaus g. 54",
+        "pickup_point": "Venipak Pickup, Eurokos",
+        "postal_code": "28241"
+    },
+    {
+        "id": "333",
+        "country": "LT",
+        "city": "Varėna",
+        "address": "J. Basanavičiaus g. 3",
+        "pickup_point": "Venipak locker, IKI Varėna Venipak paštomatas",
+        "postal_code": "65218"
+    },
+    {
+        "id": "334",
+        "country": "LT",
+        "city": "Varėna",
+        "address": "Vytauto g. 18-19",
+        "pickup_point": "Venipak locker, NORFA Venipak paštomatas",
+        "postal_code": "65217"
+    },
+    {
+        "id": "335",
+        "country": "LT",
+        "city": "Varėna",
+        "address": "Vytauto g. 18-19",
+        "pickup_point": "Venipak Pickup, Eurokos",
+        "postal_code": "65217"
+    },
+    {
+        "id": "336",
+        "country": "LT",
+        "city": "Veisiejai",
+        "address": "Vytauto g. 52",
+        "pickup_point": "Venipak locker, NORFA Venipak paštomatas",
+        "postal_code": "67340"
+    },
+    {
+        "id": "337",
+        "country": "LT",
+        "city": "Venta",
+        "address": "Žemaičių g. 62",
+        "pickup_point": "Venipak locker, NORFA Venipak paštomatas",
+        "postal_code": "85327"
+    },
+    {
+        "id": "338",
+        "country": "LT",
+        "city": "Viekšniai",
+        "address": "Tilto g. 12",
+        "pickup_point": "Venipak locker, GRŪSTĖ Venipak paštomatas",
+        "postal_code": "89492"
+    },
+    {
+        "id": "339",
+        "country": "LT",
+        "city": "Vievis",
+        "address": "Kauno g. 22",
+        "pickup_point": "Venipak locker, MAXIMA Venipak paštomatas",
+        "postal_code": "21376"
+    },
+    {
+        "id": "340",
+        "country": "LT",
+        "city": "Vievis",
+        "address": "Šviesos skg. 2",
+        "pickup_point": "Venipak locker, NORFA Venipak paštomatas",
+        "postal_code": "21375"
+    },
+    {
+        "id": "341",
+        "country": "LT",
+        "city": "Vilkaviškis",
+        "address": "Vytauto g. 101",
+        "pickup_point": "Venipak locker, IKI Vytauto Venipak paštomatas",
+        "postal_code": "70124"
+    },
+    {
+        "id": "342",
+        "country": "LT",
+        "city": "Vilkaviškis",
+        "address": "Nepriklausomybės g. 61",
+        "pickup_point": "Venipak locker, NORFA Venipak paštomatas",
+        "postal_code": "70111"
+    },
+    {
+        "id": "343",
+        "country": "LT",
+        "city": "Vilkaviškis",
+        "address": "Gedimino g. 2A",
+        "pickup_point": "Venipak Pickup, Vilkaviškio knygynas",
+        "postal_code": "70143"
+    },
+    {
+        "id": "344",
+        "country": "LT",
+        "city": "Vilkija",
+        "address": "Čekiškės g. 98",
+        "pickup_point": "Venipak locker, IKI Vilkija Venipak paštomatas",
+        "postal_code": "54221"
+    },
+    {
+        "id": "345",
+        "country": "LT",
+        "city": "Vilkyškiai",
+        "address": "Johaneso Bobrovskio g. 10",
+        "pickup_point": "Venipak Pickup, MAISTINĖ",
+        "postal_code": "99254"
+    },
+    {
+        "id": "346",
+        "country": "LT",
+        "city": "Visaginas",
+        "address": "Parko g. 7B-6",
+        "pickup_point": "Venipak locker, IKI Venipak paštomatas",
+        "postal_code": "31131"
+    },
+    {
+        "id": "347",
+        "country": "LT",
+        "city": "Visaginas",
+        "address": "Draugystės g. 9",
+        "pickup_point": "Venipak locker, NORFA Venipak paštomatas",
+        "postal_code": "31212"
+    },
+    {
+        "id": "348",
+        "country": "LT",
+        "city": "Visaginas",
+        "address": "Taikos pr. 10",
+        "pickup_point": "Venipak locker, NORFA Venipak paštomatas",
+        "postal_code": "31107"
+    },
+    {
+        "id": "349",
+        "country": "LT",
+        "city": "Visaginas",
+        "address": "Veteranų g. 4",
+        "pickup_point": "Venipak Pickup, BIKUVA",
+        "postal_code": "31138"
+    },
+    {
+        "id": "350",
+        "country": "LT",
+        "city": "Zarasai",
+        "address": "Vytauto g. 54-1",
+        "pickup_point": "Venipak locker, IKI Venipak paštomatas",
+        "postal_code": "32122"
+    },
+    {
+        "id": "351",
+        "country": "LT",
+        "city": "Zarasai",
+        "address": "D. Bukonto g. 7",
+        "pickup_point": "Venipak locker, MAXIMA Venipak paštomatas",
+        "postal_code": "32132"
+    },
+    {
+        "id": "352",
+        "country": "LT",
+        "city": "Zarasai",
+        "address": "Vytauto g. 28",
+        "pickup_point": "Venipak Pickup, Eurokos",
+        "postal_code": "32120"
+    },
+    {
+        "id": "353",
+        "country": "LT",
+        "city": "Zujūnai",
+        "address": "Žalioji g. 2",
+        "pickup_point": "Venipak locker, IKI Zujūnai Venipak paštomatas",
+        "postal_code": "14162"
+    },
+    {
+        "id": "354",
+        "country": "LT",
+        "city": "Zujūnai",
+        "address": "Buivydiškių g. 1A",
+        "pickup_point": "Venipak Pickup, Saurida",
+        "postal_code": "14160"
+    },
+    {
+        "id": "355",
+        "country": "LT",
+        "city": "Žagarė",
+        "address": "Miesto a. 8",
+        "pickup_point": "Venipak locker, AIBĖ Venipak paštomatas",
+        "postal_code": "84322"
+    },
+    {
+        "id": "356",
+        "country": "LT",
+        "city": "Žemaičių naumiestis",
+        "address": "Laisvės g. 32",
+        "pickup_point": "Venipak Pickup, ČIA",
+        "postal_code": "99205"
+    },
+    {
+        "id": "357",
+        "country": "LT",
+        "city": "Žiežmariai",
+        "address": "Žaslių g. 78",
+        "pickup_point": "Venipak locker, MAXIMA Venipak paštomatas",
+        "postal_code": "56235"
+    }
+]
+
+	
+	
+	
